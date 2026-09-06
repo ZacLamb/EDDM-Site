@@ -44,18 +44,22 @@ MODEL = os.environ.get("ZIPCARRD_MODEL", "claude-haiku-4-5")
 MAX_WORKERS = int(os.environ.get("ZIPCARRD_WORKERS", "8"))
 
 PROMPT_TEMPLATE = """You are writing one short paragraph of website copy for a local page on \
-ZipCarrd, a USPS EDDM co-op mailer service. Sixteen local businesses in a town split one \
-professionally designed postcard and it gets mailed to every home on a real residential \
-carrier route near them, for $250 flat per business.
+ZipCarrd, a USPS EDDM mailer service for local businesses. For a flat $250, a business gets a \
+professionally designed, full-color postcard delivered to every home on a real residential \
+carrier route near them -- roughly 2,500 addresses, or about $0.10 per home reached.
 
 Write a single paragraph (55-80 words) for the town of {town}, {state}. It should:
-- Speak to a local business owner in {town} about why a shared neighborhood mailer reaches
-  their real customers better than a mailing list or digital ads.
+- Speak directly to a local business owner in {town} about the value TO THEM: for $250 flat,
+  they reach thousands of real homes on an actual carrier route near their business -- far
+  more reach per dollar than a mailing list, a boosted social post, or local digital ads.
 - Sound specific to a town like {town} in {state} in general character and tone (small-town
   Main Street commerce, community, neighbors), WITHOUT inventing specific facts you can't know
   -- no invented population numbers, no named streets, no named local businesses or landmarks,
   no made-up statistics about {town} itself.
-- Not repeat the phrase "shared mailer" more than once, and not start with the town name.
+- Frame this around reach and return for their business first. Don't center the other
+  businesses that help make the price possible -- if you mention the format at all, keep it to
+  a brief, secondary detail, never the main idea of the paragraph.
+- Not start with the town name.
 - Be plain, confident marketing prose -- no headers, no bullet points, no quotation marks
   around the whole thing, just the paragraph text itself.
 

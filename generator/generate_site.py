@@ -39,7 +39,7 @@ PHOTO_BAND = f"""  <section class="photo-band">
     <div class="wrap">
       <div class="photo-grid">
         <div class="photo-card"><img src="{IMG_MAIN_STREET}" alt="A local Main Street lined with independent businesses" loading="lazy"><p class="cap">Every town has one</p></div>
-        <div class="photo-card"><img src="{IMG_POSTCARDS}" alt="A stack of postcards ready for a shared mailer" loading="lazy"><p class="cap">One postcard, sixteen neighbors</p></div>
+        <div class="photo-card"><img src="{IMG_POSTCARDS}" alt="A stack of postcards ready for a shared mailer" loading="lazy"><p class="cap">One flat price, every mailbox</p></div>
         <div class="photo-card"><img src="{IMG_CARRIER}" alt="A mail carrier delivering to every home on the route" loading="lazy"><p class="cap">Every home. Every time.</p></div>
       </div>
     </div>
@@ -230,7 +230,7 @@ def footer() -> str:
     </div>
     <div class="foot-bar">
       <span>A Revenue Generating Solutions LLC program</span>
-      <span class="mono">MEMBER-OWNED ROUTE PROGRAM</span>
+      <span class="mono">EVERY-DOOR ROUTE PROGRAM</span>
     </div>
   </div>
 </footer>
@@ -243,12 +243,12 @@ CLAIM_SECTION = """  <section id="claim" class="claim">
     <div class="wrap">
       <div class="claim-inner">
         <div class="claim-copy">
-          <p class="eyebrow">Join The Co-op</p>
-          <h2>See who's already on your route.</h2>
-          <p style="color:var(--ink-soft); font-size:1.05rem; max-width:46ch;">Tell us where your business is and we'll check which route it falls on, how many of the 16 spots are still open, and whether your category's already spoken for.</p>
+          <p class="eyebrow">Claim Your Spot</p>
+          <h2>See what your route reaches.</h2>
+          <p style="color:var(--ink-soft); font-size:1.05rem; max-width:46ch;">Tell us where your business is and we'll check which route it falls on, exactly how many homes it reaches, and whether your category's still open.</p>
         </div>
         <div class="worksheet">
-          <p class="worksheet-title"><span>Route Membership Worksheet</span><span>Form 16-A</span></p>
+          <p class="worksheet-title"><span>Route Availability Worksheet</span><span>Form 250-A</span></p>
           <form id="claim-form">
             <div class="field-row">
               <div class="field">
@@ -287,17 +287,17 @@ CHECK_SVG = '<svg viewBox="0 0 20 20" fill="none"><path d="M4 10.5L8 14.5L16 5.5
 
 
 def build_homepage():
-    title = "ZipCarrd | Split One $250 Mailer With 16 Local Businesses"
-    desc = "ZipCarrd splits one professionally designed postcard between 16 neighboring businesses and puts it in every mailbox on a real carrier route — $250 flat, no mailing list needed."
+    title = "ZipCarrd | Reach Every Home Near You for $250 Flat"
+    desc = "ZipCarrd puts your postcard in every mailbox on a real USPS carrier route near you — about 2,500 homes — for $250 flat. No mailing list, no design fee, one business per category."
     body = topbar() + f"""
 <main id="top">
   <section class="hero" style="border-bottom:1px solid var(--steel-line); padding-bottom:0;">
 {hero_photo_bg(IMG_MAIN_STREET, "A local Main Street lined with independent businesses", offset=True)}    <div class="wrap">
       <div class="hero-grid">
         <div>
-          <p class="eyebrow">A Community Mail Co-op</p>
-          <h1 class="display">One mailer.<br>Sixteen neighbors.<br><em>Growing the block.</em></h1>
-          <p class="hero-sub">ZipCarrd splits one professionally designed postcard between 16 local businesses — never two from the same trade — and gets it into every mailbox on a real carrier route near you, for $250 flat.</p>
+          <p class="eyebrow">Every Home. One Flat Price.</p>
+          <h1 class="display">Reach every home<br>near you.<br><em>For $250 flat.</em></h1>
+          <p class="hero-sub">Your postcard lands in every mailbox on a real USPS carrier route near your business — about 2,500 homes — for $250 flat. No mailing list to buy, no design fee, and you're the only business in your category on the route.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#claim">Check My Route</a>
             <a class="btn btn-ghost" href="/new-england.html">Find My Town</a>
@@ -307,13 +307,13 @@ def build_homepage():
         <div class="charter">
           <p class="charter-title">Route Charter &middot; Sample</p>
           <div class="charter-box">
-            <div class="l1">CHARTER NO. 016</div>
-            <div class="l2">GROWN LOCAL</div>
-            <div class="l3">MEMBER-OWNED &middot; ZIPCARRD</div>
+            <div class="l1">$250 FLAT</div>
+            <div class="l2">EVERY HOME, EVERY TIME</div>
+            <div class="l3">ONE CATEGORY &middot; ZIPCARRD</div>
           </div>
           <div class="charter-meta">
             <span>ROUTE TYPE<br><strong>RESIDENTIAL</strong></span>
-            <span style="text-align:right;">MEMBERS<br><strong>16 PER MAILER</strong></span>
+            <span style="text-align:right;">REACH<br><strong>~2,500 HOMES</strong></span>
           </div>
         </div>
       </div>
@@ -323,9 +323,9 @@ def build_homepage():
   <section class="stats" style="padding:0; border-radius:0;">
     <div class="wrap" style="padding:0;">
       <div class="stats-inner">
-        <div class="stat"><div class="num mono">~2,500</div><div class="label">Homes per route</div></div>
-        <div class="stat"><div class="num mono">16</div><div class="label">Neighbors sharing it</div></div>
-        <div class="stat"><div class="num mono">$250</div><div class="label">Flat, your share</div></div>
+        <div class="stat"><div class="num mono">~2,500</div><div class="label">Homes reached</div></div>
+        <div class="stat"><div class="num mono">$0.10</div><div class="label">Roughly, per home reached</div></div>
+        <div class="stat"><div class="num mono">$250</div><div class="label">Flat, all in</div></div>
       </div>
     </div>
   </section>
@@ -343,7 +343,7 @@ def build_homepage():
         <div class="stops">
           <div class="stop"><div class="stop-marker">1</div><p class="stop-label">Stop 01</p><h3>We map your route</h3><p>We pull real carrier-route data for the neighborhood around your business — exact home count, not a zip-code guess.</p></div>
           <div class="stop"><div class="stop-marker">2</div><p class="stop-label">Stop 02</p><h3>You claim a spot</h3><p>16 spots per mailer, one business per category. If a plumber's already in, no other plumber gets on that route.</p></div>
-          <div class="stop"><div class="stop-marker">3</div><p class="stop-label">Stop 03</p><h3>We design &amp; print</h3><p>One postcard, laid out professionally with all 16 businesses, printed in full color — no design fee, no software to learn.</p></div>
+          <div class="stop"><div class="stop-marker">3</div><p class="stop-label">Stop 03</p><h3>We design &amp; print</h3><p>Your listing is laid out professionally and printed in full color — no design fee, no software to learn, nothing for you to do.</p></div>
           <div class="stop"><div class="stop-marker">4</div><p class="stop-label">Stop 04</p><h3>It reaches every home</h3><p>Delivered to every address on the route — renters and owners, no purchased list required.</p></div>
         </div>
       </div>
@@ -373,13 +373,14 @@ def build_homepage():
           <p class="eyebrow">Pricing</p>
           <h2 style="font-size:clamp(1.9rem,3.4vw,2.6rem); margin:0 0 22px;">One flat price. Nothing to design, print, or mail yourself.</h2>
           <ul class="includes">
-            <li>{CHECK_SVG}<span><strong>Professional design &amp; layout</strong> on a shared postcard with 15 other neighboring businesses</span></li>
+            <li>{CHECK_SVG}<span><strong>Every home on your route</strong> — about 2,500 addresses, renters and owners alike</span></li>
+            <li>{CHECK_SVG}<span><strong>Professional design &amp; layout</strong> — included, no separate design fee</span></li>
             <li>{CHECK_SVG}<span><strong>Full-color printing</strong> — no separate print bill, no minimum order</span></li>
-            <li>{CHECK_SVG}<span><strong>Postage</strong> to every address on your route</span></li>
-            <li>{CHECK_SVG}<span><strong>One category exclusivity</strong> per mailer — no competitor shares your route</span></li>
+            <li>{CHECK_SVG}<span><strong>Postage</strong> to every address on your route — included</span></li>
+            <li>{CHECK_SVG}<span><strong>One category exclusivity</strong> — no competitor shares your route</span></li>
             <li>{CHECK_SVG}<span><strong>Real carrier-route targeting</strong> — no guessing at zip-code radius</span></li>
           </ul>
-          <span class="scarcity"><span class="dot"></span>Only 16 neighbors per mailer — first come, first served</span>
+          <span class="scarcity"><span class="dot"></span>One spot per category, per route — first come, first served</span>
         </div>
       </div>
     </div>
@@ -403,7 +404,7 @@ def build_homepage():
         </details>
         <details>
           <summary><span>Do I need to provide my own artwork?</span><span class="plus">+</span></summary>
-          <p class="faq-a">No — send us your logo, a phone number, and what you want to offer, and we handle the layout alongside the other businesses on the mailer.</p>
+          <p class="faq-a">No — send us your logo, a phone number, and what you want to offer, and we design and lay out the whole thing for you.</p>
         </details>
       </div>
     </div>
@@ -416,16 +417,16 @@ def build_homepage():
 
 
 def build_how_it_works():
-    title = "How ZipCarrd Mailers Work | EDDM Explained"
-    desc = "How ZipCarrd uses USPS Every Door Direct Mail (EDDM) to split one shared postcard between 16 local businesses, and the real math behind the $250 flat rate."
+    title = "How ZipCarrd Works | Every Home, $250 Flat"
+    desc = "How ZipCarrd uses USPS Every Door Direct Mail (EDDM) to put your postcard in every home on a real carrier route for $250 flat — and the real math behind that price."
     body = topbar() + f"""
 <main id="top">
   <section class="hero" style="padding-bottom:56px;">
 {hero_photo_bg(IMG_ROUTE_MAP, "A carrier-route map pinned to a corkboard with string and pushpins")}    <div class="wrap">
       <div class="breadcrumb"><a href="/">Home</a> / How It Works</div>
       <p class="eyebrow">The Mailing Program</p>
-      <h1 class="display" style="font-size:clamp(2.2rem,5vw,3.4rem);">How the shared<br><em>mailer</em> actually works.</h1>
-      <p class="hero-sub">ZipCarrd runs on USPS Every Door Direct Mail (EDDM) — the same postal program retailers and franchises use to blanket a neighborhood without buying a mailing list. Here's exactly how it works, and why splitting it 16 ways is what makes $250 possible.</p>
+      <h1 class="display" style="font-size:clamp(2.2rem,5vw,3.4rem);">How you reach<br>every home for <em>$250</em>.</h1>
+      <p class="hero-sub">ZipCarrd runs on USPS Every Door Direct Mail (EDDM) — the same postal program retailers and franchises use to blanket a neighborhood without buying a mailing list. Here's exactly how it works, and why we can offer it to you for $250 flat.</p>
     </div>
   </section>
 
@@ -515,7 +516,7 @@ def build_how_it_works():
         </details>
         <details>
           <summary><span>Do I need to provide my own artwork?</span><span class="plus">+</span></summary>
-          <p class="faq-a">No — send us your logo, a phone number, and what you want to offer, and we handle the layout alongside the other businesses on the mailer.</p>
+          <p class="faq-a">No — send us your logo, a phone number, and what you want to offer, and we design and lay out the whole thing for you.</p>
         </details>
         <details>
           <summary><span>Can I claim more than one route?</span><span class="plus">+</span></summary>
@@ -533,7 +534,7 @@ def build_how_it_works():
 
 def build_new_england_hub():
     title = "Find Your Town | ZipCarrd New England Routes"
-    desc = "Browse ZipCarrd shared-mailer routes across Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and Vermont."
+    desc = "Browse ZipCarrd carrier routes across Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and Vermont — every home reached for $250 flat."
     cards = ""
     for state in TOWNS:
         slug = STATE_SLUGS[state]
@@ -577,7 +578,7 @@ def build_state_index(state: str):
     slug = STATE_SLUGS[state]
     towns = TOWNS[state]
     title = f"ZipCarrd Routes in {state} | Find Your Town"
-    desc = f"Every {state} town where a local business can claim a $250 shared-mailer spot on ZipCarrd — {len(towns)} towns and counting."
+    desc = f"Every {state} town where a local business can reach every home on a carrier route for $250 flat on ZipCarrd — {len(towns)} towns and counting."
     items = "".join(
         f'<li><a href="/routes/{slug}/{slugify(t)}.html">{t}</a></li>\n' for t in towns
     )
@@ -588,7 +589,7 @@ def build_state_index(state: str):
       <div class="breadcrumb"><a href="/">Home</a> / <a href="/new-england.html">Find Your Town</a> / {state}</div>
       <p class="eyebrow">{state}</p>
       <h1 class="display" style="font-size:clamp(2.2rem,5vw,3.4rem);">ZipCarrd in <em>{state}</em></h1>
-      <p class="hero-sub">{len(towns)} towns and cities across {state} where a local business can be first to claim a shared-mailer spot. Don't see your town listed yet as an active route? Claim it anyway — we'll map the nearest carrier route when you do.</p>
+      <p class="hero-sub">{len(towns)} towns and cities across {state} where a local business can reach every home on a carrier route for $250 flat. Don't see your town listed yet as an active route? Claim it anyway — we'll map the nearest carrier route when you do.</p>
     </div>
   </section>
   <section>
@@ -606,8 +607,8 @@ def build_state_index(state: str):
 def build_town_page(state: str, town: str):
     slug = STATE_SLUGS[state]
     tslug = slugify(town)
-    title = f"{town}, {state} Local Ad Co-op | ZipCarrd"
-    desc = f"Split a $250 shared mailer with 15 other {town}, {state} businesses and reach every home on your carrier route. No mailing list, no design fee, one category exclusivity."
+    title = f"Reach Every Home in {town}, {state} for $250 | ZipCarrd"
+    desc = f"Get your postcard into every mailbox on a real carrier route in {town}, {state} for $250 flat. No mailing list, no design fee, one business per category."
     qs = f"?town={town.replace(' ', '+')}&state={state.replace(' ', '+')}"
     town_copy = TOWN_CONTENT.get(f"{state}/{town}", "").strip()
     about_section = ""
@@ -632,7 +633,7 @@ def build_town_page(state: str, town: str):
         <div>
           <p class="eyebrow">{town}, {state}</p>
           <h1 class="display" style="font-size:clamp(2.2rem,5vw,3.6rem);">Reach every home<br>in <em>{town}</em>.</h1>
-          <p class="hero-sub">ZipCarrd splits one professionally designed postcard between 16 {town}-area businesses — never two from the same trade — and gets it into every mailbox on a real carrier route near you, for $250 flat.</p>
+          <p class="hero-sub">For $250 flat, your postcard reaches every home on a real carrier route in {town} — about 2,500 addresses — with no mailing list to buy and no design fee. You're the only business in your category on the route.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="/{qs}#claim">Check My {town} Route</a>
             <a class="btn btn-ghost" href="/how-it-works.html">See How It Works</a>
@@ -643,19 +644,19 @@ def build_town_page(state: str, town: str):
           <p class="charter-title">Route Charter &middot; {town}</p>
           <div class="charter-box">
             <div class="l1">{state.upper()}</div>
-            <div class="l2">GROWN LOCAL</div>
-            <div class="l3">MEMBER-OWNED &middot; ZIPCARRD</div>
+            <div class="l2">EVERY HOME, EVERY TIME</div>
+            <div class="l3">$250 FLAT &middot; ZIPCARRD</div>
           </div>
           <div class="charter-meta">
             <span>ROUTE TYPE<br><strong>RESIDENTIAL</strong></span>
-            <span style="text-align:right;">MEMBERS<br><strong>16 PER MAILER</strong></span>
+            <span style="text-align:right;">REACH<br><strong>~2,500 HOMES</strong></span>
           </div>
         </div>
       </div>
       <div class="town-mini-stats">
-        <div><div class="num mono">~2,500</div><div class="label">Homes per route</div></div>
-        <div><div class="num mono">16</div><div class="label">Neighbors sharing it</div></div>
-        <div><div class="num mono">$250</div><div class="label">Flat, your share</div></div>
+        <div><div class="num mono">~2,500</div><div class="label">Homes reached</div></div>
+        <div><div class="num mono">$0.10</div><div class="label">Roughly, per home reached</div></div>
+        <div><div class="num mono">$250</div><div class="label">Flat, all in</div></div>
       </div>
     </div>
   </section>
@@ -664,16 +665,17 @@ def build_town_page(state: str, town: str):
     <div class="wrap">
       <div class="section-head">
         <p class="eyebrow">Pricing</p>
-        <h2>One flat price for a spot on your {town} route.</h2>
+        <h2>One flat price to reach every home on your {town} route.</h2>
         <p>Nothing to design, print, or mail yourself. <a class="callout-link" href="/how-it-works.html">See the full mailing breakdown &rarr;</a></p>
       </div>
       <ul class="includes">
-        <li>{CHECK_SVG}<span><strong>Professional design &amp; layout</strong> on a shared postcard with 15 other {town}-area businesses</span></li>
+        <li>{CHECK_SVG}<span><strong>Every home on your {town} route</strong> — about 2,500 addresses, renters and owners alike</span></li>
+        <li>{CHECK_SVG}<span><strong>Professional design &amp; layout</strong> — included, no separate design fee</span></li>
         <li>{CHECK_SVG}<span><strong>Full-color printing</strong> — no separate print bill, no minimum order</span></li>
-        <li>{CHECK_SVG}<span><strong>Postage</strong> to every address on your {town} carrier route</span></li>
-        <li>{CHECK_SVG}<span><strong>One category exclusivity</strong> per mailer — no competitor shares your route</span></li>
+        <li>{CHECK_SVG}<span><strong>Postage</strong> to every address on your {town} carrier route — included</span></li>
+        <li>{CHECK_SVG}<span><strong>One category exclusivity</strong> — no competitor shares your route</span></li>
       </ul>
-      <span class="scarcity"><span class="dot"></span>Only 16 neighbors per mailer — first come, first served</span>
+      <span class="scarcity"><span class="dot"></span>One spot per category in {town} — first come, first served</span>
     </div>
   </section>
 
