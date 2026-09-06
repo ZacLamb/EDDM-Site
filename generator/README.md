@@ -1,17 +1,28 @@
-# RouteGrange site generator
+# ZipCarrd site generator
 
-This folder is not part of the live site — it's what built it.
+This folder is the source for the live site at the repo root. It isn't part
+of the deployed site itself — it's what builds it.
 
-- `generate_site.py` — builds the whole site (homepage, how-it-works,
-  the New England hub, one index page per state, and one page per
-  town) from `towns.json` into a `dist/` folder.
-- `towns.json` — town/city names per state, sourced from a public
-  places dataset. Currently: Connecticut, Maine, Massachusetts, New
-  Hampshire, Rhode Island, Vermont (1,868 towns).
+- `generate_site.py` — builds the homepage, the "How It Works" page, the
+  New England hub, one index page per state, and one programmatic SEO
+  landing page per town, all from the same shared design system in
+  `../assets/style.css`.
+- `towns.json` — the town data, grouped by state. Currently covers all six
+  New England states (Connecticut, Maine, Massachusetts, New Hampshire,
+  Rhode Island, Vermont).
 
-To add more states (e.g. expanding beyond New England), add entries
-to `towns.json` under a new state name and re-run:
+## Adding more states / towns
 
-    python3 generate_site.py
+1. Add the new state (and its list of towns) as a key in `towns.json`.
+2. Run `python3 generate_site.py` from this folder.
+3. The script writes the full site — including the new state's pages —
+   into `../dist/` relative to this folder is not used; instead it always
+   rebuilds into a `dist/` folder next to `generate_site.py`. Copy that
+   output over the live site files at the repo root (everything except
+   this `generator/` folder) and commit/push as usual.
 
-then copy the contents of the new `dist/` over the site root.
+## Domain
+
+The `DOMAIN` constant at the top of `generate_site.py` is set to
+`https://zipcarrd.com` and is used for canonical URLs, Open Graph tags,
+and the sitemap. Update it there if the domain ever changes.

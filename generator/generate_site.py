@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-RouteGrange static site generator.
+ZipCarrd static site generator.
 Builds the marketing homepage, a dedicated "how it works" page, a New
 England directory hub, one index page per state, and one programmatic
 SEO landing page per town — all from the same shared design system.
@@ -15,7 +15,7 @@ import shutil
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DIST = os.path.join(ROOT, "dist")
-DOMAIN = "https://routegrange.com"  # update once the domain is registered
+DOMAIN = "https://zipcarrd.com"  # update once the domain is registered
 
 with open(os.path.join(ROOT, "towns.json")) as f:
     TOWNS = json.load(f)  # {"Massachusetts": ["Abington", ...], ...}
@@ -73,7 +73,7 @@ def topbar(active: str = "") -> str:
   <div class="topbar-inner">
     <a class="brand" href="/">
       <span class="brand-mark">{BRAND_MARK}</span>
-      <span class="brand-name">RouteGrange</span>
+      <span class="brand-name">ZipCarrd</span>
     </a>
     <nav class="primary-nav">
       <a href="/new-england.html">Find Your Town</a>
@@ -146,7 +146,7 @@ def footer() -> str:
             <path d="M12 14.5C12 14.5 18.5 15 18.5 8C11.5 8 12 14.5 12 14.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" style="color:var(--growth)"/>
           </svg>
         </span>
-        <span class="brand-name" style="font-size:1.2rem;">RouteGrange</span>
+        <span class="brand-name" style="font-size:1.2rem;">ZipCarrd</span>
         <span class="mono" style="font-size:0.72rem; color:var(--ink-soft); margin-left:4px;">Grown one route at a time</span>
       </div>
       <nav class="foot-links">
@@ -215,8 +215,8 @@ CHECK_SVG = '<svg viewBox="0 0 20 20" fill="none"><path d="M4 10.5L8 14.5L16 5.5
 
 
 def build_homepage():
-    title = "RouteGrange | Split One $250 Mailer With 16 Local Businesses"
-    desc = "RouteGrange splits one professionally designed postcard between 16 neighboring businesses and puts it in every mailbox on a real carrier route — $250 flat, no mailing list needed."
+    title = "ZipCarrd | Split One $250 Mailer With 16 Local Businesses"
+    desc = "ZipCarrd splits one professionally designed postcard between 16 neighboring businesses and puts it in every mailbox on a real carrier route — $250 flat, no mailing list needed."
     body = topbar() + f"""
 <main id="top">
   <section class="hero" style="border-bottom:1px solid var(--steel-line); padding-bottom:0;">
@@ -225,7 +225,7 @@ def build_homepage():
         <div>
           <p class="eyebrow">A Community Mail Co-op</p>
           <h1 class="display">One mailer.<br>Sixteen neighbors.<br><em>Growing the block.</em></h1>
-          <p class="hero-sub">RouteGrange splits one professionally designed postcard between 16 local businesses — never two from the same trade — and gets it into every mailbox on a real carrier route near you, for $250 flat.</p>
+          <p class="hero-sub">ZipCarrd splits one professionally designed postcard between 16 local businesses — never two from the same trade — and gets it into every mailbox on a real carrier route near you, for $250 flat.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#claim">Check My Route</a>
             <a class="btn btn-ghost" href="/new-england.html">Find My Town</a>
@@ -335,8 +335,8 @@ def build_homepage():
 
 
 def build_how_it_works():
-    title = "How RouteGrange Mailers Work | EDDM Explained"
-    desc = "How RouteGrange uses USPS Every Door Direct Mail (EDDM) to split one shared postcard between 16 local businesses, and the real math behind the $250 flat rate."
+    title = "How ZipCarrd Mailers Work | EDDM Explained"
+    desc = "How ZipCarrd uses USPS Every Door Direct Mail (EDDM) to split one shared postcard between 16 local businesses, and the real math behind the $250 flat rate."
     body = topbar() + f"""
 <main id="top">
   <section class="hero" style="padding-bottom:56px;">
@@ -344,7 +344,7 @@ def build_how_it_works():
       <div class="breadcrumb"><a href="/">Home</a> / How It Works</div>
       <p class="eyebrow">The Mailing Program</p>
       <h1 class="display" style="font-size:clamp(2.2rem,5vw,3.4rem);">How the shared<br><em>mailer</em> actually works.</h1>
-      <p class="hero-sub">RouteGrange runs on USPS Every Door Direct Mail (EDDM) — the same postal program retailers and franchises use to blanket a neighborhood without buying a mailing list. Here's exactly how it works, and why splitting it 16 ways is what makes $250 possible.</p>
+      <p class="hero-sub">ZipCarrd runs on USPS Every Door Direct Mail (EDDM) — the same postal program retailers and franchises use to blanket a neighborhood without buying a mailing list. Here's exactly how it works, and why splitting it 16 ways is what makes $250 possible.</p>
     </div>
   </section>
 
@@ -353,7 +353,7 @@ def build_how_it_works():
       <div class="section-head">
         <p class="eyebrow">What Is EDDM?</p>
         <h2>Every Door Direct Mail, in plain terms.</h2>
-        <p>EDDM is a USPS program that delivers mail to every address on a chosen carrier route without needing individual names or a purchased mailing list — the Postal Service used it to deliver nearly 3 billion pieces last fiscal year. RouteGrange uses it to get your postcard into every home on your route, renters and owners alike.</p>
+        <p>EDDM is a USPS program that delivers mail to every address on a chosen carrier route without needing individual names or a purchased mailing list — the Postal Service used it to deliver nearly 3 billion pieces last fiscal year. ZipCarrd uses it to get your postcard into every home on your route, renters and owners alike.</p>
       </div>
     </div>
   </section>
@@ -378,7 +378,7 @@ def build_how_it_works():
         </div>
         <div class="vs">VS</div>
         <div class="math-card">
-          <p class="tag">Growing It With RouteGrange</p>
+          <p class="tag">Growing It With ZipCarrd</p>
           <div class="total win">$250</div>
           <ul>
             <li><span>Postage</span><span>Included</span></li>
@@ -401,7 +401,7 @@ def build_how_it_works():
       <div class="faq-list">
         <details open>
           <summary><span>What is Every Door Direct Mail (EDDM)?</span><span class="plus">+</span></summary>
-          <p class="faq-a">EDDM is a USPS program that delivers mail to every address on a chosen carrier route without needing individual names or a purchased mailing list. RouteGrange uses it to get your postcard into every home on your route.</p>
+          <p class="faq-a">EDDM is a USPS program that delivers mail to every address on a chosen carrier route without needing individual names or a purchased mailing list. ZipCarrd uses it to get your postcard into every home on your route.</p>
         </details>
         <details>
           <summary><span>How is my route chosen?</span><span class="plus">+</span></summary>
@@ -434,8 +434,8 @@ def build_how_it_works():
 
 
 def build_new_england_hub():
-    title = "Find Your Town | RouteGrange New England Routes"
-    desc = "Browse RouteGrange shared-mailer routes across Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and Vermont."
+    title = "Find Your Town | ZipCarrd New England Routes"
+    desc = "Browse ZipCarrd shared-mailer routes across Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and Vermont."
     cards = ""
     for state in TOWNS:
         slug = STATE_SLUGS[state]
@@ -452,7 +452,7 @@ def build_new_england_hub():
       <div class="breadcrumb"><a href="/">Home</a> / Find Your Town</div>
       <p class="eyebrow">New England Routes</p>
       <h1 class="display" style="font-size:clamp(2.2rem,5vw,3.4rem);">Find your <em>route</em>.</h1>
-      <p class="hero-sub">RouteGrange is rolling out carrier-route by carrier-route across New England. Pick your state to find your town.</p>
+      <p class="hero-sub">ZipCarrd is rolling out carrier-route by carrier-route across New England. Pick your state to find your town.</p>
     </div>
   </section>
   <section>
@@ -470,8 +470,8 @@ def build_new_england_hub():
 def build_state_index(state: str):
     slug = STATE_SLUGS[state]
     towns = TOWNS[state]
-    title = f"RouteGrange Routes in {state} | Find Your Town"
-    desc = f"Every {state} town where a local business can claim a $250 shared-mailer spot on RouteGrange — {len(towns)} towns and counting."
+    title = f"ZipCarrd Routes in {state} | Find Your Town"
+    desc = f"Every {state} town where a local business can claim a $250 shared-mailer spot on ZipCarrd — {len(towns)} towns and counting."
     items = "".join(
         f'<li><a href="/routes/{slug}/{slugify(t)}.html">{t}</a></li>\n' for t in towns
     )
@@ -481,7 +481,7 @@ def build_state_index(state: str):
     <div class="wrap">
       <div class="breadcrumb"><a href="/">Home</a> / <a href="/new-england.html">Find Your Town</a> / {state}</div>
       <p class="eyebrow">{state}</p>
-      <h1 class="display" style="font-size:clamp(2.2rem,5vw,3.4rem);">RouteGrange in <em>{state}</em></h1>
+      <h1 class="display" style="font-size:clamp(2.2rem,5vw,3.4rem);">ZipCarrd in <em>{state}</em></h1>
       <p class="hero-sub">{len(towns)} towns and cities across {state} where a local business can be first to claim a shared-mailer spot. Don't see your town listed yet as an active route? Claim it anyway — we'll map the nearest carrier route when you do.</p>
     </div>
   </section>
@@ -500,7 +500,7 @@ def build_state_index(state: str):
 def build_town_page(state: str, town: str):
     slug = STATE_SLUGS[state]
     tslug = slugify(town)
-    title = f"{town}, {state} Local Ad Co-op | RouteGrange"
+    title = f"{town}, {state} Local Ad Co-op | ZipCarrd"
     desc = f"Split a $250 shared mailer with 15 other {town}, {state} businesses and reach every home on your carrier route. No mailing list, no design fee, one category exclusivity."
     qs = f"?town={town.replace(' ', '+')}&state={state.replace(' ', '+')}"
     body = topbar() + f"""
@@ -512,7 +512,7 @@ def build_town_page(state: str, town: str):
         <div>
           <p class="eyebrow">{town}, {state}</p>
           <h1 class="display" style="font-size:clamp(2.2rem,5vw,3.6rem);">Reach every home<br>in <em>{town}</em>.</h1>
-          <p class="hero-sub">RouteGrange splits one professionally designed postcard between 16 {town}-area businesses — never two from the same trade — and gets it into every mailbox on a real carrier route near you, for $250 flat.</p>
+          <p class="hero-sub">ZipCarrd splits one professionally designed postcard between 16 {town}-area businesses — never two from the same trade — and gets it into every mailbox on a real carrier route near you, for $250 flat.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="/{qs}#claim">Check My {town} Route</a>
             <a class="btn btn-ghost" href="/how-it-works.html">See How It Works</a>
