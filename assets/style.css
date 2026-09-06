@@ -251,6 +251,19 @@ footer { padding: 48px 0 40px; }
 .callout-link { display: inline-block; margin-top: 8px; font-family: "Courier Prime", monospace; font-size: 0.78rem; letter-spacing: 0.04em; color: var(--growth); text-decoration: none; border-bottom: 1px dashed var(--growth); }
 .callout-link:hover { color: var(--accent); }
 
+.photo-band { padding: 8px 0 64px; }
+.photo-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+.photo-card { position: relative; background: var(--paper-raised); border: 1px solid var(--steel-line); padding: 10px 10px 38px; box-shadow: var(--shadow); }
+.photo-card img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
+.photo-card .cap { position: absolute; left: 10px; right: 10px; bottom: 10px; font-family: "Courier Prime", monospace; font-size: 0.7rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-soft); }
+.photo-card:nth-child(1) { transform: rotate(0.6deg); }
+.photo-card:nth-child(2) { transform: rotate(-1deg); }
+.photo-card:nth-child(3) { transform: rotate(-0.3deg); }
+@media (max-width: 760px) {
+  .photo-grid { grid-template-columns: 1fr; }
+  .photo-card:nth-child(n) { transform: none; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
 }

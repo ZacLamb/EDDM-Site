@@ -17,6 +17,23 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 DIST = os.path.join(ROOT, "dist")
 DOMAIN = "https://zipcarrd.com"  # update once the domain is registered
 
+# Stock photography (hosted externally — direct links, no local copies)
+IMG_MAIN_STREET = "https://d8j0ntlcm91z4.cloudfront.net/user_3EmROCl8evT8aLsxpJaXd5oq6pI/hf_20260906_193513_0f56034d-fc4f-41f8-ac0a-c748088cd169.png"
+IMG_POSTCARDS = "https://d8j0ntlcm91z4.cloudfront.net/user_3EmROCl8evT8aLsxpJaXd5oq6pI/hf_20260906_193444_dd844cd4-e01b-4d4a-ae53-02b604406a5a.png"
+IMG_CARRIER = "https://d8j0ntlcm91z4.cloudfront.net/user_3EmROCl8evT8aLsxpJaXd5oq6pI/hf_20260906_193444_73f1d281-519a-453a-afa0-2f8be914df0e.png"
+
+PHOTO_BAND = f"""  <section class="photo-band">
+    <div class="wrap">
+      <div class="photo-grid">
+        <div class="photo-card"><img src="{IMG_MAIN_STREET}" alt="A local Main Street lined with independent businesses" loading="lazy"><p class="cap">Every town has one</p></div>
+        <div class="photo-card"><img src="{IMG_POSTCARDS}" alt="A stack of postcards ready for a shared mailer" loading="lazy"><p class="cap">One postcard, sixteen neighbors</p></div>
+        <div class="photo-card"><img src="{IMG_CARRIER}" alt="A mail carrier delivering to every home on the route" loading="lazy"><p class="cap">Every home. Every time.</p></div>
+      </div>
+    </div>
+  </section>
+
+"""
+
 with open(os.path.join(ROOT, "towns.json")) as f:
     TOWNS = json.load(f)  # {"Massachusetts": ["Abington", ...], ...}
 
@@ -237,7 +254,7 @@ def build_homepage():
           <div class="charter-box">
             <div class="l1">CHARTER NO. 016</div>
             <div class="l2">GROWN LOCAL</div>
-            <div class="l3">MEMBER-OWNED &middot; ROUTEGRANGE</div>
+            <div class="l3">MEMBER-OWNED &middot; ZIPCARRD</div>
           </div>
           <div class="charter-meta">
             <span>ROUTE TYPE<br><strong>RESIDENTIAL</strong></span>
@@ -258,6 +275,7 @@ def build_homepage():
     </div>
   </section>
 
+{PHOTO_BAND}
   <section id="how">
     <div class="wrap">
       <div class="section-head">
@@ -524,7 +542,7 @@ def build_town_page(state: str, town: str):
           <div class="charter-box">
             <div class="l1">{state.upper()}</div>
             <div class="l2">GROWN LOCAL</div>
-            <div class="l3">MEMBER-OWNED &middot; ROUTEGRANGE</div>
+            <div class="l3">MEMBER-OWNED &middot; ZIPCARRD</div>
           </div>
           <div class="charter-meta">
             <span>ROUTE TYPE<br><strong>RESIDENTIAL</strong></span>
