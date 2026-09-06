@@ -40,6 +40,13 @@ PHOTO_BAND = f"""  <section class="photo-band">
 """
 
 
+def hero_photo_bg(img, alt, offset=False):
+    """A faded full-bleed photo behind a hero section's content."""
+    cls = "hero-photo-bg offset" if offset else "hero-photo-bg"
+    return f"""    <div class="{cls}"><img src="{img}" alt="{alt}" loading="eager"></div>
+"""
+
+
 def feature_photo(img, alt, cap, eyebrow, heading, text, reverse=False):
     """A two-column image + copy band, reused across inner pages."""
     rev = " reverse" if reverse else ""
@@ -261,7 +268,7 @@ def build_homepage():
     body = topbar() + f"""
 <main id="top">
   <section class="hero" style="border-bottom:1px solid var(--steel-line); padding-bottom:0;">
-    <div class="wrap">
+{hero_photo_bg(IMG_MAIN_STREET, "A local Main Street lined with independent businesses", offset=True)}    <div class="wrap">
       <div class="hero-grid">
         <div>
           <p class="eyebrow">A Community Mail Co-op</p>
@@ -390,7 +397,7 @@ def build_how_it_works():
     body = topbar() + f"""
 <main id="top">
   <section class="hero" style="padding-bottom:56px;">
-    <div class="wrap">
+{hero_photo_bg(IMG_ROUTE_MAP, "A carrier-route map pinned to a corkboard with string and pushpins")}    <div class="wrap">
       <div class="breadcrumb"><a href="/">Home</a> / How It Works</div>
       <p class="eyebrow">The Mailing Program</p>
       <h1 class="display" style="font-size:clamp(2.2rem,5vw,3.4rem);">How the shared<br><em>mailer</em> actually works.</h1>
@@ -515,7 +522,7 @@ def build_new_england_hub():
     body = topbar() + f"""
 <main id="top">
   <section class="hero" style="padding-bottom:56px;">
-    <div class="wrap">
+{hero_photo_bg(IMG_TOWN_GREEN, "A New England town green with a white church steeple in autumn")}    <div class="wrap">
       <div class="breadcrumb"><a href="/">Home</a> / Find Your Town</div>
       <p class="eyebrow">New England Routes</p>
       <h1 class="display" style="font-size:clamp(2.2rem,5vw,3.4rem);">Find your <em>route</em>.</h1>
