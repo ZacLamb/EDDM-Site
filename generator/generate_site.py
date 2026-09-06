@@ -14,6 +14,14 @@ import re
 import shutil
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
+# assets/ lives at the deployed site root. When this script sits flat next
+# to assets/ (a local build sandbox) that's ROOT itself; when it sits in a
+# generator/ subfolder alongside the deployed site (the repo's normal
+# layout) assets/ is one level up instead.
+if os.path.isdir(os.path.join(ROOT, "assets")):
+    SITE_ROOT = ROOT
+else:
+    SITE_ROOT = os.path.dirname(ROOT)
 DIST = os.path.join(ROOT, "dist")
 DOMAIN = "https://zipcarrd.com"  # update once the domain is registered
 
@@ -67,6 +75,17 @@ def feature_photo(img, alt, cap, eyebrow, heading, text, reverse=False):
 
 with open(os.path.join(ROOT, "towns.json")) as f:
     TOWNS = json.load(f)  # {"Massachusetts": ["Abington", ...], ...}
+
+# AI-generated per-town copy for the programmatic SEO pages, keyed by
+# "State/Town". Produced by generator/generate_town_content.py and committed
+# to the repo. Optional -- a build works fine (falling back to generic copy)
+# for any town not yet in the cache, so content can roll out incrementally.
+TOWN_CONTENT_PATH = os.path.join(ROOT, "town_content.json")
+if os.path.exists(TOWN_CONTENT_PATH):
+    with open(TOWN_CONTENT_PATH) as f:
+        TOWN_CONTENT = json.load(f)
+else:
+    TOWN_CONTENT = {}
 
 STATE_SLUGS = {name: re.sub(r"\s+", "-", name.lower()) for name in TOWNS}
 
@@ -590,6 +609,20 @@ def build_town_page(state: str, town: str):
     title = f"{town}, {state} Local Ad Co-op | ZipCarrd"
     desc = f"Split a $250 shared mailer with 15 other {town}, {state} businesses and reach every home on your carrier route. No mailing list, no design fee, one category exclusivity."
     qs = f"?town={town.replace(' ', '+')}&state={state.replace(' ', '+')}"
+    town_copy = TOWN_CONTENT.get(f"{state}/{town}", "").strip()
+    about_section = ""
+    if town_copy:
+        about_section = f"""
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Why {town}</p>
+        <h2>Built for towns like {town}.</h2>
+        <p>{town_copy}</p>
+      </div>
+    </div>
+  </section>
+"""
     body = topbar() + f"""
 <main id="top">
   <section class="hero" style="padding-bottom:0;">
@@ -626,7 +659,7 @@ def build_town_page(state: str, town: str):
       </div>
     </div>
   </section>
-
+{about_section}
   <section id="pricing">
     <div class="wrap">
       <div class="section-head">
@@ -686,7 +719,7 @@ def main():
             total_towns += 1
 
     build_sitemap(all_urls)
-    shutil.copytree(os.path.join(ROOT, "assets"), os.path.join(DIST, "assets"))
+    shutil.copytree(os.path.join(SITE_ROOT, "assets"), os.path.join(DIST, "assets"))
     print(f"Built {len(all_urls)} pages ({total_towns} town pages) into {DIST}")
 
 

@@ -1,0 +1,79 @@
+name: Generate town content & rebuild site
+
+# Manually triggered from the Actions tab (no local CLI needed).
+#
+# What this does:
+#   1. Calls the Claude API to write one unique paragraph of copy for every
+#      town that doesn't already have one cached in generator/town_content.json.
+#   2. Rebuilds the static site (generator/generate_site.py) so every town
+#      page picks up its paragraph.
+#   3. Commits the updated cache + rebuilt site back to main, which Railway
+#      auto-deploys.
+#
+# Requires a repo secret named ANTHROPIC_API_KEY (Settings -> Secrets and
+# variables -> Actions -> New repository secret).
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Only generate this many missing towns (leave blank to fill in ALL missing towns)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r generator/requirements.txt
+
+      - name: Generate missing town content
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          cd generator
+          if [ -n "${{ github.event.inputs.limit }}" ]; then
+            python3 generate_town_content.py --limit "${{ github.event.inputs.limit }}"
+          else
+            python3 generate_town_content.py
+          fi
+
+      - name: Rebuild site
+        run: |
+          cd generator
+          rm -rf dist
+          python3 generate_site.py
+
+      - name: Copy built site over the live files
+        run: |
+          rsync -a --delete \
+            --exclude generator \
+            --exclude .git \
+            --exclude .github \
+            generator/dist/ ./
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A -- . ':!generator/dist'
+          if git diff --cached --quiet; then
+            echo "Nothing changed -- no towns needed new content."
+          else
+            git commit -m "Generate AI town content and rebuild site
+
+Automated run of generator/generate_town_content.py via GitHub Actions."
+            git push
+          fi
