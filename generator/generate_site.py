@@ -123,10 +123,15 @@ def topbar(active: str = "") -> str:
       <span class="brand-mark">{BRAND_MARK}</span>
       <span class="brand-name">ZipCarrd</span>
     </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+    <label for="nav-toggle" class="nav-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </label>
     <nav class="primary-nav">
       <a href="/new-england.html">Find Your Town</a>
       <a href="/how-it-works.html">How It Works</a>
       <a href="/#pricing">Pricing</a>
+      <a class="btn btn-primary nav-cta-mobile" href="/#claim">Claim a Spot</a>
     </nav>
     <a class="btn btn-primary nav-cta" href="/#claim">Claim a Spot</a>
   </div>

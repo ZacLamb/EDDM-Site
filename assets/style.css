@@ -111,6 +111,52 @@ nav.primary-nav a:hover { color: var(--ink); }
 .nav-cta { display: none; }
 @media (min-width: 760px) { .nav-cta { display: inline-flex; } }
 
+/* ---------- Mobile nav (hamburger, CSS-only via checkbox hack) ---------- */
+.nav-toggle-input { display: none; }
+.nav-toggle { display: none; }
+.nav-cta-mobile { display: none; }
+
+@media (max-width: 759px) {
+  .nav-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 5px;
+    width: 40px;
+    height: 40px;
+    padding: 10px 8px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .nav-toggle span { display: block; height: 2px; background: var(--ink); border-radius: 1px; transition: transform 0.15s ease, opacity 0.15s ease; }
+  .nav-toggle-input:checked + .nav-toggle span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .nav-toggle-input:checked + .nav-toggle span:nth-child(2) { opacity: 0; }
+  .nav-toggle-input:checked + .nav-toggle span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+  nav.primary-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    background: var(--paper);
+    border-bottom: 1px solid var(--steel-line);
+    box-shadow: 0 8px 16px rgba(38,47,30,0.12);
+    padding: 4px 28px 22px;
+  }
+  nav.primary-nav a {
+    padding: 15px 0;
+    border-top: 1px solid var(--steel-line);
+    font-size: 0.85rem;
+  }
+  .nav-toggle-input:checked ~ nav.primary-nav { display: flex; }
+  .nav-cta-mobile { display: inline-flex; justify-content: center; margin-top: 18px; padding: 14px 20px; }
+}
+
 /* ---------- Hero ---------- */
 .hero { padding: 64px 0 56px; border-bottom: 1px solid var(--steel-line); position: relative; overflow: hidden; }
 .hero > .wrap { position: relative; z-index: 1; }
@@ -145,6 +191,11 @@ nav.primary-nav a:hover { color: var(--ink); }
 .stats-inner { display: grid; grid-template-columns: repeat(3, 1fr); }
 .stat { padding: 26px 20px; text-align: center; border-left: 1px solid var(--steel-line); }
 .stat:first-child { border-left: none; }
+@media (max-width: 460px) {
+  .stats-inner { grid-template-columns: 1fr; }
+  .stat { border-left: none; border-top: 1px solid var(--steel-line); padding: 18px 20px; }
+  .stat:first-child { border-top: none; }
+}
 .stat .num { font-family: "Fraunces", Georgia, serif; font-weight: 800; font-size: clamp(1.8rem, 4vw, 2.6rem); color: var(--ink); line-height: 1; }
 .stat .label { font-family: "Courier Prime", monospace; font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--steel); margin-top: 8px; }
 
