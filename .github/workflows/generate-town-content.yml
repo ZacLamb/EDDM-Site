@@ -72,8 +72,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nothing changed -- no towns needed new content."
           else
-            git commit -m "Generate AI town content and rebuild site
-
-Automated run of generator/generate_town_content.py via GitHub Actions."
+            git commit -m "Generate AI town content and rebuild site" -m "Automated run of generator/generate_town_content.py via GitHub Actions."
             git push
           fi
