@@ -22,12 +22,36 @@ IMG_MAIN_STREET = "https://d8j0ntlcm91z4.cloudfront.net/user_3EmROCl8evT8aLsxpJa
 IMG_POSTCARDS = "https://d8j0ntlcm91z4.cloudfront.net/user_3EmROCl8evT8aLsxpJaXd5oq6pI/hf_20260906_193444_dd844cd4-e01b-4d4a-ae53-02b604406a5a.png"
 IMG_CARRIER = "https://d8j0ntlcm91z4.cloudfront.net/user_3EmROCl8evT8aLsxpJaXd5oq6pI/hf_20260906_193444_73f1d281-519a-453a-afa0-2f8be914df0e.png"
 
+IMG_ROUTE_MAP = "https://d8j0ntlcm91z4.cloudfront.net/user_3EmROCl8evT8aLsxpJaXd5oq6pI/hf_20260906_213520_47c714b7-1235-4e2b-b776-9634e0863ca3.png"
+IMG_POSTCARD_PROOF = "https://d8j0ntlcm91z4.cloudfront.net/user_3EmROCl8evT8aLsxpJaXd5oq6pI/hf_20260906_213520_b4eac3d3-08a5-427f-9148-5585f7d549c4.png"
+IMG_TOWN_GREEN = "https://d8j0ntlcm91z4.cloudfront.net/user_3EmROCl8evT8aLsxpJaXd5oq6pI/hf_20260906_213520_eb1e4ea0-845f-4d2e-bc52-f2d1d27a847a.png"
+IMG_MAILBOXES = "https://d8j0ntlcm91z4.cloudfront.net/user_3EmROCl8evT8aLsxpJaXd5oq6pI/hf_20260906_213520_15f8bd1f-c276-4cb1-bbe7-7bf19b16fbc8.png"
+
 PHOTO_BAND = f"""  <section class="photo-band">
     <div class="wrap">
       <div class="photo-grid">
         <div class="photo-card"><img src="{IMG_MAIN_STREET}" alt="A local Main Street lined with independent businesses" loading="lazy"><p class="cap">Every town has one</p></div>
         <div class="photo-card"><img src="{IMG_POSTCARDS}" alt="A stack of postcards ready for a shared mailer" loading="lazy"><p class="cap">One postcard, sixteen neighbors</p></div>
         <div class="photo-card"><img src="{IMG_CARRIER}" alt="A mail carrier delivering to every home on the route" loading="lazy"><p class="cap">Every home. Every time.</p></div>
+      </div>
+    </div>
+  </section>
+
+"""
+
+
+def feature_photo(img, alt, cap, eyebrow, heading, text, reverse=False):
+    """A two-column image + copy band, reused across inner pages."""
+    rev = " reverse" if reverse else ""
+    return f"""  <section class="feature-photo{rev}">
+    <div class="wrap">
+      <div class="feature-photo-grid">
+        <div class="feature-photo-card"><img src="{img}" alt="{alt}" loading="lazy"><p class="cap">{cap}</p></div>
+        <div class="feature-photo-copy">
+          <p class="eyebrow">{eyebrow}</p>
+          <h2>{heading}</h2>
+          <p>{text}</p>
+        </div>
       </div>
     </div>
   </section>
@@ -295,6 +319,14 @@ def build_homepage():
     </div>
   </section>
 
+{feature_photo(
+    IMG_MAILBOXES,
+    "A row of rural mailboxes on wooden posts along a residential route",
+    "Rain, shine, or first snow",
+    "Every Address, Every Time",
+    "The route doesn't skip houses.",
+    "EDDM delivers to every address on the carrier route the Postal Service already walks — renters and owners alike, no purchased list, no addresses left out.",
+)}
   <section id="pricing">
     <div class="wrap">
       <div class="pricing-grid">
@@ -376,6 +408,14 @@ def build_how_it_works():
     </div>
   </section>
 
+{feature_photo(
+    IMG_ROUTE_MAP,
+    "A carrier-route map pinned to a corkboard with string and pushpins",
+    "The route, mapped",
+    "Step One",
+    "We pull the actual carrier route.",
+    "No zip-code guessing — we map the exact USPS carrier route around your business and show you the real home count before you commit to a spot.",
+)}
   <section id="math">
     <div class="wrap">
       <div class="section-head">
@@ -410,6 +450,15 @@ def build_how_it_works():
     </div>
   </section>
 
+{feature_photo(
+    IMG_POSTCARD_PROOF,
+    "Hands holding a printed postcard proof up to sunlight",
+    "The proof, in hand",
+    "What Your $250 Buys",
+    "A real, professionally printed postcard.",
+    "Design and printing are included in the flat $250 — you're not paying a design fee or a separate print bill on top, and you see the layout before it mails.",
+    reverse=True,
+)}
   <section id="faq">
     <div class="wrap">
       <div class="section-head">
@@ -473,6 +522,14 @@ def build_new_england_hub():
       <p class="hero-sub">ZipCarrd is rolling out carrier-route by carrier-route across New England. Pick your state to find your town.</p>
     </div>
   </section>
+{feature_photo(
+    IMG_TOWN_GREEN,
+    "A New England town green with a white church steeple in autumn",
+    "New England, in fall",
+    "Six States, One Program",
+    "Same route logic, town after town.",
+    "Every town below runs on the same real USPS carrier-route data — pick a state to see which towns already have active routes.",
+)}
   <section>
     <div class="wrap">
       <div class="state-grid">
