@@ -8,6 +8,7 @@ SEO landing page per town — all from the same shared design system.
 Run: python3 generate_site.py
 Output: ./dist/
 """
+import datetime
 import json
 import os
 import re
@@ -24,6 +25,7 @@ else:
     SITE_ROOT = os.path.dirname(ROOT)
 DIST = os.path.join(ROOT, "dist")
 DOMAIN = "https://zipcarrd.com"  # update once the domain is registered
+BUILD_DATE = datetime.date.today().isoformat()  # used as sitemap <lastmod>
 
 # Stock photography (hosted externally — direct links, no local copies)
 IMG_MAIN_STREET = "https://d8j0ntlcm91z4.cloudfront.net/user_3EmROCl8evT8aLsxpJaXd5oq6pI/hf_20260906_193513_0f56034d-fc4f-41f8-ac0a-c748088cd169.png"
@@ -114,7 +116,9 @@ def write(path: str, content: str) -> None:
 BRAND_MARK = f"""<img src="{LOGO_ICON}" alt="ZipCarrd" width="22" height="22">"""
 
 
-def head(title: str, description: str, canonical: str) -> str:
+def head(title: str, description: str, canonical: str, schema: str = "", og_image: str = None) -> str:
+    img = og_image or IMG_MAIN_STREET
+    schema_block = f'<script type="application/ld+json">{schema}</script>\n' if schema else ""
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -126,12 +130,18 @@ def head(title: str, description: str, canonical: str) -> str:
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{description}">
 <meta property="og:type" content="website">
+<meta property="og:url" content="{DOMAIN}{canonical}">
+<meta property="og:image" content="{img}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{title}">
+<meta name="twitter:description" content="{description}">
+<meta name="twitter:image" content="{img}">
 <link rel="icon" type="image/png" href="{LOGO_ICON}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,500..700&family=Karla:wght@400;500;700&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/style.css">
-</head>
+{schema_block}</head>
 <body>
 """
 
@@ -281,6 +291,17 @@ CLAIM_SECTION = """  <section id="claim" class="claim">
 CHECK_SVG = '<svg viewBox="0 0 20 20" fill="none"><path d="M4 10.5L8 14.5L16 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>'
 
 
+HOMEPAGE_SCHEMA = json.dumps({
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "ZipCarrd",
+    "url": DOMAIN,
+    "logo": f"{DOMAIN}{LOGO_ICON}",
+    "description": "ZipCarrd puts a local business's postcard in every mailbox on a real USPS carrier route for $250 flat.",
+    "parentOrganization": {"@type": "Organization", "name": "Revenue Generating Solutions LLC"},
+})
+
+
 def build_homepage():
     title = "ZipCarrd | Reach Every Home Near You for $250 Flat"
     desc = "ZipCarrd puts your postcard in every mailbox on a real USPS carrier route near you — about 2,500 homes — for $250 flat. No mailing list, no design fee, one business per category."
@@ -407,7 +428,7 @@ def build_homepage():
 {CLAIM_SECTION}
 </main>
 """ + footer()
-    write("index.html", head(title, desc, "/") + body)
+    write("index.html", head(title, desc, "/", schema=HOMEPAGE_SCHEMA) + body)
 
 
 def build_how_it_works():
@@ -598,6 +619,121 @@ def build_state_index(state: str):
     write(f"routes/{slug}/index.html", head(title, desc, f"/routes/{slug}/") + body)
 
 
+# Deterministic "nearby towns" pick for internal linking -- the next N towns
+# after this one in its state's list (wrapping around). towns.json is stored
+# alphabetically per state, so this isn't geographic, but it's a stable,
+# free way to give every town page outbound links to other town pages
+# instead of leaving them as crawl dead-ends.
+def nearby_towns(state: str, town: str, n: int = 6):
+    towns = TOWNS[state]
+    if town not in towns or len(towns) <= 1:
+        return []
+    idx = towns.index(town)
+    count = min(n, len(towns) - 1)
+    return [towns[(idx + i) % len(towns)] for i in range(1, count + 1)]
+
+
+def nearby_towns_section(state: str, town: str) -> str:
+    slug = STATE_SLUGS[state]
+    towns = nearby_towns(state, town)
+    if not towns:
+        return ""
+    links = "".join(
+        f'<li><a href="/routes/{slug}/{slugify(t)}.html">{t}</a></li>\n' for t in towns
+    )
+    return f"""
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Nearby Routes</p>
+        <h2>Also serving towns near {town}.</h2>
+      </div>
+      <ul class="town-list">
+{links}      </ul>
+    </div>
+  </section>
+"""
+
+
+# Three Q&As restating facts already established elsewhere on the site
+# (route size, no mailing list, one-category exclusivity) -- reworded per
+# town for a bit of unique on-page text and a shot at an FAQ rich result,
+# without inventing any town-specific fact we can't actually back up.
+def town_faq(town: str, state: str):
+    return [
+        (
+            f"How many homes does the {town} route reach?",
+            f"A standard residential carrier route in {town} reaches roughly 2,500 homes — renters and owners alike, all on one real USPS delivery route.",
+        ),
+        (
+            f"Do I need my own mailing list to reach {town} homes?",
+            "No. The route itself is the list — every address gets a postcard, with nothing for you to buy, build, or maintain.",
+        ),
+        (
+            f"Can a competitor claim the same {town} route as me?",
+            f"No. Each route sells one spot per category, so once you claim your category in {town}, no direct competitor can share your route.",
+        ),
+    ]
+
+
+def town_faq_section(town: str, state: str) -> str:
+    qas = town_faq(town, state)
+    items = "".join(
+        f"""        <details{' open' if i == 0 else ''}>
+          <summary><span>{q}</span><span class="plus">+</span></summary>
+          <p class="faq-a">{a}</p>
+        </details>
+"""
+        for i, (q, a) in enumerate(qas)
+    )
+    return f"""
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">FAQ</p>
+        <h2>The {town} route, answered.</h2>
+      </div>
+      <div class="faq-list">
+{items}      </div>
+    </div>
+  </section>
+"""
+
+
+def town_schema(state: str, town: str, slug: str, tslug: str) -> str:
+    qas = town_faq(town, state)
+    obj = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Service",
+                "name": f"ZipCarrd EDDM Mailer — {town}, {state}",
+                "serviceType": "Direct mail advertising",
+                "areaServed": {"@type": "City", "name": town, "containedInPlace": state},
+                "provider": {"@type": "Organization", "name": "ZipCarrd", "url": DOMAIN},
+                "offers": {"@type": "Offer", "price": "250", "priceCurrency": "USD"},
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "name": "Home", "item": f"{DOMAIN}/"},
+                    {"@type": "ListItem", "position": 2, "name": "Find Your Town", "item": f"{DOMAIN}/new-england.html"},
+                    {"@type": "ListItem", "position": 3, "name": state, "item": f"{DOMAIN}/routes/{slug}/"},
+                    {"@type": "ListItem", "position": 4, "name": town, "item": f"{DOMAIN}/routes/{slug}/{tslug}.html"},
+                ],
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
+                    for q, a in qas
+                ],
+            },
+        ],
+    }
+    return json.dumps(obj)
+
+
 def build_town_page(state: str, town: str):
     slug = STATE_SLUGS[state]
     tslug = slugify(town)
@@ -672,15 +808,22 @@ def build_town_page(state: str, town: str):
       <span class="scarcity"><span class="dot"></span>One spot per category in {town} — first come, first served</span>
     </div>
   </section>
-
+{town_faq_section(town, state)}
+{nearby_towns_section(state, town)}
 {CLAIM_SECTION}
 </main>
 """ + footer()
-    write(f"routes/{slug}/{tslug}.html", head(title, desc, f"/routes/{slug}/{tslug}.html") + body)
+    schema = town_schema(state, town, slug, tslug)
+    write(
+        f"routes/{slug}/{tslug}.html",
+        head(title, desc, f"/routes/{slug}/{tslug}.html", schema=schema, og_image=IMG_TOWN_GREEN) + body,
+    )
 
 
 def build_sitemap(all_urls):
-    urls = "\n".join(f"  <url><loc>{DOMAIN}{u}</loc></url>" for u in all_urls)
+    urls = "\n".join(
+        f"  <url><loc>{DOMAIN}{u}</loc><lastmod>{BUILD_DATE}</lastmod></url>" for u in all_urls
+    )
     xml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {urls}
