@@ -111,7 +111,7 @@ def write(path: str, content: str) -> None:
         f.write(content)
 
 
-BRAND_MARK = f"""<img src="{LOGO_ICON}" alt="" width="22" height="22">"""
+BRAND_MARK = f"""<img src="{LOGO_ICON}" alt="ZipCarrd" width="22" height="22">"""
 
 
 def head(title: str, description: str, canonical: str) -> str:
@@ -139,9 +139,8 @@ def head(title: str, description: str, canonical: str) -> str:
 def topbar(active: str = "") -> str:
     return f"""<header class="topbar">
   <div class="topbar-inner">
-    <a class="brand" href="/">
-      <span class="brand-mark">{BRAND_MARK}</span>
-      <span class="brand-name">ZipCarrd</span>
+    <a class="brand" href="/" aria-label="ZipCarrd">
+      <span class="brand-mark brand-mark-lg">{BRAND_MARK}</span>
     </a>
     <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
     <label for="nav-toggle" class="nav-toggle" aria-label="Menu">
@@ -212,10 +211,9 @@ def footer() -> str:
   <div class="wrap">
     <div class="foot-inner">
       <div class="foot-brand">
-        <span class="brand-mark" style="width:28px;height:28px;">
-          <img src="{LOGO_ICON}" alt="" style="width:18px;height:18px;">
+        <span class="brand-mark brand-mark-lg">
+          <img src="{LOGO_ICON}" alt="ZipCarrd">
         </span>
-        <span class="brand-name" style="font-size:1.2rem;">ZipCarrd</span>
         <span class="mono" style="font-size:0.72rem; color:var(--ink-soft); margin-left:4px;">Every door, one route at a time</span>
       </div>
       <nav class="foot-links">
