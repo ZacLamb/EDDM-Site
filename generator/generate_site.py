@@ -227,6 +227,7 @@ FOOT_SCRIPT = f"""<script>
     form.addEventListener('submit', function (e) {{
       e.preventDefault();
       var payload = {{
+        contact_name: form.contact_name.value,
         business: form.business.value,
         category: form.category.value,
         zip: form.zip.value,
@@ -288,13 +289,17 @@ CLAIM_SECTION = """  <section id="claim" class="claim">
           <form id="claim-form">
             <div class="field-row">
               <div class="field">
+                <label for="biz-contact">Your Name</label>
+                <input id="biz-contact" name="contact_name" type="text" required>
+              </div>
+              <div class="field">
                 <label for="biz-name">Business Name</label>
                 <input id="biz-name" name="business" type="text" required>
               </div>
-              <div class="field">
-                <label for="biz-category">Category</label>
-                <input id="biz-category" name="category" type="text" placeholder="e.g. HVAC, salon, pizzeria" required>
-              </div>
+            </div>
+            <div class="field">
+              <label for="biz-category">Category</label>
+              <input id="biz-category" name="category" type="text" placeholder="e.g. HVAC, salon, pizzeria" required>
             </div>
             <div class="field">
               <label for="biz-zip">Business Address or ZIP Code</label>
