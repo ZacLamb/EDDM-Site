@@ -363,10 +363,9 @@ def build_homepage():
       <div class="pricing-grid">
         <div>
           <div class="stamp">
-            <div class="cancel"></div>
             <div class="cur">$</div>
             <div class="amt">250</div>
-            <div class="per">Your Share / Your Route</div>
+            <div class="per">Flat &middot; Every Home</div>
           </div>
         </div>
         <div>
