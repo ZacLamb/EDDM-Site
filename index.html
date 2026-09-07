@@ -247,6 +247,44 @@
 <script>
   (function () {
     var WEBHOOK_URL = "https://services.leadconnectorhq.com/hooks/EKnlvu3m2cubdvna2PD4/webhook-trigger/cb4dd36d-c0d7-4295-8525-f52a08383b37";
+    var QUEUE_KEY = "zc_pending_leads";
+    // The GHL webhook-trigger endpoint intermittently 503s under load. The old
+    // code fired this with mode:'no-cors' + an empty catch, which can never see
+    // a failure -- it always showed "submitted!" even when the lead never made
+    // it to GHL. This version uses a normal (CORS-readable) request, retries a
+    // failed send a couple of times, and if it still fails, queues the payload
+    // in localStorage and retries again on the next page load -- so a transient
+    // 503 no longer means a silently lost lead.
+    function flushQueue() {
+      var queue;
+      try { queue = JSON.parse(localStorage.getItem(QUEUE_KEY) || "[]"); } catch (e) { queue = []; }
+      if (!queue.length) return;
+      localStorage.removeItem(QUEUE_KEY);
+      queue.forEach(function (payload) { sendLead(payload, 1); });
+    }
+    function queueLead(payload) {
+      try {
+        var queue = JSON.parse(localStorage.getItem(QUEUE_KEY) || "[]");
+        queue.push(payload);
+        localStorage.setItem(QUEUE_KEY, JSON.stringify(queue));
+      } catch (e) {}
+    }
+    function sendLead(payload, attempt) {
+      fetch(WEBHOOK_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      }).then(function (res) {
+        if (!res.ok) throw new Error('webhook status ' + res.status);
+      }).catch(function () {
+        if (attempt < 3) {
+          setTimeout(function () { sendLead(payload, attempt + 1); }, 900 * attempt);
+        } else {
+          queueLead(payload);
+        }
+      });
+    }
+    try { flushQueue(); } catch (e) {}
     var form = document.getElementById('claim-form');
     var confirm = document.getElementById('claim-confirm');
     if (!form) return;
@@ -273,14 +311,7 @@
         page_url: window.location.href,
         submitted_at: new Date().toISOString()
       };
-      try {
-        fetch(WEBHOOK_URL, {
-          method: 'POST',
-          mode: 'no-cors',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload)
-        });
-      } catch (err) {}
+      sendLead(payload, 1);
       confirm.classList.add('show');
       form.querySelectorAll('input').forEach(function (i) { i.disabled = true; });
       form.querySelector('button[type="submit"]').disabled = true;
