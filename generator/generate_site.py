@@ -35,6 +35,10 @@ IMG_POSTCARD_PROOF = "https://d8j0ntlcm91z4.cloudfront.net/user_3EmROCl8evT8aLsx
 IMG_TOWN_GREEN = "https://d8j0ntlcm91z4.cloudfront.net/user_3EmROCl8evT8aLsxpJaXd5oq6pI/hf_20260906_213520_eb1e4ea0-845f-4d2e-bc52-f2d1d27a847a.png"
 IMG_MAILBOXES = "https://d8j0ntlcm91z4.cloudfront.net/user_3EmROCl8evT8aLsxpJaXd5oq6pI/hf_20260906_213520_15f8bd1f-c276-4cb1-bbe7-7bf19b16fbc8.png"
 
+# Logo mark -- a postcard/route icon (transparent background), used for the
+# topbar/footer brand mark and the favicon.
+LOGO_ICON = "https://d8j0ntlcm91z4.cloudfront.net/user_3EmROCl8evT8aLsxpJaXd5oq6pI/hf_20260907_003941_aebdebb5-8d94-447c-bc06-7a05f00bc998.png"
+
 PHOTO_BAND = f"""  <section class="photo-band">
     <div class="wrap">
       <div class="photo-grid">
@@ -106,11 +110,7 @@ def write(path: str, content: str) -> None:
         f.write(content)
 
 
-BRAND_MARK = """<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 20V11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" style="color:var(--ink)"/>
-          <path d="M12 11C12 11 5.5 11.5 5.5 4.5C12.5 4.5 12 11 12 11Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" style="color:var(--growth)"/>
-          <path d="M12 14.5C12 14.5 18.5 15 18.5 8C11.5 8 12 14.5 12 14.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" style="color:var(--growth)"/>
-        </svg>"""
+BRAND_MARK = f"""<img src="{LOGO_ICON}" alt="" width="22" height="22">"""
 
 
 def head(title: str, description: str, canonical: str) -> str:
@@ -125,7 +125,7 @@ def head(title: str, description: str, canonical: str) -> str:
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{description}">
 <meta property="og:type" content="website">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><text y=%2220%22 font-size=%2220%22>%F0%9F%8C%B1</text></svg>">
+<link rel="icon" type="image/png" href="{LOGO_ICON}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,500..700&family=Karla:wght@400;500;700&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
@@ -212,14 +212,10 @@ def footer() -> str:
     <div class="foot-inner">
       <div class="foot-brand">
         <span class="brand-mark" style="width:28px;height:28px;">
-          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:14px;height:14px;">
-            <path d="M12 20V11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" style="color:var(--ink)"/>
-            <path d="M12 11C12 11 5.5 11.5 5.5 4.5C12.5 4.5 12 11 12 11Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" style="color:var(--growth)"/>
-            <path d="M12 14.5C12 14.5 18.5 15 18.5 8C11.5 8 12 14.5 12 14.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" style="color:var(--growth)"/>
-          </svg>
+          <img src="{LOGO_ICON}" alt="" style="width:18px;height:18px;">
         </span>
         <span class="brand-name" style="font-size:1.2rem;">ZipCarrd</span>
-        <span class="mono" style="font-size:0.72rem; color:var(--ink-soft); margin-left:4px;">Grown one route at a time</span>
+        <span class="mono" style="font-size:0.72rem; color:var(--ink-soft); margin-left:4px;">Every door, one route at a time</span>
       </div>
       <nav class="foot-links">
         <a href="/new-england.html">Find Your Town</a>
