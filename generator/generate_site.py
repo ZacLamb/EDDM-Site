@@ -35,9 +35,10 @@ IMG_POSTCARD_PROOF = "https://d8j0ntlcm91z4.cloudfront.net/user_3EmROCl8evT8aLsx
 IMG_TOWN_GREEN = "https://d8j0ntlcm91z4.cloudfront.net/user_3EmROCl8evT8aLsxpJaXd5oq6pI/hf_20260906_213520_eb1e4ea0-845f-4d2e-bc52-f2d1d27a847a.png"
 IMG_MAILBOXES = "https://d8j0ntlcm91z4.cloudfront.net/user_3EmROCl8evT8aLsxpJaXd5oq6pI/hf_20260906_213520_15f8bd1f-c276-4cb1-bbe7-7bf19b16fbc8.png"
 
-# Logo mark -- a postcard/route icon (transparent background), used for the
-# topbar/footer brand mark and the favicon.
-LOGO_ICON = "https://d8j0ntlcm91z4.cloudfront.net/user_3EmROCl8evT8aLsxpJaXd5oq6pI/hf_20260907_003941_aebdebb5-8d94-447c-bc06-7a05f00bc998.png"
+# Logo mark -- a circular seal (sprout + route, "ZIPCARRD" / "EVERY DOOR,
+# EVERY TIME" ring text baked in) chosen by the client. Shipped as a local
+# asset rather than hotlinked, so it doesn't depend on any third-party host.
+LOGO_ICON = "/assets/logo.png"
 
 PHOTO_BAND = f"""  <section class="photo-band">
     <div class="wrap">
