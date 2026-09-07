@@ -345,29 +345,15 @@ def build_homepage():
 <main id="top">
   <section class="hero" style="border-bottom:1px solid var(--steel-line); padding-bottom:0;">
 {hero_photo_bg(IMG_MAIN_STREET, "A local Main Street lined with independent businesses", offset=True)}    <div class="wrap">
-      <div class="hero-grid">
-        <div>
-          <p class="eyebrow">Every Home. One Flat Price.</p>
-          <h1 class="display">Reach every home<br>near you.<br><em>For $250 flat.</em></h1>
-          <p class="hero-sub">Your postcard lands in every mailbox on a real USPS carrier route near your business — about 2,500 homes — for $250 flat. No mailing list to buy, no design fee, and you're the only business in your category on the route.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#claim">Check My Route</a>
-            <a class="btn btn-ghost" href="/new-england.html">Find My Town</a>
-          </div>
-          <p class="hero-note">No mailing list required &middot; Delivered to every home on the route</p>
+      <div class="hero-solo">
+        <p class="eyebrow">Every Home. One Flat Price.</p>
+        <h1 class="display">Reach every home<br>near you.<br><em>For $250 flat.</em></h1>
+        <p class="hero-sub">Your postcard lands in every mailbox on a real USPS carrier route near your business — about 2,500 homes — for $250 flat. No mailing list to buy, no design fee, and you're the only business in your category on the route.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#claim">Check My Route</a>
+          <a class="btn btn-ghost" href="/new-england.html">Find My Town</a>
         </div>
-        <div class="charter">
-          <p class="charter-title">Route Charter &middot; Sample</p>
-          <div class="charter-box">
-            <div class="l1">$250 FLAT</div>
-            <div class="l2">EVERY HOME, EVERY TIME</div>
-            <div class="l3">ONE CATEGORY &middot; ZIPCARRD</div>
-          </div>
-          <div class="charter-meta">
-            <span>ROUTE TYPE<br><strong>RESIDENTIAL</strong></span>
-            <span style="text-align:right;">REACH<br><strong>~2,500 HOMES</strong></span>
-          </div>
-        </div>
+        <p class="hero-note">No mailing list required &middot; Delivered to every home on the route</p>
       </div>
     </div>
   </section>
