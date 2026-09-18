@@ -10,6 +10,7 @@ Output: ./dist/
 """
 import datetime
 import json
+import math
 import os
 import re
 import shutil
@@ -94,6 +95,31 @@ if os.path.exists(TOWN_CONTENT_PATH):
 else:
     TOWN_CONTENT = {}
 
+# Real town centroids ("State/Town" -> [lat, lng]), used by nearby_towns()
+# below to link genuinely close-by towns instead of alphabetical neighbors.
+# Built once by tools/build_town_coords.py and committed to the repo -- a
+# build never needs network access or an extra dependency to read it. A
+# town missing from this file (rare -- a spelling mismatch against the ZIP
+# database it was built from) just falls back to the old alphabetical
+# adjacency method, so a build never breaks on a gap here.
+TOWN_COORDS_PATH = os.path.join(ROOT, "town_coords.json")
+if os.path.exists(TOWN_COORDS_PATH):
+    with open(TOWN_COORDS_PATH) as f:
+        TOWN_COORDS = json.load(f)
+else:
+    TOWN_COORDS = {}
+
+# AI-generated evergreen blog posts, keyed by slug. Produced by
+# generator/generate_blog_post.py (one new post per scheduled run) and
+# committed to the repo, same pattern as TOWN_CONTENT above. Missing file
+# just means no posts yet -- the blog index still builds, empty.
+BLOG_POSTS_PATH = os.path.join(ROOT, "blog_posts.json")
+if os.path.exists(BLOG_POSTS_PATH):
+    with open(BLOG_POSTS_PATH) as f:
+        BLOG_POSTS = json.load(f)
+else:
+    BLOG_POSTS = {}
+
 STATE_SLUGS = {name: re.sub(r"\s+", "-", name.lower()) for name in TOWNS}
 
 
@@ -159,6 +185,7 @@ def topbar(active: str = "") -> str:
     <nav class="primary-nav">
       <a href="/new-england.html">Find Your Town</a>
       <a href="/how-it-works.html">How It Works</a>
+      <a href="/blog/">Blog</a>
       <a href="/#pricing">Pricing</a>
       <a class="btn btn-primary nav-cta-mobile" href="/#claim">Claim a Spot</a>
     </nav>
@@ -261,6 +288,7 @@ def footer() -> str:
       <nav class="foot-links">
         <a href="/new-england.html">Find Your Town</a>
         <a href="/how-it-works.html">How It Works</a>
+        <a href="/blog/">Blog</a>
         <a href="/#pricing">Pricing</a>
         <a href="/#claim">Claim a Spot</a>
       </nav>
@@ -446,7 +474,7 @@ def build_homepage():
       </div>
     </div>
   </section>
-
+{blog_teaser_section()}
 {CLAIM_SECTION}
 </main>
 """ + footer()
@@ -635,24 +663,60 @@ def build_state_index(state: str):
 {items}      </ul>
     </div>
   </section>
+{blog_teaser_section()}
 {CLAIM_SECTION}
 </main>
 """ + footer()
     write(f"routes/{slug}/index.html", head(title, desc, f"/routes/{slug}/") + body)
 
 
-# Deterministic "nearby towns" pick for internal linking -- the next N towns
-# after this one in its state's list (wrapping around). towns.json is stored
-# alphabetically per state, so this isn't geographic, but it's a stable,
-# free way to give every town page outbound links to other town pages
-# instead of leaving them as crawl dead-ends.
-def nearby_towns(state: str, town: str, n: int = 6):
+def _haversine_miles(a, b):
+    lat1, lng1 = math.radians(a[0]), math.radians(a[1])
+    lat2, lng2 = math.radians(b[0]), math.radians(b[1])
+    dlat, dlng = lat2 - lat1, lng2 - lng1
+    h = math.sin(dlat / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlng / 2) ** 2
+    return 2 * 3958.8 * math.asin(math.sqrt(h))
+
+
+def _nearby_towns_alphabetical(state: str, town: str, n: int):
+    """Fallback used only when this town (or the state has too few towns
+    with coordinates) isn't in TOWN_COORDS -- the next N towns after this
+    one in towns.json, wrapping around. Not geographic, just a stable way
+    to avoid leaving the page with no outbound "nearby" links at all."""
     towns = TOWNS[state]
     if town not in towns or len(towns) <= 1:
         return []
     idx = towns.index(town)
     count = min(n, len(towns) - 1)
     return [towns[(idx + i) % len(towns)] for i in range(1, count + 1)]
+
+
+# "Nearby towns" pick for internal linking -- the N closest OTHER towns in
+# the same state by real straight-line distance between town centroids
+# (TOWN_COORDS, built by tools/build_town_coords.py from ZIP-code centroid
+# data). This replaced an earlier version that just picked the next N towns
+# alphabetically in towns.json -- stable and cheap, but not remotely
+# geographic (Plymouth, MA's "nearby routes" used to include Provincetown
+# and Quincy, both well over an hour away). Falls back to that alphabetical
+# method for the rare town missing a coordinate.
+def nearby_towns(state: str, town: str, n: int = 6):
+    towns = TOWNS[state]
+    if town not in towns or len(towns) <= 1:
+        return []
+    here = TOWN_COORDS.get(f"{state}/{town}")
+    if not here:
+        return _nearby_towns_alphabetical(state, town, n)
+    candidates = []
+    for other in towns:
+        if other == town:
+            continue
+        coord = TOWN_COORDS.get(f"{state}/{other}")
+        if coord:
+            candidates.append((_haversine_miles(here, coord), other))
+    if not candidates:
+        return _nearby_towns_alphabetical(state, town, n)
+    candidates.sort(key=lambda pair: pair[0])
+    return [name for _, name in candidates[:n]]
 
 
 def nearby_towns_section(state: str, town: str) -> str:
@@ -832,6 +896,7 @@ def build_town_page(state: str, town: str):
   </section>
 {town_faq_section(town, state)}
 {nearby_towns_section(state, town)}
+{blog_teaser_section()}
 {CLAIM_SECTION}
 </main>
 """ + footer()
@@ -840,6 +905,175 @@ def build_town_page(state: str, town: str):
         f"routes/{slug}/{tslug}.html",
         head(title, desc, f"/routes/{slug}/{tslug}.html", schema=schema, og_image=IMG_TOWN_GREEN) + body,
     )
+
+
+def _sorted_blog_slugs():
+    """Newest first, by each post's own `date` field."""
+    return sorted(BLOG_POSTS.keys(), key=lambda s: BLOG_POSTS[s].get("date", ""), reverse=True)
+
+
+def blog_teaser_section(n: int = 2) -> str:
+    """A small 'From the Blog' cross-link module dropped into town pages,
+    state hub pages, and the homepage -- gives the blog inbound links from
+    every programmatic SEO page instead of leaving it reachable only from
+    the main nav, and gives those pages an outbound link to something
+    other than the claim form."""
+    slugs = _sorted_blog_slugs()[:n]
+    if not slugs:
+        return ""
+    cards = ""
+    for slug in slugs:
+        post = BLOG_POSTS[slug]
+        cards += f"""<a class="blog-teaser-card" href="/blog/{slug}.html">
+          <span class="blog-date">{post.get('date', '')}</span>
+          <h3>{post['title']}</h3>
+        </a>
+"""
+    return f"""
+  <section class="blog-teaser">
+    <div class="wrap">
+      <div class="section-head" style="margin-bottom:28px;">
+        <p class="eyebrow">From the Blog</p>
+        <h2>Direct mail marketing, explained.</h2>
+      </div>
+      <div class="blog-teaser-grid">
+{cards}      </div>
+    </div>
+  </section>
+"""
+
+
+def build_blog_index():
+    title = "Direct Mail Marketing Blog | ZipCarrd"
+    desc = "Practical direct-mail and EDDM marketing guidance for local business owners, from the team behind ZipCarrd's $250 flat carrier-route mailer."
+    slugs = _sorted_blog_slugs()
+    if slugs:
+        cards = ""
+        for slug in slugs:
+            post = BLOG_POSTS[slug]
+            cards += f"""<a class="blog-card" href="/blog/{slug}.html">
+          <span class="blog-date">{post.get('date', '')}</span>
+          <h3>{post['title']}</h3>
+          <p>{post.get('description', '')}</p>
+        </a>
+"""
+        list_html = f'<div class="blog-list">\n{cards}      </div>'
+    else:
+        list_html = '<p class="blog-empty">First post is on its way -- check back soon.</p>'
+    body = topbar() + f"""
+<main id="top">
+  <section class="hero" style="padding-bottom:56px;">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="/">Home</a> / Blog</div>
+      <p class="eyebrow">The ZipCarrd Blog</p>
+      <h1 class="display" style="font-size:clamp(2.2rem,5vw,3.4rem);">Direct mail, <em>explained</em>.</h1>
+      <p class="hero-sub">Practical marketing guidance for local business owners weighing direct mail against digital ads, mailing lists, and everything else competing for their marketing budget.</p>
+    </div>
+  </section>
+  <section>
+    <div class="wrap">
+{list_html}
+    </div>
+  </section>
+{CLAIM_SECTION}
+</main>
+""" + footer()
+    write("blog/index.html", head(title, desc, "/blog/") + body)
+
+
+def render_article_body(body_text: str) -> str:
+    """Blog post bodies are stored as blank-line-separated blocks; a block
+    starting with '## ' renders as an <h2>, everything else as a <p>."""
+    blocks = [b.strip() for b in body_text.strip().split("\n\n") if b.strip()]
+    html = ""
+    for block in blocks:
+        if block.startswith("## "):
+            html += f"      <h2>{block[3:].strip()}</h2>\n"
+        else:
+            html += f"      <p>{block}</p>\n"
+    return html
+
+
+def blog_schema(slug: str, post: dict) -> str:
+    obj = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BlogPosting",
+                "headline": post["title"],
+                "description": post.get("description", ""),
+                "datePublished": post.get("date", BUILD_DATE),
+                "author": {"@type": "Organization", "name": "ZipCarrd"},
+                "publisher": {"@type": "Organization", "name": "ZipCarrd", "url": DOMAIN},
+                "mainEntityOfPage": f"{DOMAIN}/blog/{slug}.html",
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "name": "Home", "item": f"{DOMAIN}/"},
+                    {"@type": "ListItem", "position": 2, "name": "Blog", "item": f"{DOMAIN}/blog/"},
+                    {"@type": "ListItem", "position": 3, "name": post["title"], "item": f"{DOMAIN}/blog/{slug}.html"},
+                ],
+            },
+        ],
+    }
+    return json.dumps(obj)
+
+
+def build_blog_post(slug: str, post: dict):
+    title = f"{post['title']} | ZipCarrd Blog"
+    desc = post.get("description", "")
+    state_links = [s for s in post.get("state_links", []) if s in TOWNS]
+    cta_links = "".join(
+        f'<a href="/routes/{STATE_SLUGS[s]}/">{s} routes</a>\n' for s in state_links
+    )
+    cta_block = f"""
+  <div class="article-cta">
+    <p class="eyebrow">Ready to check your route?</p>
+    <h3 style="margin:0 0 8px;">See what a $250 mailer reaches near you.</h3>
+    <div class="article-cta-links">
+{cta_links}    </div>
+    <a class="btn btn-primary" href="/#claim">Check My Route</a>
+  </div>
+""" if cta_links else ""
+    other_slugs = [s for s in _sorted_blog_slugs() if s != slug][:2]
+    more_html = ""
+    if other_slugs:
+        items = "".join(
+            f'<li><a href="/blog/{s}.html">{BLOG_POSTS[s]["title"]}</a></li>\n' for s in other_slugs
+        )
+        more_html = f"""
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Keep Reading</p>
+        <h2>More from the blog.</h2>
+      </div>
+      <ul class="town-list">
+{items}      </ul>
+    </div>
+  </section>
+"""
+    body = topbar() + f"""
+<main id="top">
+  <section class="hero" style="padding-bottom:56px;">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="/">Home</a> / <a href="/blog/">Blog</a> / {post['title']}</div>
+      <div class="article-meta"><span>{post.get('date', '')}</span><span>&middot;</span><span>ZipCarrd</span></div>
+      <h1 class="display" style="font-size:clamp(2rem,4.4vw,3.1rem);">{post['title']}</h1>
+    </div>
+  </section>
+  <section>
+    <div class="wrap">
+      <div class="article-body">
+{render_article_body(post.get('body', ''))}{cta_block}      </div>
+    </div>
+  </section>
+{more_html}{CLAIM_SECTION}
+</main>
+""" + footer()
+    schema = blog_schema(slug, post)
+    write(f"blog/{slug}.html", head(title, desc, f"/blog/{slug}.html", schema=schema) + body)
 
 
 def build_sitemap(all_urls):
@@ -879,9 +1113,15 @@ def main():
             all_urls.append(f"/routes/{slug}/{tslug}.html")
             total_towns += 1
 
+    build_blog_index()
+    all_urls.append("/blog/")
+    for slug in _sorted_blog_slugs():
+        build_blog_post(slug, BLOG_POSTS[slug])
+        all_urls.append(f"/blog/{slug}.html")
+
     build_sitemap(all_urls)
     shutil.copytree(os.path.join(SITE_ROOT, "assets"), os.path.join(DIST, "assets"))
-    print(f"Built {len(all_urls)} pages ({total_towns} town pages) into {DIST}")
+    print(f"Built {len(all_urls)} pages ({total_towns} town pages, {len(BLOG_POSTS)} blog posts) into {DIST}")
 
 
 if __name__ == "__main__":

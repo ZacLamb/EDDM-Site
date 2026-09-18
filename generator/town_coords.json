@@ -1,0 +1,7434 @@
+{
+ "Connecticut/Abington": [
+  41.8473,
+  -72.0253
+ ],
+ "Connecticut/Amston": [
+  41.629,
+  -72.3646
+ ],
+ "Connecticut/Andover": [
+  41.7332,
+  -72.3767
+ ],
+ "Connecticut/Ansonia": [
+  41.3427,
+  -73.0742
+ ],
+ "Connecticut/Ashford": [
+  41.889,
+  -72.1476
+ ],
+ "Connecticut/Avon": [
+  41.7905,
+  -72.8653
+ ],
+ "Connecticut/Ballouville": [
+  41.8768,
+  -71.8612
+ ],
+ "Connecticut/Baltic": [
+  41.6263,
+  -72.0775
+ ],
+ "Connecticut/Bantam": [
+  41.7215,
+  -73.252
+ ],
+ "Connecticut/Barkhamsted": [
+  41.9293,
+  -72.914
+ ],
+ "Connecticut/Beacon Falls": [
+  41.4369,
+  -73.0597
+ ],
+ "Connecticut/Berlin": [
+  41.6215,
+  -72.7457
+ ],
+ "Connecticut/Bethany": [
+  41.4262,
+  -73.0007
+ ],
+ "Connecticut/Bethel": [
+  41.3813,
+  -73.4008
+ ],
+ "Connecticut/Bethlehem": [
+  41.6387,
+  -73.2091
+ ],
+ "Connecticut/Bloomfield": [
+  41.8316,
+  -72.7249
+ ],
+ "Connecticut/Bolton": [
+  41.7689,
+  -72.4396
+ ],
+ "Connecticut/Botsford": [
+  41.3665,
+  -73.2571
+ ],
+ "Connecticut/Bozrah": [
+  41.5472,
+  -72.1775
+ ],
+ "Connecticut/Branford": [
+  41.28,
+  -72.8106
+ ],
+ "Connecticut/Bridgeport": [
+  41.18043,
+  -73.1941
+ ],
+ "Connecticut/Bridgewater": [
+  41.5287,
+  -73.3609
+ ],
+ "Connecticut/Bristol": [
+  41.67705,
+  -72.93975
+ ],
+ "Connecticut/Broad Brook": [
+  41.9042,
+  -72.5444
+ ],
+ "Connecticut/Brookfield": [
+  41.465,
+  -73.398
+ ],
+ "Connecticut/Brooklyn": [
+  41.7807,
+  -71.9541
+ ],
+ "Connecticut/Burlington": [
+  41.7573,
+  -72.9444
+ ],
+ "Connecticut/Canaan": [
+  42.0248,
+  -73.3232
+ ],
+ "Connecticut/Canterbury": [
+  41.6844,
+  -72.001
+ ],
+ "Connecticut/Canton": [
+  41.8384,
+  -72.8987
+ ],
+ "Connecticut/Canton Center": [
+  41.8539,
+  -72.9028
+ ],
+ "Connecticut/Centerbrook": [
+  41.3474,
+  -72.4173
+ ],
+ "Connecticut/Central Village": [
+  41.7229,
+  -71.9067
+ ],
+ "Connecticut/Chaplin": [
+  41.8026,
+  -72.1372
+ ],
+ "Connecticut/Cheshire": [
+  41.45673,
+  -72.9121
+ ],
+ "Connecticut/Chester": [
+  41.4049,
+  -72.4643
+ ],
+ "Connecticut/Clinton": [
+  41.2912,
+  -72.528
+ ],
+ "Connecticut/Cobalt": [
+  41.5667,
+  -72.5581
+ ],
+ "Connecticut/Colchester": [
+  41.5314,
+  -72.3083
+ ],
+ "Connecticut/Colebrook": [
+  41.9895,
+  -73.0957
+ ],
+ "Connecticut/Collinsville": [
+  41.84485,
+  -72.9135
+ ],
+ "Connecticut/Columbia": [
+  41.6973,
+  -72.3072
+ ],
+ "Connecticut/Cornwall": [
+  41.8281,
+  -73.3323
+ ],
+ "Connecticut/Cornwall Bridge": [
+  41.8187,
+  -73.371
+ ],
+ "Connecticut/Cos Cob": [
+  41.053,
+  -73.5935
+ ],
+ "Connecticut/Coventry": [
+  41.7822,
+  -72.3332
+ ],
+ "Connecticut/Cromwell": [
+  41.6105,
+  -72.6663
+ ],
+ "Connecticut/Danbury": [
+  41.37052,
+  -73.4267
+ ],
+ "Connecticut/Danielson": [
+  41.7982,
+  -71.8807
+ ],
+ "Connecticut/Darien": [
+  41.0768,
+  -73.4853
+ ],
+ "Connecticut/Dayville": [
+  41.854,
+  -71.8683
+ ],
+ "Connecticut/Deep River": [
+  41.37305,
+  -72.5099
+ ],
+ "Connecticut/Derby": [
+  41.3229,
+  -73.08
+ ],
+ "Connecticut/Durham": [
+  41.465,
+  -72.6875
+ ],
+ "Connecticut/East Berlin": [
+  41.6128,
+  -72.719
+ ],
+ "Connecticut/East Canaan": [
+  42.0158,
+  -73.2913
+ ],
+ "Connecticut/East Glastonbury": [
+  41.6889,
+  -72.5345
+ ],
+ "Connecticut/East Granby": [
+  41.9322,
+  -72.7459
+ ],
+ "Connecticut/East Haddam": [
+  41.4696,
+  -72.4059
+ ],
+ "Connecticut/East Hampton": [
+  41.5761,
+  -72.5093
+ ],
+ "Connecticut/East Hartford": [
+  41.77777,
+  -72.66647
+ ],
+ "Connecticut/East Hartland": [
+  42.0016,
+  -72.9242
+ ],
+ "Connecticut/East Haven": [
+  41.3077,
+  -72.8968
+ ],
+ "Connecticut/East Killingly": [
+  41.8452,
+  -71.8026
+ ],
+ "Connecticut/East Lyme": [
+  41.3765,
+  -72.237
+ ],
+ "Connecticut/East Windsor": [
+  41.9099,
+  -72.6029
+ ],
+ "Connecticut/East Windsor Hill": [
+  41.8592,
+  -72.603
+ ],
+ "Connecticut/East Woodstock": [
+  41.9843,
+  -71.981
+ ],
+ "Connecticut/Eastford": [
+  41.8771,
+  -72.0895
+ ],
+ "Connecticut/Easton": [
+  41.2523,
+  -73.2871
+ ],
+ "Connecticut/Ellington": [
+  41.9114,
+  -72.4626
+ ],
+ "Connecticut/Enfield": [
+  41.9826,
+  -72.5785
+ ],
+ "Connecticut/Essex": [
+  41.3549,
+  -72.3965
+ ],
+ "Connecticut/Fabyan": [
+  42.0198,
+  -71.9417
+ ],
+ "Connecticut/Fairfield": [
+  41.177,
+  -73.24723
+ ],
+ "Connecticut/Falls Village": [
+  41.9559,
+  -73.3632
+ ],
+ "Connecticut/Farmington": [
+  41.77067,
+  -72.7597
+ ],
+ "Connecticut/Gales Ferry": [
+  41.4343,
+  -72.0314
+ ],
+ "Connecticut/Gaylordsville": [
+  41.6486,
+  -73.4835
+ ],
+ "Connecticut/Georgetown": [
+  41.2555,
+  -73.4279
+ ],
+ "Connecticut/Gilman": [
+  41.5795,
+  -72.1963
+ ],
+ "Connecticut/Glastonbury": [
+  41.7073,
+  -72.5727
+ ],
+ "Connecticut/Goshen": [
+  41.8335,
+  -73.2429
+ ],
+ "Connecticut/Granby": [
+  41.9602,
+  -72.7994
+ ],
+ "Connecticut/Greens Farms": [
+  41.1238,
+  -73.3195
+ ],
+ "Connecticut/Greenwich": [
+  41.03603,
+  -73.63352
+ ],
+ "Connecticut/Grosvenor Dale": [
+  41.9711,
+  -71.8917
+ ],
+ "Connecticut/Groton": [
+  41.37845,
+  -72.07415
+ ],
+ "Connecticut/Guilford": [
+  41.3154,
+  -72.6968
+ ],
+ "Connecticut/Haddam": [
+  41.4627,
+  -72.505
+ ],
+ "Connecticut/Hadlyme": [
+  41.4212,
+  -72.4141
+ ],
+ "Connecticut/Hamden": [
+  41.35962,
+  -72.92265
+ ],
+ "Connecticut/Hampton": [
+  41.7671,
+  -72.0662
+ ],
+ "Connecticut/Hanover": [
+  41.6445,
+  -72.0677
+ ],
+ "Connecticut/Hartford": [
+  41.77709,
+  -72.70159
+ ],
+ "Connecticut/Harwinton": [
+  41.7625,
+  -73.0655
+ ],
+ "Connecticut/Hawleyville": [
+  41.4276,
+  -73.3551
+ ],
+ "Connecticut/Hebron": [
+  41.6842,
+  -72.3986
+ ],
+ "Connecticut/Higganum": [
+  41.4682,
+  -72.5751
+ ],
+ "Connecticut/Ivoryton": [
+  41.3421,
+  -72.4404
+ ],
+ "Connecticut/Jewett City": [
+  41.6052,
+  -71.9808
+ ],
+ "Connecticut/Kent": [
+  41.7316,
+  -73.4583
+ ],
+ "Connecticut/Killingworth": [
+  41.3696,
+  -72.5712
+ ],
+ "Connecticut/Lakeside": [
+  41.6754,
+  -73.242
+ ],
+ "Connecticut/Lakeville": [
+  41.9516,
+  -73.4377
+ ],
+ "Connecticut/Lebanon": [
+  41.633,
+  -72.244
+ ],
+ "Connecticut/Ledyard": [
+  41.4579,
+  -71.9765
+ ],
+ "Connecticut/Litchfield": [
+  41.7541,
+  -73.2
+ ],
+ "Connecticut/Madison": [
+  41.309,
+  -72.6153
+ ],
+ "Connecticut/Manchester": [
+  41.78153,
+  -72.52415
+ ],
+ "Connecticut/Mansfield Center": [
+  41.7862,
+  -72.16915
+ ],
+ "Connecticut/Mansfield Depot": [
+  41.7993,
+  -72.3065
+ ],
+ "Connecticut/Marion": [
+  41.5637,
+  -72.9257
+ ],
+ "Connecticut/Marlborough": [
+  41.6412,
+  -72.4609
+ ],
+ "Connecticut/Mashantucket": [
+  41.4757,
+  -71.9574
+ ],
+ "Connecticut/Meriden": [
+  41.53783,
+  -72.8062
+ ],
+ "Connecticut/Middle Haddam": [
+  41.554,
+  -72.5501
+ ],
+ "Connecticut/Middlebury": [
+  41.5343,
+  -73.1131
+ ],
+ "Connecticut/Middlefield": [
+  41.5168,
+  -72.7186
+ ],
+ "Connecticut/Middletown": [
+  41.5567,
+  -72.6617
+ ],
+ "Connecticut/Milford": [
+  41.22565,
+  -73.0648
+ ],
+ "Connecticut/Milldale": [
+  41.5659,
+  -72.8918
+ ],
+ "Connecticut/Monroe": [
+  41.3312,
+  -73.2243
+ ],
+ "Connecticut/Montville": [
+  41.479,
+  -72.1512
+ ],
+ "Connecticut/Moodus": [
+  41.5078,
+  -72.4419
+ ],
+ "Connecticut/Moosup": [
+  41.721,
+  -71.885
+ ],
+ "Connecticut/Morris": [
+  41.6881,
+  -73.1765
+ ],
+ "Connecticut/Mystic": [
+  41.35285,
+  -71.97695
+ ],
+ "Connecticut/Naugatuck": [
+  41.492,
+  -73.0493
+ ],
+ "Connecticut/New Britain": [
+  41.66955,
+  -72.78508
+ ],
+ "Connecticut/New Canaan": [
+  41.1455,
+  -73.4922
+ ],
+ "Connecticut/New Fairfield": [
+  41.473,
+  -73.4978
+ ],
+ "Connecticut/New Hartford": [
+  41.8468,
+  -73.0104
+ ],
+ "Connecticut/New Haven": [
+  41.32371,
+  -72.92889
+ ],
+ "Connecticut/New London": [
+  41.3507,
+  -72.1062
+ ],
+ "Connecticut/New Milford": [
+  41.5817,
+  -73.4128
+ ],
+ "Connecticut/New Preston Marble Dale": [
+  41.6923,
+  -73.3342
+ ],
+ "Connecticut/Newington": [
+  41.7389,
+  -72.7242
+ ],
+ "Connecticut/Newtown": [
+  41.3931,
+  -73.3167
+ ],
+ "Connecticut/Niantic": [
+  41.3253,
+  -72.2108
+ ],
+ "Connecticut/Norfolk": [
+  41.9854,
+  -73.1992
+ ],
+ "Connecticut/North Branford": [
+  41.3323,
+  -72.7809
+ ],
+ "Connecticut/North Canton": [
+  41.8997,
+  -72.8907
+ ],
+ "Connecticut/North Franklin": [
+  41.6161,
+  -72.1425
+ ],
+ "Connecticut/North Granby": [
+  42.0219,
+  -72.8409
+ ],
+ "Connecticut/North Grosvenordale": [
+  41.9786,
+  -71.902
+ ],
+ "Connecticut/North Haven": [
+  41.3822,
+  -72.8585
+ ],
+ "Connecticut/North Stonington": [
+  41.4531,
+  -71.8727
+ ],
+ "Connecticut/North Westchester": [
+  41.5809,
+  -72.4012
+ ],
+ "Connecticut/North Windham": [
+  41.77385,
+  -72.14865
+ ],
+ "Connecticut/Northfield": [
+  41.7077,
+  -73.109
+ ],
+ "Connecticut/Northford": [
+  41.3962,
+  -72.7809
+ ],
+ "Connecticut/Norwalk": [
+  41.16002,
+  -73.40533
+ ],
+ "Connecticut/Norwich": [
+  41.52975,
+  -72.03915
+ ],
+ "Connecticut/Oakdale": [
+  41.4706,
+  -72.1904
+ ],
+ "Connecticut/Oakville": [
+  41.5909,
+  -73.0873
+ ],
+ "Connecticut/Old Greenwich": [
+  41.0354,
+  -73.5673
+ ],
+ "Connecticut/Old Lyme": [
+  41.3347,
+  -72.3086
+ ],
+ "Connecticut/Old Mystic": [
+  41.3882,
+  -71.9495
+ ],
+ "Connecticut/Old Saybrook": [
+  41.2913,
+  -72.385
+ ],
+ "Connecticut/Oneco": [
+  41.6937,
+  -71.8084
+ ],
+ "Connecticut/Orange": [
+  41.2815,
+  -73.0287
+ ],
+ "Connecticut/Oxford": [
+  41.4202,
+  -73.1296
+ ],
+ "Connecticut/Pawcatuck": [
+  41.3735,
+  -71.8478
+ ],
+ "Connecticut/Pequabuck": [
+  41.6699,
+  -72.9915
+ ],
+ "Connecticut/Pine Meadow": [
+  41.8765,
+  -72.967
+ ],
+ "Connecticut/Plainfield": [
+  41.6775,
+  -71.922
+ ],
+ "Connecticut/Plainville": [
+  41.6727,
+  -72.8644
+ ],
+ "Connecticut/Plantsville": [
+  41.5797,
+  -72.899
+ ],
+ "Connecticut/Plymouth": [
+  41.6611,
+  -73.0449
+ ],
+ "Connecticut/Pomfret": [
+  41.889,
+  -71.9682
+ ],
+ "Connecticut/Pomfret Center": [
+  41.8697,
+  -71.982
+ ],
+ "Connecticut/Poquonock": [
+  41.9048,
+  -72.6787
+ ],
+ "Connecticut/Portland": [
+  41.5852,
+  -72.6128
+ ],
+ "Connecticut/Preston": [
+  41.5224,
+  -71.9934
+ ],
+ "Connecticut/Prospect": [
+  41.5022,
+  -72.9788
+ ],
+ "Connecticut/Putnam": [
+  41.9185,
+  -71.8968
+ ],
+ "Connecticut/Quaker Hill": [
+  41.4032,
+  -72.1172
+ ],
+ "Connecticut/Quinebaug": [
+  42.0217,
+  -71.9391
+ ],
+ "Connecticut/Redding": [
+  41.2711,
+  -73.3863
+ ],
+ "Connecticut/Redding Center": [
+  41.3025,
+  -73.3839
+ ],
+ "Connecticut/Redding Ridge": [
+  41.314,
+  -73.3504
+ ],
+ "Connecticut/Ridgefield": [
+  41.2896,
+  -73.49775
+ ],
+ "Connecticut/Riverside": [
+  41.038,
+  -73.5811
+ ],
+ "Connecticut/Riverton": [
+  41.9686,
+  -73.0145
+ ],
+ "Connecticut/Rockfall": [
+  41.5345,
+  -72.6997
+ ],
+ "Connecticut/Rocky Hill": [
+  41.6583,
+  -72.6632
+ ],
+ "Connecticut/Rogers": [
+  41.8391,
+  -71.9063
+ ],
+ "Connecticut/Roxbury": [
+  41.5509,
+  -73.2993
+ ],
+ "Connecticut/Salem": [
+  41.4966,
+  -72.2725
+ ],
+ "Connecticut/Salisbury": [
+  42.0015,
+  -73.4215
+ ],
+ "Connecticut/Sandy Hook": [
+  41.4087,
+  -73.2485
+ ],
+ "Connecticut/Scotland": [
+  41.73145,
+  -72.0766
+ ],
+ "Connecticut/Seymour": [
+  41.4032,
+  -73.10565
+ ],
+ "Connecticut/Sharon": [
+  41.8714,
+  -73.4578
+ ],
+ "Connecticut/Shelton": [
+  41.3047,
+  -73.1294
+ ],
+ "Connecticut/Sherman": [
+  41.5714,
+  -73.4947
+ ],
+ "Connecticut/Simsbury": [
+  41.8759,
+  -72.8012
+ ],
+ "Connecticut/Somers": [
+  41.9978,
+  -72.4583
+ ],
+ "Connecticut/Somersville": [
+  41.9765,
+  -72.4906
+ ],
+ "Connecticut/South Britain": [
+  41.4709,
+  -73.2515
+ ],
+ "Connecticut/South Glastonbury": [
+  41.6571,
+  -72.5722
+ ],
+ "Connecticut/South Kent": [
+  41.6951,
+  -73.469
+ ],
+ "Connecticut/South Lyme": [
+  41.2967,
+  -72.2633
+ ],
+ "Connecticut/South Willington": [
+  41.8554,
+  -72.3015
+ ],
+ "Connecticut/South Windham": [
+  41.6677,
+  -72.1681
+ ],
+ "Connecticut/South Windsor": [
+  41.8341,
+  -72.5576
+ ],
+ "Connecticut/South Woodstock": [
+  41.9439,
+  -71.9453
+ ],
+ "Connecticut/Southbury": [
+  41.4767,
+  -73.2241
+ ],
+ "Connecticut/Southington": [
+  41.6052,
+  -72.8727
+ ],
+ "Connecticut/Southport": [
+  41.1428,
+  -73.2884
+ ],
+ "Connecticut/Stafford": [
+  41.9848,
+  -72.289
+ ],
+ "Connecticut/Stafford Springs": [
+  41.9661,
+  -72.2899
+ ],
+ "Connecticut/Staffordville": [
+  41.9916,
+  -72.2577
+ ],
+ "Connecticut/Stamford": [
+  41.06507,
+  -73.54001
+ ],
+ "Connecticut/Sterling": [
+  41.7156,
+  -71.8196
+ ],
+ "Connecticut/Stevenson": [
+  41.3866,
+  -73.1872
+ ],
+ "Connecticut/Stonington": [
+  41.3664,
+  -71.9155
+ ],
+ "Connecticut/Storrs Mansfield": [
+  41.7991,
+  -72.2519
+ ],
+ "Connecticut/Stratford": [
+  41.19433,
+  -73.128
+ ],
+ "Connecticut/Suffield": [
+  41.9859,
+  -72.6463
+ ],
+ "Connecticut/Taconic": [
+  42.032,
+  -73.4038
+ ],
+ "Connecticut/Taftville": [
+  41.5653,
+  -72.0529
+ ],
+ "Connecticut/Tariffville": [
+  41.9077,
+  -72.7678
+ ],
+ "Connecticut/Terryville": [
+  41.6762,
+  -73.0092
+ ],
+ "Connecticut/Thomaston": [
+  41.69315,
+  -73.0988
+ ],
+ "Connecticut/Thompson": [
+  41.9803,
+  -71.8376
+ ],
+ "Connecticut/Tolland": [
+  41.8696,
+  -72.3718
+ ],
+ "Connecticut/Torrington": [
+  41.77937,
+  -73.0822
+ ],
+ "Connecticut/Trumbull": [
+  41.2564,
+  -73.2111
+ ],
+ "Connecticut/Uncasville": [
+  41.4622,
+  -72.1126
+ ],
+ "Connecticut/Unionville": [
+  41.7542,
+  -72.9056
+ ],
+ "Connecticut/Vernon Rockville": [
+  41.8365,
+  -72.4633
+ ],
+ "Connecticut/Versailles": [
+  41.6016,
+  -72.0404
+ ],
+ "Connecticut/Voluntown": [
+  41.5831,
+  -71.855
+ ],
+ "Connecticut/Wallingford": [
+  41.39497,
+  -72.88917
+ ],
+ "Connecticut/Washington": [
+  41.6296,
+  -73.2884
+ ],
+ "Connecticut/Washington Depot": [
+  41.6574,
+  -73.3131
+ ],
+ "Connecticut/Waterbury": [
+  41.55658,
+  -73.03806
+ ],
+ "Connecticut/Waterford": [
+  41.33845,
+  -72.1379
+ ],
+ "Connecticut/Watertown": [
+  41.5983,
+  -73.1047
+ ],
+ "Connecticut/Wauregan": [
+  41.7445,
+  -71.9133
+ ],
+ "Connecticut/Weatogue": [
+  41.8372,
+  -72.8253
+ ],
+ "Connecticut/West Cornwall": [
+  41.8689,
+  -73.3313
+ ],
+ "Connecticut/West Granby": [
+  41.9556,
+  -72.862
+ ],
+ "Connecticut/West Hartford": [
+  41.77319,
+  -72.7271
+ ],
+ "Connecticut/West Hartland": [
+  42.0076,
+  -72.9707
+ ],
+ "Connecticut/West Haven": [
+  41.2701,
+  -72.9638
+ ],
+ "Connecticut/West Mystic": [
+  41.3441,
+  -71.9765
+ ],
+ "Connecticut/West Simsbury": [
+  41.8718,
+  -72.8577
+ ],
+ "Connecticut/West Suffield": [
+  42.0115,
+  -72.7362
+ ],
+ "Connecticut/Westbrook": [
+  41.2927,
+  -72.4563
+ ],
+ "Connecticut/Weston": [
+  41.2195,
+  -73.3715
+ ],
+ "Connecticut/Westport": [
+  41.1837,
+  -73.35452
+ ],
+ "Connecticut/Wethersfield": [
+  41.75303,
+  -72.68897
+ ],
+ "Connecticut/Willimantic": [
+  41.7149,
+  -72.2134
+ ],
+ "Connecticut/Willington": [
+  41.8944,
+  -72.2626
+ ],
+ "Connecticut/Wilton": [
+  41.2018,
+  -73.4383
+ ],
+ "Connecticut/Winchester Center": [
+  41.91075,
+  -73.1063
+ ],
+ "Connecticut/Windham": [
+  41.7027,
+  -72.1526
+ ],
+ "Connecticut/Windsor": [
+  41.85435,
+  -72.6538
+ ],
+ "Connecticut/Windsor Locks": [
+  41.9261,
+  -72.6458
+ ],
+ "Connecticut/Winsted": [
+  41.92725,
+  -72.99015
+ ],
+ "Connecticut/Wolcott": [
+  41.57365,
+  -72.98955
+ ],
+ "Connecticut/Woodbridge": [
+  41.3082,
+  -72.9282
+ ],
+ "Connecticut/Woodbury": [
+  41.5521,
+  -73.2083
+ ],
+ "Connecticut/Woodstock": [
+  41.9602,
+  -72.004
+ ],
+ "Connecticut/Woodstock Valley": [
+  41.9153,
+  -72.0937
+ ],
+ "Connecticut/Yantic": [
+  41.5598,
+  -72.1237
+ ],
+ "Maine/Abbot": [
+  45.2862,
+  -69.5528
+ ],
+ "Maine/Acton": [
+  43.5494,
+  -70.9307
+ ],
+ "Maine/Addison": [
+  44.583,
+  -67.7146
+ ],
+ "Maine/Albion": [
+  44.5355,
+  -69.4683
+ ],
+ "Maine/Alfred": [
+  43.4875,
+  -70.6961
+ ],
+ "Maine/Alna": [
+  44.0878,
+  -69.6344
+ ],
+ "Maine/Andover": [
+  44.6637,
+  -70.7967
+ ],
+ "Maine/Anson": [
+  44.7831,
+  -69.9309
+ ],
+ "Maine/Ashland": [
+  46.6184,
+  -68.3876
+ ],
+ "Maine/Athens": [
+  44.9388,
+  -69.6695
+ ],
+ "Maine/Auburn": [
+  44.16293,
+  -70.23933
+ ],
+ "Maine/Augusta": [
+  44.33484,
+  -69.77908
+ ],
+ "Maine/Aurora": [
+  44.8861,
+  -68.2959
+ ],
+ "Maine/Bailey Island": [
+  43.7341,
+  -69.9952
+ ],
+ "Maine/Baileyville": [
+  45.1285,
+  -67.451
+ ],
+ "Maine/Bangor": [
+  44.8127,
+  -68.7848
+ ],
+ "Maine/Bar Harbor": [
+  44.3738,
+  -68.2448
+ ],
+ "Maine/Bar Mills": [
+  43.6131,
+  -70.5498
+ ],
+ "Maine/Bass Harbor": [
+  44.2401,
+  -68.3439
+ ],
+ "Maine/Bath": [
+  43.9062,
+  -69.8266
+ ],
+ "Maine/Beals": [
+  44.513,
+  -67.6056
+ ],
+ "Maine/Belfast": [
+  44.4354,
+  -69.0148
+ ],
+ "Maine/Belgrade": [
+  44.4688,
+  -69.8606
+ ],
+ "Maine/Belgrade Lakes": [
+  44.5265,
+  -69.887
+ ],
+ "Maine/Benedicta": [
+  45.8125,
+  -68.4089
+ ],
+ "Maine/Bernard": [
+  44.2415,
+  -68.358
+ ],
+ "Maine/Berwick": [
+  43.2899,
+  -70.855
+ ],
+ "Maine/Bethel": [
+  44.4162,
+  -70.8037
+ ],
+ "Maine/Biddeford": [
+  43.4758,
+  -70.4968
+ ],
+ "Maine/Biddeford Pool": [
+  43.4448,
+  -70.3414
+ ],
+ "Maine/Bingham": [
+  45.0682,
+  -69.8857
+ ],
+ "Maine/Birch Harbor": [
+  44.3842,
+  -68.0317
+ ],
+ "Maine/Blaine": [
+  46.5048,
+  -67.8686
+ ],
+ "Maine/Blue Hill": [
+  44.4343,
+  -68.5885
+ ],
+ "Maine/Boothbay": [
+  43.87785,
+  -69.6544
+ ],
+ "Maine/Boothbay Harbor": [
+  43.8304,
+  -69.6292
+ ],
+ "Maine/Bowdoin": [
+  44.0576,
+  -69.9682
+ ],
+ "Maine/Bowdoinham": [
+  44.0101,
+  -69.8984
+ ],
+ "Maine/Bradford": [
+  45.0855,
+  -68.9235
+ ],
+ "Maine/Bradley": [
+  44.9015,
+  -68.6263
+ ],
+ "Maine/Bremen": [
+  44.0104,
+  -69.4402
+ ],
+ "Maine/Brewer": [
+  44.7874,
+  -68.7539
+ ],
+ "Maine/Bridgewater": [
+  46.4222,
+  -67.8415
+ ],
+ "Maine/Bridgton": [
+  44.052,
+  -70.7241
+ ],
+ "Maine/Bristol": [
+  43.9519,
+  -69.4954
+ ],
+ "Maine/Brooklin": [
+  44.2541,
+  -68.5565
+ ],
+ "Maine/Brooks": [
+  44.5678,
+  -69.1404
+ ],
+ "Maine/Brooksville": [
+  44.3756,
+  -68.7313
+ ],
+ "Maine/Brookton": [
+  45.5507,
+  -67.7436
+ ],
+ "Maine/Brownfield": [
+  43.9381,
+  -70.9087
+ ],
+ "Maine/Brownville": [
+  45.29385,
+  -69.0722
+ ],
+ "Maine/Brownville Junction": [
+  45.3512,
+  -69.0581
+ ],
+ "Maine/Brunswick": [
+  43.8973,
+  -69.9779
+ ],
+ "Maine/Bryant Pond": [
+  44.3957,
+  -70.6435
+ ],
+ "Maine/Buckfield": [
+  44.2877,
+  -70.3683
+ ],
+ "Maine/Bucksport": [
+  44.6015,
+  -68.7768
+ ],
+ "Maine/Burlington": [
+  45.2349,
+  -68.379
+ ],
+ "Maine/Burnham": [
+  44.6848,
+  -69.38
+ ],
+ "Maine/Bustins Island": [
+  43.799,
+  -70.0698
+ ],
+ "Maine/Buxton": [
+  43.6379,
+  -70.5189
+ ],
+ "Maine/Calais": [
+  45.1715,
+  -67.2641
+ ],
+ "Maine/Cambridge": [
+  45.0513,
+  -69.4419
+ ],
+ "Maine/Camden": [
+  44.2363,
+  -69.1117
+ ],
+ "Maine/Canaan": [
+  44.745,
+  -69.5498
+ ],
+ "Maine/Canton": [
+  44.4602,
+  -70.2998
+ ],
+ "Maine/Cape Elizabeth": [
+  43.6017,
+  -70.2301
+ ],
+ "Maine/Cape Neddick": [
+  43.2133,
+  -70.6397
+ ],
+ "Maine/Cape Porpoise": [
+  43.3657,
+  -70.6044
+ ],
+ "Maine/Caratunk": [
+  45.241,
+  -69.9386
+ ],
+ "Maine/Caribou": [
+  46.8706,
+  -68.0204
+ ],
+ "Maine/Carmel": [
+  44.8053,
+  -68.9942
+ ],
+ "Maine/Casco": [
+  43.9596,
+  -70.526
+ ],
+ "Maine/Castine": [
+  44.4143,
+  -68.79545
+ ],
+ "Maine/Center Lovell": [
+  44.181,
+  -70.8917
+ ],
+ "Maine/Chamberlain": [
+  43.8843,
+  -69.4792
+ ],
+ "Maine/Charleston": [
+  45.067,
+  -69.0869
+ ],
+ "Maine/Chebeague Island": [
+  43.7354,
+  -70.1169
+ ],
+ "Maine/Cherryfield": [
+  44.6228,
+  -67.9436
+ ],
+ "Maine/China Village": [
+  44.4788,
+  -69.5176
+ ],
+ "Maine/Clayton Lake": [
+  46.6109,
+  -69.5223
+ ],
+ "Maine/Cliff Island": [
+  43.6955,
+  -70.1071
+ ],
+ "Maine/Clinton": [
+  44.644,
+  -69.5284
+ ],
+ "Maine/Columbia Falls": [
+  44.6699,
+  -67.7534
+ ],
+ "Maine/Coopers Mills": [
+  44.2588,
+  -69.551
+ ],
+ "Maine/Corea": [
+  44.4053,
+  -67.985
+ ],
+ "Maine/Corinna": [
+  44.926,
+  -69.2323
+ ],
+ "Maine/Corinth": [
+  44.9803,
+  -69.0106
+ ],
+ "Maine/Cornish": [
+  43.7796,
+  -70.7784
+ ],
+ "Maine/Cranberry Isles": [
+  44.2484,
+  -68.2603
+ ],
+ "Maine/Crouseville": [
+  46.755,
+  -68.0964
+ ],
+ "Maine/Cumberland Center": [
+  43.7974,
+  -70.2649
+ ],
+ "Maine/Cumberland Foreside": [
+  43.759,
+  -70.1993
+ ],
+ "Maine/Cushing": [
+  43.9867,
+  -69.2721
+ ],
+ "Maine/Cutler": [
+  44.6753,
+  -67.2499
+ ],
+ "Maine/Damariscotta": [
+  44.0293,
+  -69.5042
+ ],
+ "Maine/Danforth": [
+  45.6687,
+  -67.8688
+ ],
+ "Maine/Danville": [
+  44.0239,
+  -70.2857
+ ],
+ "Maine/Deer Isle": [
+  44.234,
+  -68.6448
+ ],
+ "Maine/Denmark": [
+  43.9755,
+  -70.7924
+ ],
+ "Maine/Dennysville": [
+  44.8961,
+  -67.2244
+ ],
+ "Maine/Detroit": [
+  44.7615,
+  -69.3227
+ ],
+ "Maine/Dexter": [
+  45.0203,
+  -69.2797
+ ],
+ "Maine/Dixfield": [
+  44.5548,
+  -70.4241
+ ],
+ "Maine/Dixmont": [
+  44.6991,
+  -69.1025
+ ],
+ "Maine/Dover Foxcroft": [
+  45.1877,
+  -69.2045
+ ],
+ "Maine/Dresden": [
+  44.0766,
+  -69.7401
+ ],
+ "Maine/Dryden": [
+  44.6027,
+  -70.2265
+ ],
+ "Maine/Durham": [
+  43.9614,
+  -70.1308
+ ],
+ "Maine/Eagle Lake": [
+  47.01,
+  -68.691
+ ],
+ "Maine/East Andover": [
+  44.6084,
+  -70.6993
+ ],
+ "Maine/East Baldwin": [
+  43.8646,
+  -70.6922
+ ],
+ "Maine/East Blue Hill": [
+  44.4176,
+  -68.5225
+ ],
+ "Maine/East Boothbay": [
+  43.8262,
+  -69.5939
+ ],
+ "Maine/East Dixfield": [
+  44.5734,
+  -70.3037
+ ],
+ "Maine/East Livermore": [
+  44.3994,
+  -70.1303
+ ],
+ "Maine/East Machias": [
+  44.7424,
+  -67.3821
+ ],
+ "Maine/East Millinocket": [
+  45.63,
+  -68.5728
+ ],
+ "Maine/East Newport": [
+  44.8209,
+  -69.2225
+ ],
+ "Maine/East Orland": [
+  44.5612,
+  -68.6647
+ ],
+ "Maine/East Parsonsfield": [
+  43.7334,
+  -70.8434
+ ],
+ "Maine/East Poland": [
+  44.0627,
+  -70.327
+ ],
+ "Maine/East Vassalboro": [
+  44.4478,
+  -69.6059
+ ],
+ "Maine/East Waterboro": [
+  43.5995,
+  -70.6906
+ ],
+ "Maine/East Wilton": [
+  44.6159,
+  -70.1928
+ ],
+ "Maine/East Winthrop": [
+  44.3217,
+  -69.8964
+ ],
+ "Maine/Easton": [
+  46.6357,
+  -67.9018
+ ],
+ "Maine/Eastport": [
+  44.92,
+  -67.0074
+ ],
+ "Maine/Eddington": [
+  44.7917,
+  -68.5777
+ ],
+ "Maine/Edgecomb": [
+  43.9792,
+  -69.6197
+ ],
+ "Maine/Eliot": [
+  43.1309,
+  -70.7822
+ ],
+ "Maine/Ellsworth": [
+  44.5548,
+  -68.4121
+ ],
+ "Maine/Estcourt Station": [
+  47.4589,
+  -69.2243
+ ],
+ "Maine/Etna": [
+  44.7932,
+  -69.1322
+ ],
+ "Maine/Eustis": [
+  45.3356,
+  -70.6283
+ ],
+ "Maine/Exeter": [
+  44.9639,
+  -69.1461
+ ],
+ "Maine/Fairfield": [
+  44.6463,
+  -69.6802
+ ],
+ "Maine/Falmouth": [
+  43.734,
+  -70.2625
+ ],
+ "Maine/Farmingdale": [
+  44.2523,
+  -69.7913
+ ],
+ "Maine/Farmington": [
+  44.6653,
+  -70.1329
+ ],
+ "Maine/Farmington Falls": [
+  44.6226,
+  -70.0752
+ ],
+ "Maine/Fort Fairfield": [
+  46.7623,
+  -67.8402
+ ],
+ "Maine/Fort Kent": [
+  47.2587,
+  -68.5895
+ ],
+ "Maine/Fort Kent Mills": [
+  47.2389,
+  -68.5839
+ ],
+ "Maine/Frankfort": [
+  44.5979,
+  -68.934
+ ],
+ "Maine/Franklin": [
+  44.6087,
+  -68.2417
+ ],
+ "Maine/Freedom": [
+  44.4633,
+  -69.319
+ ],
+ "Maine/Freeport": [
+  43.857,
+  -70.1031
+ ],
+ "Maine/Frenchboro": [
+  44.1181,
+  -68.3625
+ ],
+ "Maine/Frenchville": [
+  47.2826,
+  -68.3917
+ ],
+ "Maine/Friendship": [
+  43.9807,
+  -69.3349
+ ],
+ "Maine/Fryeburg": [
+  44.0313,
+  -70.9668
+ ],
+ "Maine/Gardiner": [
+  44.207,
+  -69.7858
+ ],
+ "Maine/Garland": [
+  45.0149,
+  -69.157
+ ],
+ "Maine/Georgetown": [
+  43.8054,
+  -69.7453
+ ],
+ "Maine/Glen Cove": [
+  44.11,
+  -69.08
+ ],
+ "Maine/Gorham": [
+  43.6843,
+  -70.468
+ ],
+ "Maine/Gouldsboro": [
+  44.4731,
+  -68.0899
+ ],
+ "Maine/Grand Isle": [
+  47.3044,
+  -68.1542
+ ],
+ "Maine/Grand Lake Stream": [
+  45.1963,
+  -67.6876
+ ],
+ "Maine/Gray": [
+  43.8942,
+  -70.3429
+ ],
+ "Maine/Greenbush": [
+  45.0803,
+  -68.6509
+ ],
+ "Maine/Greene": [
+  44.1891,
+  -70.1455
+ ],
+ "Maine/Greenville": [
+  45.41625,
+  -69.6023
+ ],
+ "Maine/Greenville Junction": [
+  45.4796,
+  -69.6939
+ ],
+ "Maine/Greenwood": [
+  44.3184,
+  -70.6509
+ ],
+ "Maine/Guilford": [
+  45.1735,
+  -69.3975
+ ],
+ "Maine/Hallowell": [
+  44.2864,
+  -69.8057
+ ],
+ "Maine/Hampden": [
+  44.7411,
+  -68.8731
+ ],
+ "Maine/Hancock": [
+  44.5046,
+  -68.2402
+ ],
+ "Maine/Hanover": [
+  44.4959,
+  -70.7167
+ ],
+ "Maine/Harborside": [
+  44.334,
+  -68.8042
+ ],
+ "Maine/Harmony": [
+  44.973,
+  -69.5481
+ ],
+ "Maine/Harpswell": [
+  43.7811,
+  -69.9955
+ ],
+ "Maine/Harrington": [
+  44.6122,
+  -67.8147
+ ],
+ "Maine/Harrison": [
+  44.1071,
+  -70.6539
+ ],
+ "Maine/Hartland": [
+  44.8782,
+  -69.4718
+ ],
+ "Maine/Hebron": [
+  44.2021,
+  -70.3754
+ ],
+ "Maine/Hinckley": [
+  44.6847,
+  -69.6425
+ ],
+ "Maine/Hiram": [
+  43.8622,
+  -70.8531
+ ],
+ "Maine/Holden": [
+  44.7208,
+  -68.6165
+ ],
+ "Maine/Hollis Center": [
+  43.5946,
+  -70.6051
+ ],
+ "Maine/Hope": [
+  44.2589,
+  -69.1467
+ ],
+ "Maine/Houlton": [
+  46.10965,
+  -67.9332
+ ],
+ "Maine/Howland": [
+  45.2456,
+  -68.6666
+ ],
+ "Maine/Hudson": [
+  44.9914,
+  -68.8878
+ ],
+ "Maine/Hulls Cove": [
+  44.4192,
+  -68.2506
+ ],
+ "Maine/Island Falls": [
+  46.0169,
+  -68.2667
+ ],
+ "Maine/Isle Au Haut": [
+  44.0561,
+  -68.6206
+ ],
+ "Maine/Isle Of Springs": [
+  43.8612,
+  -69.6815
+ ],
+ "Maine/Islesboro": [
+  44.3082,
+  -68.9073
+ ],
+ "Maine/Islesford": [
+  44.262,
+  -68.2339
+ ],
+ "Maine/Jackman": [
+  45.6351,
+  -70.2492
+ ],
+ "Maine/Jay": [
+  44.516,
+  -70.2099
+ ],
+ "Maine/Jefferson": [
+  44.2204,
+  -69.5133
+ ],
+ "Maine/Jonesboro": [
+  44.6582,
+  -67.5777
+ ],
+ "Maine/Jonesport": [
+  44.5509,
+  -67.6044
+ ],
+ "Maine/Kenduskeag": [
+  44.9183,
+  -68.9342
+ ],
+ "Maine/Kennebunk": [
+  43.3881,
+  -70.5478
+ ],
+ "Maine/Kennebunkport": [
+  43.3923,
+  -70.4729
+ ],
+ "Maine/Kents Hill": [
+  44.4383,
+  -70.0748
+ ],
+ "Maine/Kingfield": [
+  44.9854,
+  -70.1832
+ ],
+ "Maine/Kingman": [
+  45.5984,
+  -68.2366
+ ],
+ "Maine/Kittery": [
+  43.0921,
+  -70.7429
+ ],
+ "Maine/Kittery Point": [
+  43.0976,
+  -70.7121
+ ],
+ "Maine/Lagrange": [
+  45.1789,
+  -68.8345
+ ],
+ "Maine/Lambert Lake": [
+  45.5459,
+  -67.5269
+ ],
+ "Maine/Lebanon": [
+  43.4597,
+  -70.9152
+ ],
+ "Maine/Lee": [
+  45.3635,
+  -68.2909
+ ],
+ "Maine/Leeds": [
+  44.2834,
+  -70.1253
+ ],
+ "Maine/Levant": [
+  44.8843,
+  -68.9837
+ ],
+ "Maine/Lewiston": [
+  44.16417,
+  -70.22353
+ ],
+ "Maine/Liberty": [
+  44.3741,
+  -69.3306
+ ],
+ "Maine/Limerick": [
+  43.6963,
+  -70.7866
+ ],
+ "Maine/Limestone": [
+  46.90885,
+  -67.9047
+ ],
+ "Maine/Limington": [
+  43.726,
+  -70.6752
+ ],
+ "Maine/Lincoln": [
+  45.3508,
+  -68.5077
+ ],
+ "Maine/Lincolnville": [
+  44.3048,
+  -69.0824
+ ],
+ "Maine/Lincolnville Center": [
+  44.2979,
+  -69.1075
+ ],
+ "Maine/Lisbon": [
+  44.01165,
+  -70.09365
+ ],
+ "Maine/Lisbon Falls": [
+  43.9978,
+  -70.0734
+ ],
+ "Maine/Litchfield": [
+  44.1654,
+  -69.9377
+ ],
+ "Maine/Little Deer Isle": [
+  44.2847,
+  -68.7058
+ ],
+ "Maine/Livermore": [
+  44.4079,
+  -70.215
+ ],
+ "Maine/Livermore Falls": [
+  44.4325,
+  -70.1427
+ ],
+ "Maine/Long Island": [
+  43.692,
+  -70.1551
+ ],
+ "Maine/Lovell": [
+  44.1614,
+  -70.93
+ ],
+ "Maine/Lubec": [
+  44.9043,
+  -67.0408
+ ],
+ "Maine/Machias": [
+  44.85345,
+  -67.59055
+ ],
+ "Maine/Machiasport": [
+  44.682,
+  -67.4073
+ ],
+ "Maine/Madawaska": [
+  47.3294,
+  -68.3328
+ ],
+ "Maine/Madison": [
+  44.8096,
+  -69.8449
+ ],
+ "Maine/Manchester": [
+  44.358,
+  -69.867
+ ],
+ "Maine/Mapleton": [
+  46.6746,
+  -68.1536
+ ],
+ "Maine/Mars Hill": [
+  46.5223,
+  -67.863
+ ],
+ "Maine/Matinicus": [
+  43.8651,
+  -68.887
+ ],
+ "Maine/Mattawamkeag": [
+  45.5264,
+  -68.352
+ ],
+ "Maine/Mechanic Falls": [
+  44.1117,
+  -70.3917
+ ],
+ "Maine/Meddybemps": [
+  45.0193,
+  -67.3829
+ ],
+ "Maine/Medway": [
+  45.607,
+  -68.5227
+ ],
+ "Maine/Mexico": [
+  44.5628,
+  -70.5358
+ ],
+ "Maine/Milbridge": [
+  44.5366,
+  -67.8844
+ ],
+ "Maine/Milford": [
+  44.9393,
+  -68.6296
+ ],
+ "Maine/Millinocket": [
+  45.6596,
+  -68.7101
+ ],
+ "Maine/Milo": [
+  45.2446,
+  -68.976
+ ],
+ "Maine/Minot": [
+  44.1461,
+  -70.3399
+ ],
+ "Maine/Monhegan": [
+  43.7642,
+  -69.3164
+ ],
+ "Maine/Monmouth": [
+  44.2208,
+  -70.0263
+ ],
+ "Maine/Monroe": [
+  44.5927,
+  -69.0317
+ ],
+ "Maine/Monson": [
+  45.2981,
+  -69.488
+ ],
+ "Maine/Monticello": [
+  46.3007,
+  -67.8414
+ ],
+ "Maine/Moody": [
+  43.2763,
+  -70.5978
+ ],
+ "Maine/Morrill": [
+  44.4107,
+  -69.1471
+ ],
+ "Maine/Mount Desert": [
+  44.3366,
+  -68.3721
+ ],
+ "Maine/Mount Vernon": [
+  44.4993,
+  -69.9903
+ ],
+ "Maine/Naples": [
+  43.9681,
+  -70.5988
+ ],
+ "Maine/New Gloucester": [
+  43.9608,
+  -70.2974
+ ],
+ "Maine/New Harbor": [
+  43.87645,
+  -69.5184
+ ],
+ "Maine/New Limerick": [
+  46.1004,
+  -68.0034
+ ],
+ "Maine/New Portland": [
+  44.90465,
+  -70.0599
+ ],
+ "Maine/New Sharon": [
+  44.6458,
+  -70.0139
+ ],
+ "Maine/New Sweden": [
+  46.9559,
+  -68.1154
+ ],
+ "Maine/New Vineyard": [
+  44.7967,
+  -70.122
+ ],
+ "Maine/Newcastle": [
+  44.0499,
+  -69.5331
+ ],
+ "Maine/Newfield": [
+  43.6584,
+  -70.8689
+ ],
+ "Maine/Newport": [
+  44.8393,
+  -69.2675
+ ],
+ "Maine/Newry": [
+  44.6895,
+  -71.0112
+ ],
+ "Maine/Nobleboro": [
+  44.0943,
+  -69.4828
+ ],
+ "Maine/Norridgewock": [
+  44.6899,
+  -69.8306
+ ],
+ "Maine/North Anson": [
+  44.8797,
+  -69.9119
+ ],
+ "Maine/North Berwick": [
+  43.3254,
+  -70.7212
+ ],
+ "Maine/North Bridgton": [
+  44.0987,
+  -70.6987
+ ],
+ "Maine/North Haven": [
+  44.1436,
+  -68.8667
+ ],
+ "Maine/North Jay": [
+  44.5473,
+  -70.2381
+ ],
+ "Maine/North Monmouth": [
+  44.2753,
+  -70.0367
+ ],
+ "Maine/North Turner": [
+  44.358,
+  -70.2558
+ ],
+ "Maine/North Vassalboro": [
+  44.4862,
+  -69.6225
+ ],
+ "Maine/North Waterboro": [
+  43.64,
+  -70.7298
+ ],
+ "Maine/North Waterford": [
+  44.2317,
+  -70.7687
+ ],
+ "Maine/North Yarmouth": [
+  43.8579,
+  -70.2341
+ ],
+ "Maine/Northeast Harbor": [
+  44.2941,
+  -68.2849
+ ],
+ "Maine/Norway": [
+  44.2127,
+  -70.5601
+ ],
+ "Maine/Oakfield": [
+  46.1088,
+  -68.1298
+ ],
+ "Maine/Oakland": [
+  44.5173,
+  -69.7401
+ ],
+ "Maine/Ocean Park": [
+  43.5006,
+  -70.3862
+ ],
+ "Maine/Ogunquit": [
+  43.2541,
+  -70.6094
+ ],
+ "Maine/Old Orchard Beach": [
+  43.5254,
+  -70.3883
+ ],
+ "Maine/Old Town": [
+  44.943,
+  -68.675
+ ],
+ "Maine/Oquossoc": [
+  44.9664,
+  -70.7737
+ ],
+ "Maine/Orient": [
+  45.8911,
+  -67.8471
+ ],
+ "Maine/Orland": [
+  44.5458,
+  -68.7313
+ ],
+ "Maine/Orono": [
+  44.94465,
+  -68.6753
+ ],
+ "Maine/Orrington": [
+  44.7263,
+  -68.7876
+ ],
+ "Maine/Orrs Island": [
+  43.7727,
+  -69.9668
+ ],
+ "Maine/Owls Head": [
+  44.0732,
+  -69.0894
+ ],
+ "Maine/Oxbow": [
+  46.402,
+  -68.5218
+ ],
+ "Maine/Oxford": [
+  44.1118,
+  -70.5098
+ ],
+ "Maine/Palermo": [
+  44.3843,
+  -69.4334
+ ],
+ "Maine/Palmyra": [
+  44.8576,
+  -69.3811
+ ],
+ "Maine/Paris": [
+  44.2641,
+  -70.4985
+ ],
+ "Maine/Parsonsfield": [
+  43.745,
+  -70.9092
+ ],
+ "Maine/Passadumkeag": [
+  45.1815,
+  -68.5871
+ ],
+ "Maine/Patten": [
+  46.0132,
+  -68.4647
+ ],
+ "Maine/Peaks Island": [
+  43.6589,
+  -70.194
+ ],
+ "Maine/Pemaquid": [
+  43.8924,
+  -69.5289
+ ],
+ "Maine/Pembroke": [
+  44.9654,
+  -67.2002
+ ],
+ "Maine/Penobscot": [
+  44.4645,
+  -68.7111
+ ],
+ "Maine/Perham": [
+  46.8816,
+  -68.2391
+ ],
+ "Maine/Perry": [
+  44.9888,
+  -67.0929
+ ],
+ "Maine/Peru": [
+  44.4944,
+  -70.4435
+ ],
+ "Maine/Phillips": [
+  44.8375,
+  -70.3601
+ ],
+ "Maine/Phippsburg": [
+  43.7688,
+  -69.815
+ ],
+ "Maine/Pittsfield": [
+  44.7871,
+  -69.4022
+ ],
+ "Maine/Plymouth": [
+  44.7699,
+  -69.2266
+ ],
+ "Maine/Poland": [
+  44.0474,
+  -70.3899
+ ],
+ "Maine/Port Clyde": [
+  43.9273,
+  -69.2528
+ ],
+ "Maine/Portage": [
+  46.7753,
+  -68.4877
+ ],
+ "Maine/Porter": [
+  43.8262,
+  -70.9243
+ ],
+ "Maine/Portland": [
+  43.66807,
+  -70.24728
+ ],
+ "Maine/Pownal": [
+  43.8945,
+  -70.1835
+ ],
+ "Maine/Presque Isle": [
+  46.6842,
+  -68.0118
+ ],
+ "Maine/Princeton": [
+  45.2131,
+  -67.6008
+ ],
+ "Maine/Prospect Harbor": [
+  44.411,
+  -68.0141
+ ],
+ "Maine/Randolph": [
+  44.2347,
+  -69.7506
+ ],
+ "Maine/Rangeley": [
+  44.9631,
+  -70.6658
+ ],
+ "Maine/Raymond": [
+  43.9219,
+  -70.4498
+ ],
+ "Maine/Readfield": [
+  44.4032,
+  -69.9506
+ ],
+ "Maine/Richmond": [
+  44.1042,
+  -69.8211
+ ],
+ "Maine/Robbinston": [
+  45.067,
+  -67.1433
+ ],
+ "Maine/Rockland": [
+  44.1123,
+  -69.1139
+ ],
+ "Maine/Rockport": [
+  44.1888,
+  -69.0901
+ ],
+ "Maine/Rockwood": [
+  45.8641,
+  -69.8768
+ ],
+ "Maine/Round Pond": [
+  43.925,
+  -69.4662
+ ],
+ "Maine/Roxbury": [
+  44.6566,
+  -70.6092
+ ],
+ "Maine/Rumford": [
+  44.5434,
+  -70.5645
+ ],
+ "Maine/Sabattus": [
+  44.1133,
+  -70.0748
+ ],
+ "Maine/Saco": [
+  43.5209,
+  -70.4546
+ ],
+ "Maine/Saint Agatha": [
+  47.2387,
+  -68.3232
+ ],
+ "Maine/Saint Albans": [
+  44.9293,
+  -69.3992
+ ],
+ "Maine/Saint David": [
+  47.3343,
+  -68.2314
+ ],
+ "Maine/Saint Francis": [
+  47.1407,
+  -68.9503
+ ],
+ "Maine/Salsbury Cove": [
+  44.4306,
+  -68.2836
+ ],
+ "Maine/Sandy Point": [
+  44.5148,
+  -68.8128
+ ],
+ "Maine/Sanford": [
+  43.4285,
+  -70.7585
+ ],
+ "Maine/Sangerville": [
+  45.1406,
+  -69.3218
+ ],
+ "Maine/Sargentville": [
+  44.3136,
+  -68.6863
+ ],
+ "Maine/Scarborough": [
+  43.58025,
+  -70.30965
+ ],
+ "Maine/Seal Cove": [
+  44.2859,
+  -68.3986
+ ],
+ "Maine/Seal Harbor": [
+  44.299,
+  -68.2463
+ ],
+ "Maine/Searsmont": [
+  44.377,
+  -69.2196
+ ],
+ "Maine/Searsport": [
+  44.4877,
+  -68.9311
+ ],
+ "Maine/Sebago": [
+  43.8911,
+  -70.6623
+ ],
+ "Maine/Sebasco Estates": [
+  43.7733,
+  -69.8635
+ ],
+ "Maine/Sebec": [
+  45.2171,
+  -69.1533
+ ],
+ "Maine/Sedgwick": [
+  44.3355,
+  -68.6377
+ ],
+ "Maine/Shapleigh": [
+  43.5674,
+  -70.8286
+ ],
+ "Maine/Shawmut": [
+  44.6245,
+  -69.5869
+ ],
+ "Maine/Sheridan": [
+  46.63785,
+  -68.3963
+ ],
+ "Maine/Sherman": [
+  45.8731,
+  -68.3847
+ ],
+ "Maine/Shirley Mills": [
+  45.3609,
+  -69.6202
+ ],
+ "Maine/Sinclair": [
+  47.1222,
+  -68.323
+ ],
+ "Maine/Skowhegan": [
+  44.7772,
+  -69.6976
+ ],
+ "Maine/Smithfield": [
+  44.6301,
+  -69.8075
+ ],
+ "Maine/Smyrna Mills": [
+  46.1464,
+  -68.2064
+ ],
+ "Maine/Solon": [
+  44.9676,
+  -69.833
+ ],
+ "Maine/Sorrento": [
+  44.4907,
+  -68.1787
+ ],
+ "Maine/South Berwick": [
+  43.2292,
+  -70.7859
+ ],
+ "Maine/South Bristol": [
+  43.8677,
+  -69.5614
+ ],
+ "Maine/South Casco": [
+  43.91,
+  -70.5245
+ ],
+ "Maine/South China": [
+  44.3953,
+  -69.5804
+ ],
+ "Maine/South Freeport": [
+  43.8099,
+  -70.0953
+ ],
+ "Maine/South Gardiner": [
+  44.1801,
+  -69.7567
+ ],
+ "Maine/South Paris": [
+  44.2167,
+  -70.5012
+ ],
+ "Maine/South Portland": [
+  43.63665,
+  -70.2559
+ ],
+ "Maine/South Thomaston": [
+  44.0378,
+  -69.1359
+ ],
+ "Maine/South Windham": [
+  43.7362,
+  -70.4237
+ ],
+ "Maine/Southport": [
+  43.8199,
+  -69.6626
+ ],
+ "Maine/Southwest Harbor": [
+  44.2823,
+  -68.3265
+ ],
+ "Maine/Springfield": [
+  45.4264,
+  -68.1108
+ ],
+ "Maine/Springvale": [
+  43.4715,
+  -70.8064
+ ],
+ "Maine/Spruce Head": [
+  44.0104,
+  -69.1707
+ ],
+ "Maine/Squirrel Island": [
+  43.809,
+  -69.6306
+ ],
+ "Maine/Stacyville": [
+  45.8637,
+  -68.5053
+ ],
+ "Maine/Standish": [
+  43.8321,
+  -70.55535
+ ],
+ "Maine/Steep Falls": [
+  43.7719,
+  -70.6396
+ ],
+ "Maine/Stetson": [
+  44.8843,
+  -69.1069
+ ],
+ "Maine/Steuben": [
+  44.4971,
+  -67.9503
+ ],
+ "Maine/Stillwater": [
+  44.9084,
+  -68.6864
+ ],
+ "Maine/Stockholm": [
+  47.0423,
+  -68.1395
+ ],
+ "Maine/Stockton Springs": [
+  44.5141,
+  -68.856
+ ],
+ "Maine/Stoneham": [
+  44.2641,
+  -70.8875
+ ],
+ "Maine/Stonington": [
+  44.11565,
+  -68.6476
+ ],
+ "Maine/Stratton": [
+  45.1116,
+  -70.423
+ ],
+ "Maine/Strong": [
+  44.8224,
+  -70.2221
+ ],
+ "Maine/Sullivan": [
+  44.5458,
+  -68.1279
+ ],
+ "Maine/Sumner": [
+  44.374,
+  -70.4469
+ ],
+ "Maine/Sunset": [
+  44.2059,
+  -68.7047
+ ],
+ "Maine/Surry": [
+  44.45295,
+  -68.5144
+ ],
+ "Maine/Swans Island": [
+  44.1451,
+  -68.4517
+ ],
+ "Maine/Temple": [
+  44.6954,
+  -70.2426
+ ],
+ "Maine/Tenants Harbor": [
+  43.98295,
+  -69.2011
+ ],
+ "Maine/Thomaston": [
+  44.0846,
+  -69.1888
+ ],
+ "Maine/Thorndike": [
+  44.5744,
+  -69.2487
+ ],
+ "Maine/Topsfield": [
+  45.4304,
+  -67.7473
+ ],
+ "Maine/Topsham": [
+  43.9814,
+  -69.9378
+ ],
+ "Maine/Trevett": [
+  43.8826,
+  -69.6801
+ ],
+ "Maine/Troy": [
+  44.6757,
+  -69.2549
+ ],
+ "Maine/Turner": [
+  44.2557,
+  -70.2494
+ ],
+ "Maine/Union": [
+  44.2619,
+  -69.2771
+ ],
+ "Maine/Unity": [
+  44.6007,
+  -69.3328
+ ],
+ "Maine/Van Buren": [
+  47.1589,
+  -67.9459
+ ],
+ "Maine/Vanceboro": [
+  45.5634,
+  -67.4297
+ ],
+ "Maine/Vassalboro": [
+  44.4405,
+  -69.6519
+ ],
+ "Maine/Vienna": [
+  44.5475,
+  -70.003
+ ],
+ "Maine/Vinalhaven": [
+  44.0397,
+  -68.8368
+ ],
+ "Maine/Waite": [
+  45.3898,
+  -67.71265
+ ],
+ "Maine/Waldoboro": [
+  44.1046,
+  -69.3745
+ ],
+ "Maine/Wallagrass": [
+  47.1295,
+  -68.5973
+ ],
+ "Maine/Walpole": [
+  43.9462,
+  -69.5516
+ ],
+ "Maine/Warren": [
+  44.1271,
+  -69.2479
+ ],
+ "Maine/Washburn": [
+  46.7883,
+  -68.1338
+ ],
+ "Maine/Washington": [
+  44.2693,
+  -69.3842
+ ],
+ "Maine/Waterboro": [
+  43.5661,
+  -70.7431
+ ],
+ "Maine/Waterford": [
+  44.1964,
+  -70.7542
+ ],
+ "Maine/Waterville": [
+  44.55175,
+  -69.6655
+ ],
+ "Maine/Wayne": [
+  44.3493,
+  -70.0712
+ ],
+ "Maine/Weld": [
+  44.7016,
+  -70.4249
+ ],
+ "Maine/Wells": [
+  43.3144,
+  -70.5969
+ ],
+ "Maine/Wesley": [
+  44.9854,
+  -67.6991
+ ],
+ "Maine/West Baldwin": [
+  43.8299,
+  -70.749
+ ],
+ "Maine/West Bethel": [
+  44.4021,
+  -70.8601
+ ],
+ "Maine/West Boothbay Harbor": [
+  43.849,
+  -69.6434
+ ],
+ "Maine/West Enfield": [
+  45.2378,
+  -68.5338
+ ],
+ "Maine/West Farmington": [
+  44.6628,
+  -70.153
+ ],
+ "Maine/West Forks": [
+  45.3839,
+  -69.9841
+ ],
+ "Maine/West Kennebunk": [
+  43.4061,
+  -70.5733
+ ],
+ "Maine/West Minot": [
+  44.1712,
+  -70.3659
+ ],
+ "Maine/West Newfield": [
+  43.601,
+  -70.9027
+ ],
+ "Maine/West Paris": [
+  44.3253,
+  -70.5732
+ ],
+ "Maine/West Poland": [
+  44.0409,
+  -70.453
+ ],
+ "Maine/West Rockport": [
+  44.1924,
+  -69.1211
+ ],
+ "Maine/Westbrook": [
+  43.68065,
+  -70.3646
+ ],
+ "Maine/Westfield": [
+  46.5945,
+  -67.9302
+ ],
+ "Maine/Whitefield": [
+  44.1884,
+  -69.5751
+ ],
+ "Maine/Whiting": [
+  44.7622,
+  -67.2515
+ ],
+ "Maine/Wilton": [
+  44.5928,
+  -70.2281
+ ],
+ "Maine/Windham": [
+  43.76395,
+  -70.41465
+ ],
+ "Maine/Windsor": [
+  44.3009,
+  -69.5806
+ ],
+ "Maine/Winn": [
+  45.4568,
+  -68.3575
+ ],
+ "Maine/Winter Harbor": [
+  44.39,
+  -68.0843
+ ],
+ "Maine/Winterport": [
+  44.6552,
+  -68.8862
+ ],
+ "Maine/Winthrop": [
+  44.3229,
+  -69.9576
+ ],
+ "Maine/Wiscasset": [
+  44.0074,
+  -69.6826
+ ],
+ "Maine/Woolwich": [
+  43.9503,
+  -69.7891
+ ],
+ "Maine/Wytopitlock": [
+  45.6645,
+  -68.1055
+ ],
+ "Maine/Yarmouth": [
+  43.8009,
+  -70.175
+ ],
+ "Maine/York": [
+  43.1544,
+  -70.6578
+ ],
+ "Maine/York Beach": [
+  43.1715,
+  -70.6089
+ ],
+ "Maine/York Harbor": [
+  43.1368,
+  -70.6456
+ ],
+ "Massachusetts/Abington": [
+  42.1167,
+  -70.9543
+ ],
+ "Massachusetts/Accord": [
+  42.1745,
+  -70.8837
+ ],
+ "Massachusetts/Acton": [
+  42.48387,
+  -71.46627
+ ],
+ "Massachusetts/Acushnet": [
+  41.6955,
+  -70.9221
+ ],
+ "Massachusetts/Adams": [
+  42.6223,
+  -73.1172
+ ],
+ "Massachusetts/Agawam": [
+  42.0702,
+  -72.6227
+ ],
+ "Massachusetts/Allston": [
+  42.3535,
+  -71.1329
+ ],
+ "Massachusetts/Amesbury": [
+  42.8559,
+  -70.9367
+ ],
+ "Massachusetts/Amherst": [
+  42.38847,
+  -72.50838
+ ],
+ "Massachusetts/Andover": [
+  42.64992,
+  -71.16922
+ ],
+ "Massachusetts/Arlington": [
+  42.4182,
+  -71.16585
+ ],
+ "Massachusetts/Arlington Heights": [
+  42.4204,
+  -71.1801
+ ],
+ "Massachusetts/Ashburnham": [
+  42.6496,
+  -71.9267
+ ],
+ "Massachusetts/Ashby": [
+  42.6745,
+  -71.8174
+ ],
+ "Massachusetts/Ashfield": [
+  42.5232,
+  -72.811
+ ],
+ "Massachusetts/Ashland": [
+  42.2539,
+  -71.4583
+ ],
+ "Massachusetts/Ashley Falls": [
+  42.0596,
+  -73.3202
+ ],
+ "Massachusetts/Assonet": [
+  41.7975,
+  -71.0607
+ ],
+ "Massachusetts/Athol": [
+  42.5959,
+  -72.2267
+ ],
+ "Massachusetts/Attleboro": [
+  41.9296,
+  -71.3009
+ ],
+ "Massachusetts/Attleboro Falls": [
+  41.9726,
+  -71.3082
+ ],
+ "Massachusetts/Auburn": [
+  42.2055,
+  -71.8391
+ ],
+ "Massachusetts/Auburndale": [
+  42.3441,
+  -71.248
+ ],
+ "Massachusetts/Avon": [
+  42.1258,
+  -71.0437
+ ],
+ "Massachusetts/Ayer": [
+  42.5488,
+  -71.59515
+ ],
+ "Massachusetts/Babson Park": [
+  42.2987,
+  -71.2595
+ ],
+ "Massachusetts/Baldwinville": [
+  42.5936,
+  -72.0646
+ ],
+ "Massachusetts/Barnstable": [
+  41.6983,
+  -70.3001
+ ],
+ "Massachusetts/Barre": [
+  42.4097,
+  -72.1084
+ ],
+ "Massachusetts/Becket": [
+  42.3594,
+  -73.1203
+ ],
+ "Massachusetts/Bedford": [
+  42.4737,
+  -71.28095
+ ],
+ "Massachusetts/Belchertown": [
+  42.2751,
+  -72.411
+ ],
+ "Massachusetts/Bellingham": [
+  42.0746,
+  -71.4768
+ ],
+ "Massachusetts/Belmont": [
+  42.3959,
+  -71.1787
+ ],
+ "Massachusetts/Berkley": [
+  41.8353,
+  -71.0765
+ ],
+ "Massachusetts/Berkshire": [
+  42.5126,
+  -73.1929
+ ],
+ "Massachusetts/Berlin": [
+  42.3844,
+  -71.6356
+ ],
+ "Massachusetts/Bernardston": [
+  42.6952,
+  -72.5772
+ ],
+ "Massachusetts/Beverly": [
+  42.5608,
+  -70.8759
+ ],
+ "Massachusetts/Billerica": [
+  42.55515,
+  -71.26035
+ ],
+ "Massachusetts/Blackstone": [
+  42.0287,
+  -71.5269
+ ],
+ "Massachusetts/Blandford": [
+  42.1829,
+  -72.9361
+ ],
+ "Massachusetts/Bolton": [
+  42.4365,
+  -71.6076
+ ],
+ "Massachusetts/Bondsville": [
+  42.2061,
+  -72.3405
+ ],
+ "Massachusetts/Boston": [
+  42.33881,
+  -71.05863
+ ],
+ "Massachusetts/Boxborough": [
+  42.4914,
+  -71.5177
+ ],
+ "Massachusetts/Boxford": [
+  42.6797,
+  -71.0114
+ ],
+ "Massachusetts/Boylston": [
+  42.3377,
+  -71.731
+ ],
+ "Massachusetts/Braintree": [
+  42.19465,
+  -71.04275
+ ],
+ "Massachusetts/Brant Rock": [
+  42.0818,
+  -70.6439
+ ],
+ "Massachusetts/Brewster": [
+  41.7492,
+  -70.0699
+ ],
+ "Massachusetts/Bridgewater": [
+  41.9823,
+  -70.97255
+ ],
+ "Massachusetts/Brighton": [
+  42.3478,
+  -71.1566
+ ],
+ "Massachusetts/Brimfield": [
+  42.1165,
+  -72.1885
+ ],
+ "Massachusetts/Brockton": [
+  42.08286,
+  -71.01908
+ ],
+ "Massachusetts/Brookfield": [
+  42.1991,
+  -72.0989
+ ],
+ "Massachusetts/Brookline": [
+  42.3345,
+  -71.12855
+ ],
+ "Massachusetts/Brookline Village": [
+  42.3329,
+  -71.1162
+ ],
+ "Massachusetts/Bryantville": [
+  42.0407,
+  -70.8272
+ ],
+ "Massachusetts/Buckland": [
+  42.5736,
+  -72.8213
+ ],
+ "Massachusetts/Burlington": [
+  42.50685,
+  -71.198
+ ],
+ "Massachusetts/Buzzards Bay": [
+  41.6993,
+  -70.5721
+ ],
+ "Massachusetts/Byfield": [
+  42.7568,
+  -70.9351
+ ],
+ "Massachusetts/Cambridge": [
+  42.36575,
+  -71.106
+ ],
+ "Massachusetts/Canton": [
+  42.1645,
+  -71.1355
+ ],
+ "Massachusetts/Carlisle": [
+  42.5286,
+  -71.3519
+ ],
+ "Massachusetts/Carver": [
+  41.8883,
+  -70.7678
+ ],
+ "Massachusetts/Cataumet": [
+  41.6694,
+  -70.6234
+ ],
+ "Massachusetts/Centerville": [
+  41.64977,
+  -70.3471
+ ],
+ "Massachusetts/Charlemont": [
+  42.64665,
+  -72.8646
+ ],
+ "Massachusetts/Charlestown": [
+  42.3778,
+  -71.0627
+ ],
+ "Massachusetts/Charlton": [
+  42.1379,
+  -71.9664
+ ],
+ "Massachusetts/Charlton City": [
+  42.1459,
+  -71.9884
+ ],
+ "Massachusetts/Charlton Depot": [
+  42.1731,
+  -71.9787
+ ],
+ "Massachusetts/Chartley": [
+  41.9487,
+  -71.2259
+ ],
+ "Massachusetts/Chatham": [
+  41.6889,
+  -69.9722
+ ],
+ "Massachusetts/Chelmsford": [
+  42.5911,
+  -71.3556
+ ],
+ "Massachusetts/Chelsea": [
+  42.3963,
+  -71.0325
+ ],
+ "Massachusetts/Cherry Valley": [
+  42.2373,
+  -71.875
+ ],
+ "Massachusetts/Cheshire": [
+  42.5611,
+  -73.158
+ ],
+ "Massachusetts/Chester": [
+  42.2794,
+  -72.9888
+ ],
+ "Massachusetts/Chesterfield": [
+  42.3923,
+  -72.8256
+ ],
+ "Massachusetts/Chestnut Hill": [
+  42.3164,
+  -71.1612
+ ],
+ "Massachusetts/Chicopee": [
+  42.17198,
+  -72.5896
+ ],
+ "Massachusetts/Chilmark": [
+  41.3575,
+  -70.7416
+ ],
+ "Massachusetts/Clinton": [
+  42.4181,
+  -71.6828
+ ],
+ "Massachusetts/Cohasset": [
+  42.2395,
+  -70.8128
+ ],
+ "Massachusetts/Colrain": [
+  42.679,
+  -72.7265
+ ],
+ "Massachusetts/Concord": [
+  42.4567,
+  -71.3747
+ ],
+ "Massachusetts/Conway": [
+  42.5138,
+  -72.7025
+ ],
+ "Massachusetts/Cotuit": [
+  41.6243,
+  -70.4364
+ ],
+ "Massachusetts/Cummaquid": [
+  41.7014,
+  -70.2772
+ ],
+ "Massachusetts/Cummington": [
+  42.4633,
+  -72.9202
+ ],
+ "Massachusetts/Cuttyhunk": [
+  41.4218,
+  -70.9313
+ ],
+ "Massachusetts/Dalton": [
+  42.47435,
+  -73.16325
+ ],
+ "Massachusetts/Danvers": [
+  42.5694,
+  -70.9425
+ ],
+ "Massachusetts/Dartmouth": [
+  41.5923,
+  -70.9969
+ ],
+ "Massachusetts/Dedham": [
+  42.21185,
+  -71.12645
+ ],
+ "Massachusetts/Deerfield": [
+  42.5406,
+  -72.6072
+ ],
+ "Massachusetts/Dennis": [
+  41.7322,
+  -70.1911
+ ],
+ "Massachusetts/Dennis Port": [
+  41.6649,
+  -70.1327
+ ],
+ "Massachusetts/Devens": [
+  42.5385,
+  -71.6115
+ ],
+ "Massachusetts/Dighton": [
+  41.8125,
+  -71.1427
+ ],
+ "Massachusetts/Dorchester": [
+  42.29593,
+  -71.0738
+ ],
+ "Massachusetts/Dorchester Center": [
+  42.2918,
+  -71.0717
+ ],
+ "Massachusetts/Douglas": [
+  42.0528,
+  -71.7509
+ ],
+ "Massachusetts/Dover": [
+  42.2362,
+  -71.2854
+ ],
+ "Massachusetts/Dracut": [
+  42.6764,
+  -71.3186
+ ],
+ "Massachusetts/Drury": [
+  42.6427,
+  -72.9862
+ ],
+ "Massachusetts/Dudley": [
+  42.0489,
+  -71.8932
+ ],
+ "Massachusetts/Dunstable": [
+  42.6739,
+  -71.4952
+ ],
+ "Massachusetts/Duxbury": [
+  42.0052,
+  -70.70885
+ ],
+ "Massachusetts/East Boston": [
+  42.3571,
+  -71.04285
+ ],
+ "Massachusetts/East Bridgewater": [
+  42.0315,
+  -70.945
+ ],
+ "Massachusetts/East Brookfield": [
+  42.2193,
+  -72.0481
+ ],
+ "Massachusetts/East Dennis": [
+  41.7426,
+  -70.162
+ ],
+ "Massachusetts/East Falmouth": [
+  41.5968,
+  -70.5671
+ ],
+ "Massachusetts/East Freetown": [
+  41.7635,
+  -70.9677
+ ],
+ "Massachusetts/East Longmeadow": [
+  42.11895,
+  -72.5552
+ ],
+ "Massachusetts/East Orleans": [
+  41.7843,
+  -69.962
+ ],
+ "Massachusetts/East Otis": [
+  42.1909,
+  -73.0517
+ ],
+ "Massachusetts/East Princeton": [
+  42.46,
+  -71.89
+ ],
+ "Massachusetts/East Sandwich": [
+  41.7283,
+  -70.44
+ ],
+ "Massachusetts/East Taunton": [
+  41.8736,
+  -71.0192
+ ],
+ "Massachusetts/East Templeton": [
+  42.5631,
+  -72.037
+ ],
+ "Massachusetts/East Walpole": [
+  42.1532,
+  -71.2179
+ ],
+ "Massachusetts/East Wareham": [
+  41.7682,
+  -70.6532
+ ],
+ "Massachusetts/East Weymouth": [
+  42.214,
+  -70.9203
+ ],
+ "Massachusetts/Eastham": [
+  41.8408,
+  -69.9849
+ ],
+ "Massachusetts/Easthampton": [
+  42.2668,
+  -72.669
+ ],
+ "Massachusetts/Easton": [
+  42.0235,
+  -71.1324
+ ],
+ "Massachusetts/Edgartown": [
+  41.3889,
+  -70.5339
+ ],
+ "Massachusetts/Elmwood": [
+  42.0098,
+  -70.962
+ ],
+ "Massachusetts/Erving": [
+  42.6076,
+  -72.4292
+ ],
+ "Massachusetts/Essex": [
+  42.6286,
+  -70.7828
+ ],
+ "Massachusetts/Everett": [
+  42.4112,
+  -71.0514
+ ],
+ "Massachusetts/Fairhaven": [
+  41.6409,
+  -70.8896
+ ],
+ "Massachusetts/Fall River": [
+  41.69712,
+  -71.15208
+ ],
+ "Massachusetts/Falmouth": [
+  41.54753,
+  -70.6336
+ ],
+ "Massachusetts/Fayville": [
+  42.2934,
+  -71.5028
+ ],
+ "Massachusetts/Feeding Hills": [
+  42.0718,
+  -72.6751
+ ],
+ "Massachusetts/Fiskdale": [
+  42.08155,
+  -72.1361
+ ],
+ "Massachusetts/Fitchburg": [
+  42.5796,
+  -71.8031
+ ],
+ "Massachusetts/Florence": [
+  42.3219,
+  -72.6928
+ ],
+ "Massachusetts/Forestdale": [
+  41.6827,
+  -70.5143
+ ],
+ "Massachusetts/Foxboro": [
+  42.0649,
+  -71.2441
+ ],
+ "Massachusetts/Framingham": [
+  42.38442,
+  -71.44752
+ ],
+ "Massachusetts/Franklin": [
+  42.0935,
+  -71.4058
+ ],
+ "Massachusetts/Gardner": [
+  42.574,
+  -71.9898
+ ],
+ "Massachusetts/Georgetown": [
+  42.7281,
+  -70.9822
+ ],
+ "Massachusetts/Gilbertville": [
+  42.3322,
+  -72.1986
+ ],
+ "Massachusetts/Gill": [
+  42.6404,
+  -72.4995
+ ],
+ "Massachusetts/Glendale": [
+  42.2793,
+  -73.3435
+ ],
+ "Massachusetts/Gloucester": [
+  42.61835,
+  -70.66705
+ ],
+ "Massachusetts/Goshen": [
+  42.4404,
+  -72.7995
+ ],
+ "Massachusetts/Grafton": [
+  42.2004,
+  -71.6868
+ ],
+ "Massachusetts/Granby": [
+  42.2557,
+  -72.52
+ ],
+ "Massachusetts/Granville": [
+  42.1127,
+  -72.952
+ ],
+ "Massachusetts/Great Barrington": [
+  42.1959,
+  -73.3607
+ ],
+ "Massachusetts/Green Harbor": [
+  42.0696,
+  -70.6491
+ ],
+ "Massachusetts/Greenbush": [
+  42.1793,
+  -70.7495
+ ],
+ "Massachusetts/Greenfield": [
+  42.56175,
+  -72.6239
+ ],
+ "Massachusetts/Groton": [
+  42.6116,
+  -71.56913
+ ],
+ "Massachusetts/Groveland": [
+  42.753,
+  -71.027
+ ],
+ "Massachusetts/Hadley": [
+  42.3606,
+  -72.5715
+ ],
+ "Massachusetts/Halifax": [
+  42.0002,
+  -70.8448
+ ],
+ "Massachusetts/Hamilton": [
+  42.6354,
+  -70.8791
+ ],
+ "Massachusetts/Hampden": [
+  42.0648,
+  -72.4318
+ ],
+ "Massachusetts/Hanover": [
+  42.11755,
+  -70.83655
+ ],
+ "Massachusetts/Hanscom AFB": [
+  42.4631,
+  -71.2851
+ ],
+ "Massachusetts/Hanson": [
+  42.0616,
+  -70.8651
+ ],
+ "Massachusetts/Hardwick": [
+  42.30485,
+  -72.2418
+ ],
+ "Massachusetts/Harvard": [
+  42.4986,
+  -71.5753
+ ],
+ "Massachusetts/Harwich": [
+  41.7008,
+  -70.0579
+ ],
+ "Massachusetts/Harwich Port": [
+  41.6703,
+  -70.0722
+ ],
+ "Massachusetts/Hatfield": [
+  42.3844,
+  -72.6167
+ ],
+ "Massachusetts/Hathorne": [
+  42.5862,
+  -70.9745
+ ],
+ "Massachusetts/Haverhill": [
+  42.76336,
+  -71.07404
+ ],
+ "Massachusetts/Haydenville": [
+  42.3818,
+  -72.7032
+ ],
+ "Massachusetts/Heath": [
+  42.6853,
+  -72.8391
+ ],
+ "Massachusetts/Hingham": [
+  42.2136,
+  -70.8882
+ ],
+ "Massachusetts/Hinsdale": [
+  42.4298,
+  -73.0724
+ ],
+ "Massachusetts/Holbrook": [
+  42.1464,
+  -71.0083
+ ],
+ "Massachusetts/Holden": [
+  42.342,
+  -71.8414
+ ],
+ "Massachusetts/Holland": [
+  42.0403,
+  -72.1544
+ ],
+ "Massachusetts/Holliston": [
+  42.2026,
+  -71.4361
+ ],
+ "Massachusetts/Holyoke": [
+  42.20315,
+  -72.6212
+ ],
+ "Massachusetts/Hopedale": [
+  42.1268,
+  -71.5376
+ ],
+ "Massachusetts/Hopkinton": [
+  42.219,
+  -71.5302
+ ],
+ "Massachusetts/Housatonic": [
+  42.2653,
+  -73.3745
+ ],
+ "Massachusetts/Hubbardston": [
+  42.4865,
+  -72.0012
+ ],
+ "Massachusetts/Hudson": [
+  42.3918,
+  -71.5609
+ ],
+ "Massachusetts/Hull": [
+  42.2853,
+  -70.8754
+ ],
+ "Massachusetts/Humarock": [
+  42.1428,
+  -70.6935
+ ],
+ "Massachusetts/Huntington": [
+  42.2653,
+  -72.8733
+ ],
+ "Massachusetts/Hyannis": [
+  41.6601,
+  -70.2967
+ ],
+ "Massachusetts/Hyannis Port": [
+  41.635,
+  -70.3063
+ ],
+ "Massachusetts/Hyde Park": [
+  42.2472,
+  -71.13155
+ ],
+ "Massachusetts/Indian Orchard": [
+  42.1532,
+  -72.505
+ ],
+ "Massachusetts/Ipswich": [
+  42.6809,
+  -70.8494
+ ],
+ "Massachusetts/Jamaica Plain": [
+  42.3126,
+  -71.1115
+ ],
+ "Massachusetts/Jefferson": [
+  42.3755,
+  -71.8706
+ ],
+ "Massachusetts/Kingston": [
+  41.995,
+  -70.741
+ ],
+ "Massachusetts/Lake Pleasant": [
+  42.5566,
+  -72.5181
+ ],
+ "Massachusetts/Lakeville": [
+  41.84165,
+  -70.95385
+ ],
+ "Massachusetts/Lancaster": [
+  42.451,
+  -71.6868
+ ],
+ "Massachusetts/Lawrence": [
+  42.7044,
+  -71.1636
+ ],
+ "Massachusetts/Lee": [
+  42.2595,
+  -73.2148
+ ],
+ "Massachusetts/Leeds": [
+  42.3543,
+  -72.7034
+ ],
+ "Massachusetts/Leicester": [
+  42.237,
+  -71.9188
+ ],
+ "Massachusetts/Lenox": [
+  42.3642,
+  -73.2713
+ ],
+ "Massachusetts/Lenox Dale": [
+  42.3386,
+  -73.2509
+ ],
+ "Massachusetts/Leominster": [
+  42.5274,
+  -71.7563
+ ],
+ "Massachusetts/Leverett": [
+  42.4682,
+  -72.4993
+ ],
+ "Massachusetts/Lexington": [
+  42.44945,
+  -71.2216
+ ],
+ "Massachusetts/Lincoln": [
+  42.4217,
+  -71.3137
+ ],
+ "Massachusetts/Linwood": [
+  42.0973,
+  -71.6448
+ ],
+ "Massachusetts/Littleton": [
+  42.5401,
+  -71.4877
+ ],
+ "Massachusetts/Longmeadow": [
+  42.1107,
+  -72.5862
+ ],
+ "Massachusetts/Lowell": [
+  42.64092,
+  -71.3176
+ ],
+ "Massachusetts/Ludlow": [
+  42.1728,
+  -72.471
+ ],
+ "Massachusetts/Lunenburg": [
+  42.5884,
+  -71.7266
+ ],
+ "Massachusetts/Lynn": [
+  42.46848,
+  -70.9584
+ ],
+ "Massachusetts/Lynnfield": [
+  42.5327,
+  -71.0339
+ ],
+ "Massachusetts/Malden": [
+  42.4291,
+  -71.0605
+ ],
+ "Massachusetts/Manchaug": [
+  42.0945,
+  -71.7476
+ ],
+ "Massachusetts/Manchester": [
+  42.5796,
+  -70.7674
+ ],
+ "Massachusetts/Manomet": [
+  41.8882,
+  -70.581
+ ],
+ "Massachusetts/Mansfield": [
+  42.0206,
+  -71.1939
+ ],
+ "Massachusetts/Marblehead": [
+  42.4984,
+  -70.8653
+ ],
+ "Massachusetts/Marion": [
+  41.7095,
+  -70.7613
+ ],
+ "Massachusetts/Marlborough": [
+  42.3509,
+  -71.5434
+ ],
+ "Massachusetts/Marshfield": [
+  42.1017,
+  -70.67545
+ ],
+ "Massachusetts/Marshfield Hills": [
+  42.1512,
+  -70.7341
+ ],
+ "Massachusetts/Marstons Mills": [
+  41.6703,
+  -70.4163
+ ],
+ "Massachusetts/Mashpee": [
+  41.6181,
+  -70.4854
+ ],
+ "Massachusetts/Mattapan": [
+  42.2739,
+  -71.0939
+ ],
+ "Massachusetts/Mattapoisett": [
+  41.6618,
+  -70.8164
+ ],
+ "Massachusetts/Maynard": [
+  42.4321,
+  -71.455
+ ],
+ "Massachusetts/Medfield": [
+  42.1845,
+  -71.3048
+ ],
+ "Massachusetts/Medford": [
+  42.41785,
+  -71.10745
+ ],
+ "Massachusetts/Medway": [
+  42.1514,
+  -71.4217
+ ],
+ "Massachusetts/Melrose": [
+  42.4581,
+  -71.0632
+ ],
+ "Massachusetts/Mendon": [
+  42.0967,
+  -71.5499
+ ],
+ "Massachusetts/Menemsha": [
+  41.3798,
+  -70.6431
+ ],
+ "Massachusetts/Merrimac": [
+  42.8346,
+  -71.0047
+ ],
+ "Massachusetts/Methuen": [
+  42.728,
+  -71.181
+ ],
+ "Massachusetts/Middleboro": [
+  41.88018,
+  -70.91622
+ ],
+ "Massachusetts/Middlefield": [
+  42.3561,
+  -73.0104
+ ],
+ "Massachusetts/Middleton": [
+  42.5942,
+  -71.013
+ ],
+ "Massachusetts/Milford": [
+  42.1511,
+  -71.5274
+ ],
+ "Massachusetts/Mill River": [
+  42.1228,
+  -73.254
+ ],
+ "Massachusetts/Millbury": [
+  42.184,
+  -71.78405
+ ],
+ "Massachusetts/Millers Falls": [
+  42.582,
+  -72.4926
+ ],
+ "Massachusetts/Millis": [
+  42.1669,
+  -71.3607
+ ],
+ "Massachusetts/Millville": [
+  42.0331,
+  -71.5798
+ ],
+ "Massachusetts/Milton": [
+  42.2537,
+  -71.0771
+ ],
+ "Massachusetts/Milton Village": [
+  42.2668,
+  -71.0717
+ ],
+ "Massachusetts/Minot": [
+  42.2404,
+  -70.762
+ ],
+ "Massachusetts/Monponsett": [
+  42.0185,
+  -70.8475
+ ],
+ "Massachusetts/Monroe Bridge": [
+  42.7215,
+  -72.9762
+ ],
+ "Massachusetts/Monson": [
+  42.101,
+  -72.3196
+ ],
+ "Massachusetts/Montague": [
+  42.5429,
+  -72.5328
+ ],
+ "Massachusetts/Monterey": [
+  42.1867,
+  -73.2065
+ ],
+ "Massachusetts/Monument Beach": [
+  41.7196,
+  -70.612
+ ],
+ "Massachusetts/Nahant": [
+  42.4261,
+  -70.9277
+ ],
+ "Massachusetts/Nantucket": [
+  41.2714,
+  -70.03393
+ ],
+ "Massachusetts/Natick": [
+  42.2875,
+  -71.3574
+ ],
+ "Massachusetts/Needham": [
+  42.28715,
+  -71.24145
+ ],
+ "Massachusetts/Needham Heights": [
+  42.2945,
+  -71.2328
+ ],
+ "Massachusetts/New Bedford": [
+  41.65297,
+  -70.92841
+ ],
+ "Massachusetts/New Braintree": [
+  42.3198,
+  -72.1306
+ ],
+ "Massachusetts/New Salem": [
+  42.5146,
+  -72.3062
+ ],
+ "Massachusetts/New Town": [
+  42.4464,
+  -71.4594
+ ],
+ "Massachusetts/Newbury": [
+  42.75605,
+  -70.89235
+ ],
+ "Massachusetts/Newburyport": [
+  42.78415,
+  -70.86715
+ ],
+ "Massachusetts/Newton": [
+  42.33879,
+  -71.21154
+ ],
+ "Massachusetts/Newton Center": [
+  42.3341,
+  -71.1833
+ ],
+ "Massachusetts/Newton Highlands": [
+  42.3168,
+  -71.2084
+ ],
+ "Massachusetts/Newton Lower Falls": [
+  42.3299,
+  -71.2562
+ ],
+ "Massachusetts/Newton Upper Falls": [
+  42.3129,
+  -71.2195
+ ],
+ "Massachusetts/Newtonville": [
+  42.3449,
+  -71.21737
+ ],
+ "Massachusetts/Nonantum": [
+  42.3626,
+  -71.2023
+ ],
+ "Massachusetts/Norfolk": [
+  42.1177,
+  -71.3269
+ ],
+ "Massachusetts/North Adams": [
+  42.6955,
+  -73.08
+ ],
+ "Massachusetts/North Amherst": [
+  42.4104,
+  -72.5309
+ ],
+ "Massachusetts/North Andover": [
+  42.6826,
+  -71.109
+ ],
+ "Massachusetts/North Attleboro": [
+  41.97783,
+  -71.3236
+ ],
+ "Massachusetts/North Billerica": [
+  42.5757,
+  -71.2902
+ ],
+ "Massachusetts/North Brookfield": [
+  42.2665,
+  -72.0821
+ ],
+ "Massachusetts/North Carver": [
+  41.9169,
+  -70.8013
+ ],
+ "Massachusetts/North Chatham": [
+  41.703,
+  -69.9666
+ ],
+ "Massachusetts/North Chelmsford": [
+  42.6347,
+  -71.3908
+ ],
+ "Massachusetts/North Dartmouth": [
+  41.6338,
+  -70.9958
+ ],
+ "Massachusetts/North Dighton": [
+  41.8529,
+  -71.1485
+ ],
+ "Massachusetts/North Eastham": [
+  41.8243,
+  -69.9818
+ ],
+ "Massachusetts/North Easton": [
+  42.06175,
+  -71.0997
+ ],
+ "Massachusetts/North Egremont": [
+  42.19725,
+  -73.40345
+ ],
+ "Massachusetts/North Falmouth": [
+  41.63585,
+  -70.6315
+ ],
+ "Massachusetts/North Grafton": [
+  42.2297,
+  -71.7037
+ ],
+ "Massachusetts/North Hatfield": [
+  42.4112,
+  -72.6223
+ ],
+ "Massachusetts/North Marshfield": [
+  42.1432,
+  -70.7703
+ ],
+ "Massachusetts/North Oxford": [
+  42.1655,
+  -71.886
+ ],
+ "Massachusetts/North Pembroke": [
+  42.0932,
+  -70.7925
+ ],
+ "Massachusetts/North Reading": [
+  42.5762,
+  -71.09433
+ ],
+ "Massachusetts/North Scituate": [
+  42.219,
+  -70.7856
+ ],
+ "Massachusetts/North Truro": [
+  42.0338,
+  -70.0875
+ ],
+ "Massachusetts/North Uxbridge": [
+  42.0876,
+  -71.6412
+ ],
+ "Massachusetts/North Waltham": [
+  42.385,
+  -71.22287
+ ],
+ "Massachusetts/North Weymouth": [
+  42.2459,
+  -70.9467
+ ],
+ "Massachusetts/Northampton": [
+  42.33293,
+  -72.65007
+ ],
+ "Massachusetts/Northborough": [
+  42.3182,
+  -71.6464
+ ],
+ "Massachusetts/Northbridge": [
+  42.1494,
+  -71.6564
+ ],
+ "Massachusetts/Northfield": [
+  42.6887,
+  -72.451
+ ],
+ "Massachusetts/Norton": [
+  41.9718,
+  -71.1894
+ ],
+ "Massachusetts/Norwell": [
+  42.1596,
+  -70.8217
+ ],
+ "Massachusetts/Norwood": [
+  42.1868,
+  -71.2033
+ ],
+ "Massachusetts/Nutting Lake": [
+  42.5379,
+  -71.2689
+ ],
+ "Massachusetts/Oak Bluffs": [
+  41.4543,
+  -70.562
+ ],
+ "Massachusetts/Oakham": [
+  42.348,
+  -72.0513
+ ],
+ "Massachusetts/Ocean Bluff": [
+  42.0972,
+  -70.6516
+ ],
+ "Massachusetts/Onset": [
+  41.7476,
+  -70.6582
+ ],
+ "Massachusetts/Orange": [
+  42.64,
+  -72.31605
+ ],
+ "Massachusetts/Orleans": [
+  41.7792,
+  -69.9822
+ ],
+ "Massachusetts/Osterville": [
+  41.63,
+  -70.3837
+ ],
+ "Massachusetts/Otis": [
+  42.1931,
+  -73.0918
+ ],
+ "Massachusetts/Oxford": [
+  42.1129,
+  -71.8687
+ ],
+ "Massachusetts/Palmer": [
+  42.1762,
+  -72.3288
+ ],
+ "Massachusetts/Paxton": [
+  42.3066,
+  -71.9202
+ ],
+ "Massachusetts/Peabody": [
+  42.584,
+  -70.92015
+ ],
+ "Massachusetts/Pembroke": [
+  42.0621,
+  -70.8044
+ ],
+ "Massachusetts/Pepperell": [
+  42.6689,
+  -71.5934
+ ],
+ "Massachusetts/Petersham": [
+  42.4898,
+  -72.1893
+ ],
+ "Massachusetts/Pinehurst": [
+  42.5293,
+  -71.2281
+ ],
+ "Massachusetts/Pittsfield": [
+  42.41297,
+  -73.2347
+ ],
+ "Massachusetts/Plainfield": [
+  42.5144,
+  -72.9183
+ ],
+ "Massachusetts/Plainville": [
+  42.0124,
+  -71.3275
+ ],
+ "Massachusetts/Plymouth": [
+  41.94643,
+  -70.67023
+ ],
+ "Massachusetts/Plympton": [
+  41.9655,
+  -70.8046
+ ],
+ "Massachusetts/Pocasset": [
+  41.6881,
+  -70.6105
+ ],
+ "Massachusetts/Prides Crossing": [
+  42.5581,
+  -70.8257
+ ],
+ "Massachusetts/Princeton": [
+  42.4508,
+  -71.8762
+ ],
+ "Massachusetts/Provincetown": [
+  42.0534,
+  -70.1865
+ ],
+ "Massachusetts/Quincy": [
+  42.2629,
+  -71.0107
+ ],
+ "Massachusetts/Randolph": [
+  42.1736,
+  -71.0514
+ ],
+ "Massachusetts/Raynham": [
+  41.9324,
+  -71.0469
+ ],
+ "Massachusetts/Raynham Center": [
+  41.7562,
+  -71.0671
+ ],
+ "Massachusetts/Reading": [
+  42.528,
+  -71.109
+ ],
+ "Massachusetts/Readville": [
+  42.2472,
+  -71.13155
+ ],
+ "Massachusetts/Rehoboth": [
+  41.8515,
+  -71.2545
+ ],
+ "Massachusetts/Revere": [
+  42.4138,
+  -71.0052
+ ],
+ "Massachusetts/Richmond": [
+  42.3784,
+  -73.3645
+ ],
+ "Massachusetts/Rochdale": [
+  42.1997,
+  -71.9069
+ ],
+ "Massachusetts/Rochester": [
+  41.7591,
+  -70.8523
+ ],
+ "Massachusetts/Rockland": [
+  42.1293,
+  -70.9133
+ ],
+ "Massachusetts/Rockport": [
+  42.658,
+  -70.6194
+ ],
+ "Massachusetts/Roslindale": [
+  42.2836,
+  -71.1295
+ ],
+ "Massachusetts/Rowe": [
+  42.6953,
+  -72.9258
+ ],
+ "Massachusetts/Rowley": [
+  42.7138,
+  -70.907
+ ],
+ "Massachusetts/Roxbury": [
+  42.33067,
+  -71.08647
+ ],
+ "Massachusetts/Roxbury Crossing": [
+  42.3307,
+  -71.0912
+ ],
+ "Massachusetts/Royalston": [
+  42.6722,
+  -72.1964
+ ],
+ "Massachusetts/Russell": [
+  42.1471,
+  -72.8403
+ ],
+ "Massachusetts/Rutland": [
+  42.3762,
+  -71.949
+ ],
+ "Massachusetts/Sagamore": [
+  41.7703,
+  -70.5337
+ ],
+ "Massachusetts/Sagamore Beach": [
+  41.7933,
+  -70.5196
+ ],
+ "Massachusetts/Salem": [
+  42.57525,
+  -70.8897
+ ],
+ "Massachusetts/Salisbury": [
+  42.8507,
+  -70.8588
+ ],
+ "Massachusetts/Sandisfield": [
+  42.1094,
+  -73.1163
+ ],
+ "Massachusetts/Sandwich": [
+  41.7113,
+  -70.4775
+ ],
+ "Massachusetts/Saugus": [
+  42.4633,
+  -71.0111
+ ],
+ "Massachusetts/Savoy": [
+  42.577,
+  -73.0233
+ ],
+ "Massachusetts/Scituate": [
+  42.21048,
+  -70.7624
+ ],
+ "Massachusetts/Seekonk": [
+  41.8378,
+  -71.3224
+ ],
+ "Massachusetts/Sharon": [
+  42.1094,
+  -71.1759
+ ],
+ "Massachusetts/Sheffield": [
+  42.1001,
+  -73.3611
+ ],
+ "Massachusetts/Shelburne Falls": [
+  42.6022,
+  -72.7391
+ ],
+ "Massachusetts/Sheldonville": [
+  42.0348,
+  -71.387
+ ],
+ "Massachusetts/Sherborn": [
+  42.2331,
+  -71.3787
+ ],
+ "Massachusetts/Shirley": [
+  42.5734,
+  -71.6483
+ ],
+ "Massachusetts/Shrewsbury": [
+  42.3248,
+  -71.8087
+ ],
+ "Massachusetts/Shutesbury": [
+  42.482,
+  -72.4213
+ ],
+ "Massachusetts/Siasconset": [
+  41.2639,
+  -69.9626
+ ],
+ "Massachusetts/Silver Beach": [
+  41.63,
+  -70.64
+ ],
+ "Massachusetts/Somerset": [
+  41.73915,
+  -71.1636
+ ],
+ "Massachusetts/Somerville": [
+  42.3913,
+  -71.10593
+ ],
+ "Massachusetts/South Barre": [
+  42.3854,
+  -72.0954
+ ],
+ "Massachusetts/South Boston": [
+  42.3347,
+  -71.0375
+ ],
+ "Massachusetts/South Carver": [
+  41.8501,
+  -70.7044
+ ],
+ "Massachusetts/South Chatham": [
+  41.6801,
+  -70.0241
+ ],
+ "Massachusetts/South Dartmouth": [
+  41.5665,
+  -70.9843
+ ],
+ "Massachusetts/South Deerfield": [
+  42.4756,
+  -72.6153
+ ],
+ "Massachusetts/South Dennis": [
+  41.7097,
+  -70.1585
+ ],
+ "Massachusetts/South Easton": [
+  42.0257,
+  -71.0988
+ ],
+ "Massachusetts/South Egremont": [
+  42.1012,
+  -73.4566
+ ],
+ "Massachusetts/South Grafton": [
+  42.176,
+  -71.6927
+ ],
+ "Massachusetts/South Hadley": [
+  42.2375,
+  -72.5811
+ ],
+ "Massachusetts/South Hamilton": [
+  42.6185,
+  -70.8561
+ ],
+ "Massachusetts/South Harwich": [
+  41.6862,
+  -70.0329
+ ],
+ "Massachusetts/South Lancaster": [
+  42.4435,
+  -71.6861
+ ],
+ "Massachusetts/South Lee": [
+  42.2779,
+  -73.2773
+ ],
+ "Massachusetts/South Orleans": [
+  41.7567,
+  -69.9841
+ ],
+ "Massachusetts/South Walpole": [
+  42.0992,
+  -71.2752
+ ],
+ "Massachusetts/South Wellfleet": [
+  41.9182,
+  -69.9953
+ ],
+ "Massachusetts/South Weymouth": [
+  42.1751,
+  -70.9495
+ ],
+ "Massachusetts/South Yarmouth": [
+  41.6739,
+  -70.1949
+ ],
+ "Massachusetts/Southampton": [
+  42.2247,
+  -72.7194
+ ],
+ "Massachusetts/Southborough": [
+  42.29365,
+  -71.5174
+ ],
+ "Massachusetts/Southbridge": [
+  42.075,
+  -72.0353
+ ],
+ "Massachusetts/Southfield": [
+  42.078,
+  -73.2609
+ ],
+ "Massachusetts/Southwick": [
+  42.0511,
+  -72.7706
+ ],
+ "Massachusetts/Spencer": [
+  42.2441,
+  -71.9906
+ ],
+ "Massachusetts/Springfield": [
+  42.12031,
+  -72.57063
+ ],
+ "Massachusetts/Sterling": [
+  42.4354,
+  -71.7752
+ ],
+ "Massachusetts/Still River": [
+  42.4871,
+  -71.6131
+ ],
+ "Massachusetts/Stockbridge": [
+  42.34695,
+  -73.2754
+ ],
+ "Massachusetts/Stoneham": [
+  42.4828,
+  -71.0978
+ ],
+ "Massachusetts/Stoughton": [
+  42.1253,
+  -71.1074
+ ],
+ "Massachusetts/Stow": [
+  42.4308,
+  -71.515
+ ],
+ "Massachusetts/Sturbridge": [
+  42.1177,
+  -72.101
+ ],
+ "Massachusetts/Sudbury": [
+  42.3837,
+  -71.4282
+ ],
+ "Massachusetts/Sunderland": [
+  42.4539,
+  -72.5676
+ ],
+ "Massachusetts/Sutton": [
+  42.1266,
+  -71.7552
+ ],
+ "Massachusetts/Swampscott": [
+  42.4746,
+  -70.9098
+ ],
+ "Massachusetts/Swansea": [
+  41.7473,
+  -71.2122
+ ],
+ "Massachusetts/Taunton": [
+  41.8306,
+  -71.08485
+ ],
+ "Massachusetts/Templeton": [
+  42.546,
+  -72.065
+ ],
+ "Massachusetts/Tewksbury": [
+  42.6028,
+  -71.2232
+ ],
+ "Massachusetts/Thorndike": [
+  42.1929,
+  -72.3296
+ ],
+ "Massachusetts/Three Rivers": [
+  42.1819,
+  -72.3624
+ ],
+ "Massachusetts/Topsfield": [
+  42.6415,
+  -70.9488
+ ],
+ "Massachusetts/Townsend": [
+  42.66015,
+  -71.7209
+ ],
+ "Massachusetts/Truro": [
+  41.9988,
+  -70.0564
+ ],
+ "Massachusetts/Turners Falls": [
+  42.5954,
+  -72.5557
+ ],
+ "Massachusetts/Tyngsboro": [
+  42.6724,
+  -71.4158
+ ],
+ "Massachusetts/Tyringham": [
+  42.22,
+  -73.1979
+ ],
+ "Massachusetts/Upton": [
+  42.1756,
+  -71.6032
+ ],
+ "Massachusetts/Uxbridge": [
+  42.0744,
+  -71.6329
+ ],
+ "Massachusetts/Vineyard Haven": [
+  41.45,
+  -70.59685
+ ],
+ "Massachusetts/Waban": [
+  42.3271,
+  -71.2315
+ ],
+ "Massachusetts/Wakefield": [
+  42.5009,
+  -71.0685
+ ],
+ "Massachusetts/Wales": [
+  42.0627,
+  -72.2046
+ ],
+ "Massachusetts/Walpole": [
+  42.1444,
+  -71.2544
+ ],
+ "Massachusetts/Waltham": [
+  42.37875,
+  -71.23632
+ ],
+ "Massachusetts/Ware": [
+  42.2618,
+  -72.2583
+ ],
+ "Massachusetts/Wareham": [
+  41.7541,
+  -70.7116
+ ],
+ "Massachusetts/Warren": [
+  42.204,
+  -72.1994
+ ],
+ "Massachusetts/Warwick": [
+  42.64,
+  -72.31605
+ ],
+ "Massachusetts/Watertown": [
+  42.3706,
+  -71.18097
+ ],
+ "Massachusetts/Waverley": [
+  42.3876,
+  -71.1828
+ ],
+ "Massachusetts/Wayland": [
+  42.3486,
+  -71.3588
+ ],
+ "Massachusetts/Webster": [
+  42.0521,
+  -71.8486
+ ],
+ "Massachusetts/Wellesley": [
+  42.30255,
+  -71.28695
+ ],
+ "Massachusetts/Wellesley Hills": [
+  42.3106,
+  -71.2747
+ ],
+ "Massachusetts/Wellfleet": [
+  41.9289,
+  -70.0186
+ ],
+ "Massachusetts/Wendell": [
+  42.5656,
+  -72.4009
+ ],
+ "Massachusetts/Wendell Depot": [
+  42.5534,
+  -72.3927
+ ],
+ "Massachusetts/Wenham": [
+  42.6017,
+  -70.8786
+ ],
+ "Massachusetts/West Barnstable": [
+  41.7002,
+  -70.372
+ ],
+ "Massachusetts/West Boxford": [
+  42.707,
+  -71.0639
+ ],
+ "Massachusetts/West Boylston": [
+  42.3584,
+  -71.7838
+ ],
+ "Massachusetts/West Bridgewater": [
+  42.0255,
+  -71.0161
+ ],
+ "Massachusetts/West Brookfield": [
+  42.2441,
+  -72.1511
+ ],
+ "Massachusetts/West Chatham": [
+  41.6812,
+  -69.9911
+ ],
+ "Massachusetts/West Chesterfield": [
+  42.3903,
+  -72.8709
+ ],
+ "Massachusetts/West Chop": [
+  41.45,
+  -70.6
+ ],
+ "Massachusetts/West Dennis": [
+  41.6626,
+  -70.1681
+ ],
+ "Massachusetts/West Falmouth": [
+  41.6039,
+  -70.6382
+ ],
+ "Massachusetts/West Groton": [
+  42.6043,
+  -71.6273
+ ],
+ "Massachusetts/West Harwich": [
+  41.6694,
+  -70.1135
+ ],
+ "Massachusetts/West Hatfield": [
+  42.3906,
+  -72.6469
+ ],
+ "Massachusetts/West Hyannisport": [
+  41.6356,
+  -70.3233
+ ],
+ "Massachusetts/West Medford": [
+  42.4223,
+  -71.1328
+ ],
+ "Massachusetts/West Millbury": [
+  42.1712,
+  -71.8037
+ ],
+ "Massachusetts/West Newbury": [
+  42.7949,
+  -70.9778
+ ],
+ "Massachusetts/West Newton": [
+  42.3492,
+  -71.2267
+ ],
+ "Massachusetts/West Roxbury": [
+  42.2787,
+  -71.1589
+ ],
+ "Massachusetts/West Springfield": [
+  42.1429,
+  -72.62295
+ ],
+ "Massachusetts/West Stockbridge": [
+  42.3348,
+  -73.3825
+ ],
+ "Massachusetts/West Tisbury": [
+  41.4213,
+  -70.6428
+ ],
+ "Massachusetts/West Townsend": [
+  42.6678,
+  -71.7522
+ ],
+ "Massachusetts/West Wareham": [
+  41.7796,
+  -70.7642
+ ],
+ "Massachusetts/West Warren": [
+  42.2029,
+  -72.229
+ ],
+ "Massachusetts/West Yarmouth": [
+  41.6614,
+  -70.2363
+ ],
+ "Massachusetts/Westborough": [
+  42.26263,
+  -71.61253
+ ],
+ "Massachusetts/Westfield": [
+  42.14925,
+  -72.79875
+ ],
+ "Massachusetts/Westford": [
+  42.5864,
+  -71.4401
+ ],
+ "Massachusetts/Westminster": [
+  42.5471,
+  -71.9101
+ ],
+ "Massachusetts/Weston": [
+  42.3589,
+  -71.3001
+ ],
+ "Massachusetts/Westport": [
+  41.6114,
+  -71.0818
+ ],
+ "Massachusetts/Westport Point": [
+  41.5223,
+  -71.0745
+ ],
+ "Massachusetts/Westwood": [
+  42.2148,
+  -71.2104
+ ],
+ "Massachusetts/Weymouth": [
+  42.21157,
+  -70.94367
+ ],
+ "Massachusetts/Whately": [
+  42.4427,
+  -72.6525
+ ],
+ "Massachusetts/Wheelwright": [
+  42.3582,
+  -72.1408
+ ],
+ "Massachusetts/White Horse Beach": [
+  41.9316,
+  -70.5611
+ ],
+ "Massachusetts/Whitinsville": [
+  42.1153,
+  -71.6644
+ ],
+ "Massachusetts/Whitman": [
+  42.0816,
+  -70.9381
+ ],
+ "Massachusetts/Wilbraham": [
+  42.1245,
+  -72.4464
+ ],
+ "Massachusetts/Williamsburg": [
+  42.4085,
+  -72.778
+ ],
+ "Massachusetts/Williamstown": [
+  42.7089,
+  -73.2036
+ ],
+ "Massachusetts/Wilmington": [
+  42.5581,
+  -71.1723
+ ],
+ "Massachusetts/Winchendon": [
+  42.6789,
+  -72.0475
+ ],
+ "Massachusetts/Winchendon Springs": [
+  42.69,
+  -72.01
+ ],
+ "Massachusetts/Winchester": [
+  42.453,
+  -71.1441
+ ],
+ "Massachusetts/Windsor": [
+  42.515,
+  -73.0412
+ ],
+ "Massachusetts/Winthrop": [
+  42.3763,
+  -70.98
+ ],
+ "Massachusetts/Woburn": [
+  42.48154,
+  -71.14776
+ ],
+ "Massachusetts/Woods Hole": [
+  41.5263,
+  -70.6643
+ ],
+ "Massachusetts/Woodville": [
+  42.2376,
+  -71.562
+ ],
+ "Massachusetts/Worcester": [
+  42.28068,
+  -71.8232
+ ],
+ "Massachusetts/Woronoco": [
+  42.164,
+  -72.8295
+ ],
+ "Massachusetts/Worthington": [
+  42.3902,
+  -72.9472
+ ],
+ "Massachusetts/Wrentham": [
+  42.0617,
+  -71.3396
+ ],
+ "Massachusetts/Yarmouth Port": [
+  41.7051,
+  -70.227
+ ],
+ "New Hampshire/Acworth": [
+  43.196,
+  -72.3001
+ ],
+ "New Hampshire/Alstead": [
+  43.1265,
+  -72.3281
+ ],
+ "New Hampshire/Alton": [
+  43.463,
+  -71.2297
+ ],
+ "New Hampshire/Alton Bay": [
+  43.4845,
+  -71.2489
+ ],
+ "New Hampshire/Amherst": [
+  42.8569,
+  -71.6075
+ ],
+ "New Hampshire/Andover": [
+  43.4287,
+  -71.783
+ ],
+ "New Hampshire/Antrim": [
+  43.0595,
+  -71.9387
+ ],
+ "New Hampshire/Ashland": [
+  43.7034,
+  -71.6121
+ ],
+ "New Hampshire/Ashuelot": [
+  42.7851,
+  -72.4349
+ ],
+ "New Hampshire/Atkinson": [
+  42.837,
+  -71.1603
+ ],
+ "New Hampshire/Auburn": [
+  42.9925,
+  -71.3449
+ ],
+ "New Hampshire/Barnstead": [
+  43.3349,
+  -71.2887
+ ],
+ "New Hampshire/Barrington": [
+  43.2027,
+  -71.0377
+ ],
+ "New Hampshire/Bartlett": [
+  44.0802,
+  -71.292
+ ],
+ "New Hampshire/Bath": [
+  44.1808,
+  -71.9828
+ ],
+ "New Hampshire/Bedford": [
+  42.9403,
+  -71.5213
+ ],
+ "New Hampshire/Belmont": [
+  43.4512,
+  -71.489
+ ],
+ "New Hampshire/Bennington": [
+  43.0103,
+  -71.9153
+ ],
+ "New Hampshire/Berlin": [
+  44.4811,
+  -71.1892
+ ],
+ "New Hampshire/Bethlehem": [
+  44.2808,
+  -71.6829
+ ],
+ "New Hampshire/Bow": [
+  43.1291,
+  -71.5424
+ ],
+ "New Hampshire/Bradford": [
+  43.2517,
+  -71.9617
+ ],
+ "New Hampshire/Bretton Woods": [
+  44.2581,
+  -71.4412
+ ],
+ "New Hampshire/Bristol": [
+  43.612,
+  -71.7507
+ ],
+ "New Hampshire/Brookline": [
+  42.7384,
+  -71.6663
+ ],
+ "New Hampshire/Campton": [
+  43.9742,
+  -71.5807
+ ],
+ "New Hampshire/Canaan": [
+  43.6601,
+  -72.0297
+ ],
+ "New Hampshire/Candia": [
+  43.0585,
+  -71.3049
+ ],
+ "New Hampshire/Canterbury": [
+  43.357,
+  -71.557
+ ],
+ "New Hampshire/Center Barnstead": [
+  43.3566,
+  -71.2424
+ ],
+ "New Hampshire/Center Conway": [
+  43.9878,
+  -71.0607
+ ],
+ "New Hampshire/Center Harbor": [
+  43.7107,
+  -71.4797
+ ],
+ "New Hampshire/Center Ossipee": [
+  43.7682,
+  -71.1349
+ ],
+ "New Hampshire/Center Sandwich": [
+  43.8162,
+  -71.4506
+ ],
+ "New Hampshire/Center Strafford": [
+  43.2629,
+  -71.1071
+ ],
+ "New Hampshire/Center Tuftonboro": [
+  43.6849,
+  -71.2551
+ ],
+ "New Hampshire/Charlestown": [
+  43.2573,
+  -72.4064
+ ],
+ "New Hampshire/Chatham": [
+  43.9878,
+  -71.0607
+ ],
+ "New Hampshire/Chester": [
+  42.9678,
+  -71.245
+ ],
+ "New Hampshire/Chesterfield": [
+  42.8839,
+  -72.4548
+ ],
+ "New Hampshire/Chichester": [
+  43.244,
+  -71.4105
+ ],
+ "New Hampshire/Chocorua": [
+  43.8909,
+  -71.2407
+ ],
+ "New Hampshire/Claremont": [
+  43.3679,
+  -72.3422
+ ],
+ "New Hampshire/Colebrook": [
+  44.9078,
+  -71.4793
+ ],
+ "New Hampshire/Concord": [
+  43.25597,
+  -71.59183
+ ],
+ "New Hampshire/Contoocook": [
+  43.1978,
+  -71.6968
+ ],
+ "New Hampshire/Conway": [
+  43.9742,
+  -71.1503
+ ],
+ "New Hampshire/Cornish": [
+  43.472,
+  -72.3283
+ ],
+ "New Hampshire/Cornish Flat": [
+  43.4973,
+  -72.2795
+ ],
+ "New Hampshire/Danbury": [
+  43.5115,
+  -71.8691
+ ],
+ "New Hampshire/Danville": [
+  42.9234,
+  -71.121
+ ],
+ "New Hampshire/Deerfield": [
+  43.1378,
+  -71.2513
+ ],
+ "New Hampshire/Derry": [
+  42.8874,
+  -71.302
+ ],
+ "New Hampshire/Dover": [
+  43.19487,
+  -70.87807
+ ],
+ "New Hampshire/Drewsville": [
+  43.1281,
+  -72.392
+ ],
+ "New Hampshire/Dublin": [
+  42.8972,
+  -72.0505
+ ],
+ "New Hampshire/Dunbarton": [
+  43.1025,
+  -71.6169
+ ],
+ "New Hampshire/Durham": [
+  43.1174,
+  -70.9197
+ ],
+ "New Hampshire/East Andover": [
+  43.4595,
+  -71.7476
+ ],
+ "New Hampshire/East Candia": [
+  43.0481,
+  -71.2487
+ ],
+ "New Hampshire/East Derry": [
+  42.8945,
+  -71.2912
+ ],
+ "New Hampshire/East Hampstead": [
+  42.8877,
+  -71.128
+ ],
+ "New Hampshire/East Kingston": [
+  42.907,
+  -70.9876
+ ],
+ "New Hampshire/East Wakefield": [
+  43.6142,
+  -71.0051
+ ],
+ "New Hampshire/Eaton Center": [
+  43.9092,
+  -71.0837
+ ],
+ "New Hampshire/Effingham": [
+  43.7012,
+  -70.9834
+ ],
+ "New Hampshire/Elkins": [
+  43.4209,
+  -71.9373
+ ],
+ "New Hampshire/Enfield": [
+  43.6256,
+  -72.127
+ ],
+ "New Hampshire/Enfield Center": [
+  43.5796,
+  -72.0854
+ ],
+ "New Hampshire/Epping": [
+  43.0411,
+  -71.0764
+ ],
+ "New Hampshire/Epsom": [
+  43.2174,
+  -71.3546
+ ],
+ "New Hampshire/Errol": [
+  44.8003,
+  -71.1436
+ ],
+ "New Hampshire/Etna": [
+  43.7113,
+  -72.2125
+ ],
+ "New Hampshire/Exeter": [
+  42.9815,
+  -70.9478
+ ],
+ "New Hampshire/Farmington": [
+  43.3884,
+  -71.0647
+ ],
+ "New Hampshire/Fitzwilliam": [
+  42.7611,
+  -72.145
+ ],
+ "New Hampshire/Francestown": [
+  42.992,
+  -71.8113
+ ],
+ "New Hampshire/Franconia": [
+  44.2053,
+  -71.7518
+ ],
+ "New Hampshire/Franklin": [
+  43.4426,
+  -71.6491
+ ],
+ "New Hampshire/Freedom": [
+  43.8172,
+  -71.0628
+ ],
+ "New Hampshire/Fremont": [
+  42.984,
+  -71.1218
+ ],
+ "New Hampshire/Georges Mills": [
+  43.4317,
+  -72.0673
+ ],
+ "New Hampshire/Gilford": [
+  43.5475,
+  -71.4072
+ ],
+ "New Hampshire/Gilmanton": [
+  43.4175,
+  -71.4121
+ ],
+ "New Hampshire/Gilmanton Iron Works": [
+  43.4185,
+  -71.3063
+ ],
+ "New Hampshire/Gilsum": [
+  43.0399,
+  -72.2719
+ ],
+ "New Hampshire/Glen": [
+  44.1018,
+  -71.1925
+ ],
+ "New Hampshire/Glencliff": [
+  43.9828,
+  -71.8934
+ ],
+ "New Hampshire/Goffstown": [
+  43.0201,
+  -71.5697
+ ],
+ "New Hampshire/Gorham": [
+  44.4048,
+  -71.1548
+ ],
+ "New Hampshire/Goshen": [
+  43.3026,
+  -72.1241
+ ],
+ "New Hampshire/Grafton": [
+  43.5727,
+  -71.9634
+ ],
+ "New Hampshire/Grantham": [
+  43.5103,
+  -72.1334
+ ],
+ "New Hampshire/Greenfield": [
+  42.9493,
+  -71.8728
+ ],
+ "New Hampshire/Greenland": [
+  43.0353,
+  -70.8475
+ ],
+ "New Hampshire/Greenville": [
+  42.7482,
+  -71.7619
+ ],
+ "New Hampshire/Groveton": [
+  44.5984,
+  -71.5064
+ ],
+ "New Hampshire/Guild": [
+  43.3767,
+  -72.1381
+ ],
+ "New Hampshire/Hampstead": [
+  42.882,
+  -71.1758
+ ],
+ "New Hampshire/Hampton": [
+  42.9709,
+  -70.91875
+ ],
+ "New Hampshire/Hampton Falls": [
+  42.9263,
+  -70.8876
+ ],
+ "New Hampshire/Hancock": [
+  42.9768,
+  -71.9819
+ ],
+ "New Hampshire/Hanover": [
+  43.7045,
+  -72.285
+ ],
+ "New Hampshire/Harrisville": [
+  42.9399,
+  -72.0972
+ ],
+ "New Hampshire/Haverhill": [
+  44.0394,
+  -72.0573
+ ],
+ "New Hampshire/Hebron": [
+  43.7186,
+  -71.827
+ ],
+ "New Hampshire/Henniker": [
+  43.1791,
+  -71.8159
+ ],
+ "New Hampshire/Hill": [
+  43.5274,
+  -71.7292
+ ],
+ "New Hampshire/Hillsborough": [
+  43.1141,
+  -71.8992
+ ],
+ "New Hampshire/Hinsdale": [
+  42.8027,
+  -72.5015
+ ],
+ "New Hampshire/Holderness": [
+  43.7378,
+  -71.6044
+ ],
+ "New Hampshire/Hollis": [
+  42.7485,
+  -71.5772
+ ],
+ "New Hampshire/Hooksett": [
+  43.0617,
+  -71.4444
+ ],
+ "New Hampshire/Hudson": [
+  42.769,
+  -71.4121
+ ],
+ "New Hampshire/Intervale": [
+  44.0955,
+  -71.1194
+ ],
+ "New Hampshire/Jackson": [
+  44.167,
+  -71.1878
+ ],
+ "New Hampshire/Jaffrey": [
+  42.8178,
+  -72.0275
+ ],
+ "New Hampshire/Jefferson": [
+  44.3999,
+  -71.4518
+ ],
+ "New Hampshire/Kearsarge": [
+  44.0753,
+  -71.1176
+ ],
+ "New Hampshire/Keene": [
+  42.9482,
+  -72.2868
+ ],
+ "New Hampshire/Kingston": [
+  42.9133,
+  -71.0639
+ ],
+ "New Hampshire/Laconia": [
+  43.58085,
+  -71.4618
+ ],
+ "New Hampshire/Lancaster": [
+  44.4921,
+  -71.5591
+ ],
+ "New Hampshire/Lebanon": [
+  43.6435,
+  -72.2473
+ ],
+ "New Hampshire/Lee": [
+  43.1183,
+  -70.9583
+ ],
+ "New Hampshire/Lempster": [
+  43.2136,
+  -72.1968
+ ],
+ "New Hampshire/Lincoln": [
+  44.0582,
+  -71.6727
+ ],
+ "New Hampshire/Lisbon": [
+  44.2148,
+  -71.8966
+ ],
+ "New Hampshire/Litchfield": [
+  42.843,
+  -71.455
+ ],
+ "New Hampshire/Littleton": [
+  44.3112,
+  -71.7768
+ ],
+ "New Hampshire/Lochmere": [
+  43.4686,
+  -71.5371
+ ],
+ "New Hampshire/Londonderry": [
+  42.8765,
+  -71.3396
+ ],
+ "New Hampshire/Loudon": [
+  43.3193,
+  -71.467
+ ],
+ "New Hampshire/Lyme": [
+  43.7913,
+  -72.162
+ ],
+ "New Hampshire/Lyme Center": [
+  43.7863,
+  -72.1205
+ ],
+ "New Hampshire/Lyndeborough": [
+  42.8954,
+  -71.7744
+ ],
+ "New Hampshire/Madbury": [
+  43.1729,
+  -70.9412
+ ],
+ "New Hampshire/Madison": [
+  43.9152,
+  -71.1254
+ ],
+ "New Hampshire/Manchester": [
+  42.997,
+  -71.45215
+ ],
+ "New Hampshire/Marlborough": [
+  42.8988,
+  -72.2013
+ ],
+ "New Hampshire/Marlow": [
+  43.1326,
+  -72.2109
+ ],
+ "New Hampshire/Melvin Village": [
+  43.7077,
+  -71.3017
+ ],
+ "New Hampshire/Meredith": [
+  43.6311,
+  -71.4997
+ ],
+ "New Hampshire/Meriden": [
+  43.5299,
+  -72.2756
+ ],
+ "New Hampshire/Merrimack": [
+  42.8667,
+  -71.5128
+ ],
+ "New Hampshire/Milan": [
+  44.587,
+  -71.181
+ ],
+ "New Hampshire/Milford": [
+  42.8285,
+  -71.6606
+ ],
+ "New Hampshire/Milton": [
+  43.4229,
+  -71.0114
+ ],
+ "New Hampshire/Milton Mills": [
+  43.5025,
+  -70.9697
+ ],
+ "New Hampshire/Mirror Lake": [
+  43.6366,
+  -71.2729
+ ],
+ "New Hampshire/Monroe": [
+  44.2734,
+  -72.025
+ ],
+ "New Hampshire/Mont Vernon": [
+  42.8976,
+  -71.6762
+ ],
+ "New Hampshire/Moultonborough": [
+  43.7281,
+  -71.3922
+ ],
+ "New Hampshire/Mount Washington": [
+  44.2855,
+  -71.2979
+ ],
+ "New Hampshire/Nashua": [
+  42.7592,
+  -71.48232
+ ],
+ "New Hampshire/Nelson": [
+  42.9906,
+  -72.1309
+ ],
+ "New Hampshire/New Boston": [
+  42.9722,
+  -71.6864
+ ],
+ "New Hampshire/New Castle": [
+  43.0681,
+  -70.7199
+ ],
+ "New Hampshire/New Durham": [
+  43.443,
+  -71.1408
+ ],
+ "New Hampshire/New Hampton": [
+  43.6184,
+  -71.6435
+ ],
+ "New Hampshire/New Ipswich": [
+  42.7511,
+  -71.8703
+ ],
+ "New Hampshire/New London": [
+  43.4145,
+  -71.9857
+ ],
+ "New Hampshire/Newbury": [
+  43.3217,
+  -72.0118
+ ],
+ "New Hampshire/Newfields": [
+  43.0374,
+  -70.9782
+ ],
+ "New Hampshire/Newington": [
+  43.15145,
+  -70.8126
+ ],
+ "New Hampshire/Newmarket": [
+  43.0726,
+  -70.9553
+ ],
+ "New Hampshire/Newport": [
+  43.3532,
+  -72.1838
+ ],
+ "New Hampshire/Newton": [
+  42.8678,
+  -71.042
+ ],
+ "New Hampshire/Newton Junction": [
+  42.8619,
+  -71.04
+ ],
+ "New Hampshire/North Conway": [
+  44.0336,
+  -71.1238
+ ],
+ "New Hampshire/North Hampton": [
+  42.9776,
+  -70.8267
+ ],
+ "New Hampshire/North Haverhill": [
+  44.0978,
+  -72.0191
+ ],
+ "New Hampshire/North Salem": [
+  42.837,
+  -71.2206
+ ],
+ "New Hampshire/North Sandwich": [
+  43.8452,
+  -71.385
+ ],
+ "New Hampshire/North Stratford": [
+  44.7149,
+  -71.5644
+ ],
+ "New Hampshire/North Sutton": [
+  43.3653,
+  -71.9341
+ ],
+ "New Hampshire/North Walpole": [
+  43.1428,
+  -72.4483
+ ],
+ "New Hampshire/North Woodstock": [
+  44.0354,
+  -71.6863
+ ],
+ "New Hampshire/Northumberland": [
+  44.5984,
+  -71.5064
+ ],
+ "New Hampshire/Northwood": [
+  43.207,
+  -71.2004
+ ],
+ "New Hampshire/Nottingham": [
+  43.1196,
+  -71.111
+ ],
+ "New Hampshire/Orford": [
+  43.8941,
+  -72.0978
+ ],
+ "New Hampshire/Ossipee": [
+  43.6945,
+  -71.1129
+ ],
+ "New Hampshire/Pelham": [
+  42.7288,
+  -71.3046
+ ],
+ "New Hampshire/Peterborough": [
+  42.8856,
+  -71.947
+ ],
+ "New Hampshire/Piermont": [
+  43.9906,
+  -72.0813
+ ],
+ "New Hampshire/Pike": [
+  44.0255,
+  -72.0096
+ ],
+ "New Hampshire/Pittsburg": [
+  45.0866,
+  -71.3636
+ ],
+ "New Hampshire/Pittsfield": [
+  43.2874,
+  -71.333
+ ],
+ "New Hampshire/Plainfield": [
+  43.5519,
+  -72.2704
+ ],
+ "New Hampshire/Plaistow": [
+  42.8356,
+  -71.0934
+ ],
+ "New Hampshire/Plymouth": [
+  43.757,
+  -71.6881
+ ],
+ "New Hampshire/Portsmouth": [
+  43.10366,
+  -70.7826
+ ],
+ "New Hampshire/Randolph": [
+  44.3753,
+  -71.2798
+ ],
+ "New Hampshire/Raymond": [
+  43.0325,
+  -71.1912
+ ],
+ "New Hampshire/Rindge": [
+  42.7544,
+  -72.019
+ ],
+ "New Hampshire/Rochester": [
+  43.29775,
+  -70.96905
+ ],
+ "New Hampshire/Rollinsford": [
+  43.2269,
+  -70.8332
+ ],
+ "New Hampshire/Rumney": [
+  43.8044,
+  -71.848
+ ],
+ "New Hampshire/Rye": [
+  43.0095,
+  -70.7652
+ ],
+ "New Hampshire/Rye Beach": [
+  42.9806,
+  -70.7719
+ ],
+ "New Hampshire/Salem": [
+  42.7846,
+  -71.2176
+ ],
+ "New Hampshire/Salisbury": [
+  43.4067,
+  -71.7045
+ ],
+ "New Hampshire/Sanbornton": [
+  43.5496,
+  -71.6003
+ ],
+ "New Hampshire/Sanbornville": [
+  43.5513,
+  -71.02
+ ],
+ "New Hampshire/Sandown": [
+  42.9308,
+  -71.1861
+ ],
+ "New Hampshire/Seabrook": [
+  42.8854,
+  -70.8646
+ ],
+ "New Hampshire/Silver Lake": [
+  43.879,
+  -71.1905
+ ],
+ "New Hampshire/Somersworth": [
+  43.2525,
+  -70.8756
+ ],
+ "New Hampshire/South Acworth": [
+  43.1956,
+  -72.2686
+ ],
+ "New Hampshire/South Hampton": [
+  42.907,
+  -70.9876
+ ],
+ "New Hampshire/South Newbury": [
+  43.2956,
+  -71.9967
+ ],
+ "New Hampshire/South Sutton": [
+  43.3042,
+  -71.9289
+ ],
+ "New Hampshire/South Tamworth": [
+  43.8077,
+  -71.308
+ ],
+ "New Hampshire/Spofford": [
+  42.912,
+  -72.4103
+ ],
+ "New Hampshire/Springfield": [
+  43.4938,
+  -72.047
+ ],
+ "New Hampshire/Stinson Lake": [
+  43.86,
+  -71.8
+ ],
+ "New Hampshire/Stoddard": [
+  43.0739,
+  -72.1088
+ ],
+ "New Hampshire/Strafford": [
+  43.2506,
+  -71.1625
+ ],
+ "New Hampshire/Stratham": [
+  43.0194,
+  -70.8997
+ ],
+ "New Hampshire/Sugar Hill": [
+  44.2203,
+  -71.7964
+ ],
+ "New Hampshire/Sullivan": [
+  42.9982,
+  -72.2019
+ ],
+ "New Hampshire/Sunapee": [
+  43.3868,
+  -72.095
+ ],
+ "New Hampshire/Suncook": [
+  43.1604,
+  -71.4179
+ ],
+ "New Hampshire/Swanzey": [
+  42.8411,
+  -72.3301
+ ],
+ "New Hampshire/Tamworth": [
+  43.862,
+  -71.2645
+ ],
+ "New Hampshire/Temple": [
+  42.82,
+  -71.8523
+ ],
+ "New Hampshire/Thornton": [
+  43.9396,
+  -71.61385
+ ],
+ "New Hampshire/Tilton": [
+  43.50337,
+  -71.48967
+ ],
+ "New Hampshire/Troy": [
+  42.827,
+  -72.1848
+ ],
+ "New Hampshire/Twin Mountain": [
+  44.2689,
+  -71.5471
+ ],
+ "New Hampshire/Union": [
+  43.4861,
+  -71.063
+ ],
+ "New Hampshire/Walpole": [
+  43.0765,
+  -72.4155
+ ],
+ "New Hampshire/Warner": [
+  43.3035,
+  -71.8353
+ ],
+ "New Hampshire/Warren": [
+  43.9447,
+  -71.8901
+ ],
+ "New Hampshire/Washington": [
+  43.1747,
+  -72.0824
+ ],
+ "New Hampshire/Waterville Valley": [
+  43.9501,
+  -71.4995
+ ],
+ "New Hampshire/Weare": [
+  43.0714,
+  -71.7038
+ ],
+ "New Hampshire/Wentworth": [
+  43.8685,
+  -71.9097
+ ],
+ "New Hampshire/West Chesterfield": [
+  42.8956,
+  -72.5097
+ ],
+ "New Hampshire/West Lebanon": [
+  43.644,
+  -72.3007
+ ],
+ "New Hampshire/West Nottingham": [
+  43.1823,
+  -71.1396
+ ],
+ "New Hampshire/West Ossipee": [
+  43.8118,
+  -71.1946
+ ],
+ "New Hampshire/West Peterborough": [
+  42.8908,
+  -71.9334
+ ],
+ "New Hampshire/West Stewartstown": [
+  44.6956,
+  -71.3874
+ ],
+ "New Hampshire/West Swanzey": [
+  42.8734,
+  -72.3151
+ ],
+ "New Hampshire/Westmoreland": [
+  42.969,
+  -72.4358
+ ],
+ "New Hampshire/Whitefield": [
+  44.3681,
+  -71.6035
+ ],
+ "New Hampshire/Wilmot": [
+  43.4485,
+  -71.9158
+ ],
+ "New Hampshire/Wilton": [
+  42.8368,
+  -71.7541
+ ],
+ "New Hampshire/Winchester": [
+  42.7788,
+  -72.344
+ ],
+ "New Hampshire/Windham": [
+  42.8051,
+  -71.3067
+ ],
+ "New Hampshire/Winnisquam": [
+  43.4964,
+  -71.5197
+ ],
+ "New Hampshire/Wolfeboro": [
+  43.595,
+  -71.1908
+ ],
+ "New Hampshire/Wolfeboro Falls": [
+  43.5892,
+  -71.2189
+ ],
+ "New Hampshire/Wonalancet": [
+  43.9073,
+  -71.3506
+ ],
+ "New Hampshire/Woodstock": [
+  43.9776,
+  -71.6851
+ ],
+ "New Hampshire/Woodsville": [
+  44.1523,
+  -72.0373
+ ],
+ "Rhode Island/Adamsville": [
+  41.5301,
+  -71.2841
+ ],
+ "Rhode Island/Albion": [
+  41.9512,
+  -71.4545
+ ],
+ "Rhode Island/Ashaway": [
+  41.4231,
+  -71.7837
+ ],
+ "Rhode Island/Barrington": [
+  41.7443,
+  -71.3175
+ ],
+ "Rhode Island/Block Island": [
+  41.1715,
+  -71.5748
+ ],
+ "Rhode Island/Bradford": [
+  41.4114,
+  -71.7465
+ ],
+ "Rhode Island/Bristol": [
+  41.6825,
+  -71.2676
+ ],
+ "Rhode Island/Carolina": [
+  41.4691,
+  -71.6751
+ ],
+ "Rhode Island/Central Falls": [
+  41.8883,
+  -71.3945
+ ],
+ "Rhode Island/Charlestown": [
+  41.4007,
+  -71.6615
+ ],
+ "Rhode Island/Chepachet": [
+  41.9155,
+  -71.6795
+ ],
+ "Rhode Island/Clayville": [
+  41.7778,
+  -71.6706
+ ],
+ "Rhode Island/Coventry": [
+  41.6988,
+  -71.6562
+ ],
+ "Rhode Island/Cranston": [
+  41.77824,
+  -71.44634
+ ],
+ "Rhode Island/Cumberland": [
+  41.9484,
+  -71.4154
+ ],
+ "Rhode Island/East Greenwich": [
+  41.6498,
+  -71.474
+ ],
+ "Rhode Island/East Providence": [
+  41.8138,
+  -71.3688
+ ],
+ "Rhode Island/Exeter": [
+  41.574,
+  -71.6076
+ ],
+ "Rhode Island/Fiskeville": [
+  41.7312,
+  -71.5468
+ ],
+ "Rhode Island/Forestdale": [
+  42.0002,
+  -71.5631
+ ],
+ "Rhode Island/Foster": [
+  41.7815,
+  -71.7187
+ ],
+ "Rhode Island/Glendale": [
+  41.9762,
+  -71.6326
+ ],
+ "Rhode Island/Greene": [
+  41.7062,
+  -71.7356
+ ],
+ "Rhode Island/Greenville": [
+  41.8734,
+  -71.5569
+ ],
+ "Rhode Island/Harmony": [
+  41.8793,
+  -71.5894
+ ],
+ "Rhode Island/Harrisville": [
+  41.9764,
+  -71.6534
+ ],
+ "Rhode Island/Hope": [
+  41.7516,
+  -71.5612
+ ],
+ "Rhode Island/Hope Valley": [
+  41.5096,
+  -71.7339
+ ],
+ "Rhode Island/Hopkinton": [
+  41.4751,
+  -71.7726
+ ],
+ "Rhode Island/Jamestown": [
+  41.5164,
+  -71.3761
+ ],
+ "Rhode Island/Johnston": [
+  41.8274,
+  -71.52
+ ],
+ "Rhode Island/Kenyon": [
+  41.4474,
+  -71.6204
+ ],
+ "Rhode Island/Kingston": [
+  41.4803,
+  -71.5292
+ ],
+ "Rhode Island/Lincoln": [
+  41.9089,
+  -71.4348
+ ],
+ "Rhode Island/Little Compton": [
+  41.522,
+  -71.1612
+ ],
+ "Rhode Island/Manville": [
+  41.9689,
+  -71.4741
+ ],
+ "Rhode Island/Mapleville": [
+  41.9417,
+  -71.6376
+ ],
+ "Rhode Island/Middletown": [
+  41.5198,
+  -71.2731
+ ],
+ "Rhode Island/Narragansett": [
+  41.4395,
+  -71.4979
+ ],
+ "Rhode Island/Newport": [
+  41.4933,
+  -71.31305
+ ],
+ "Rhode Island/North Kingstown": [
+  41.5897,
+  -71.45625
+ ],
+ "Rhode Island/North Providence": [
+  41.84903,
+  -71.44967
+ ],
+ "Rhode Island/North Scituate": [
+  41.8439,
+  -71.6242
+ ],
+ "Rhode Island/North Smithfield": [
+  41.9724,
+  -71.5508
+ ],
+ "Rhode Island/Oakland": [
+  41.9573,
+  -71.6478
+ ],
+ "Rhode Island/Pascoag": [
+  41.9627,
+  -71.7099
+ ],
+ "Rhode Island/Pawtucket": [
+  41.87183,
+  -71.37193
+ ],
+ "Rhode Island/Peace Dale": [
+  41.44745,
+  -71.51645
+ ],
+ "Rhode Island/Portsmouth": [
+  41.5944,
+  -71.252
+ ],
+ "Rhode Island/Providence": [
+  41.8226,
+  -71.43275
+ ],
+ "Rhode Island/Prudence Island": [
+  41.7071,
+  -71.2868
+ ],
+ "Rhode Island/Riverside": [
+  41.7723,
+  -71.3542
+ ],
+ "Rhode Island/Rockville": [
+  41.5199,
+  -71.774
+ ],
+ "Rhode Island/Rumford": [
+  41.8425,
+  -71.3559
+ ],
+ "Rhode Island/Saunderstown": [
+  41.5105,
+  -71.4427
+ ],
+ "Rhode Island/Shannock": [
+  41.456,
+  -71.6355
+ ],
+ "Rhode Island/Slatersville": [
+  41.9984,
+  -71.5763
+ ],
+ "Rhode Island/Slocum": [
+  41.5289,
+  -71.5299
+ ],
+ "Rhode Island/Smithfield": [
+  41.8964,
+  -71.5207
+ ],
+ "Rhode Island/Tiverton": [
+  41.6338,
+  -71.1808
+ ],
+ "Rhode Island/Wakefield": [
+  41.4095,
+  -71.58905
+ ],
+ "Rhode Island/Warren": [
+  41.7256,
+  -71.2702
+ ],
+ "Rhode Island/Warwick": [
+  41.71655,
+  -71.41558
+ ],
+ "Rhode Island/West Greenwich": [
+  41.64,
+  -71.6435
+ ],
+ "Rhode Island/West Kingston": [
+  41.5058,
+  -71.6211
+ ],
+ "Rhode Island/West Warwick": [
+  41.7004,
+  -71.5183
+ ],
+ "Rhode Island/Westerly": [
+  41.3691,
+  -71.8126
+ ],
+ "Rhode Island/Wood River Junction": [
+  41.45,
+  -71.7074
+ ],
+ "Rhode Island/Woonsocket": [
+  41.9846,
+  -71.5194
+ ],
+ "Rhode Island/Wyoming": [
+  41.5041,
+  -71.663
+ ],
+ "Vermont/Adamant": [
+  44.3575,
+  -72.5046
+ ],
+ "Vermont/Albany": [
+  44.7417,
+  -72.3646
+ ],
+ "Vermont/Alburgh": [
+  44.9285,
+  -73.2733
+ ],
+ "Vermont/Arlington": [
+  43.0857,
+  -73.1594
+ ],
+ "Vermont/Ascutney": [
+  43.4107,
+  -72.4298
+ ],
+ "Vermont/Averill": [
+  44.9981,
+  -71.7104
+ ],
+ "Vermont/Bakersfield": [
+  44.7914,
+  -72.7697
+ ],
+ "Vermont/Barnard": [
+  43.7287,
+  -72.619
+ ],
+ "Vermont/Barnet": [
+  44.3179,
+  -72.0783
+ ],
+ "Vermont/Barre": [
+  44.1945,
+  -72.4936
+ ],
+ "Vermont/Barton": [
+  44.72077,
+  -72.1831
+ ],
+ "Vermont/Beebe Plain": [
+  45.0058,
+  -72.1383
+ ],
+ "Vermont/Beecher Falls": [
+  45.0085,
+  -71.4907
+ ],
+ "Vermont/Bellows Falls": [
+  43.1482,
+  -72.4664
+ ],
+ "Vermont/Belmont": [
+  43.4284,
+  -72.8257
+ ],
+ "Vermont/Belvidere Center": [
+  44.7248,
+  -72.7016
+ ],
+ "Vermont/Bennington": [
+  42.8827,
+  -73.1923
+ ],
+ "Vermont/Benson": [
+  43.65555,
+  -73.281
+ ],
+ "Vermont/Bethel": [
+  43.8195,
+  -72.6528
+ ],
+ "Vermont/Bomoseen": [
+  43.6437,
+  -73.2094
+ ],
+ "Vermont/Bondville": [
+  43.1618,
+  -72.9128
+ ],
+ "Vermont/Bradford": [
+  44.0006,
+  -72.1406
+ ],
+ "Vermont/Brandon": [
+  43.8065,
+  -73.0882
+ ],
+ "Vermont/Brattleboro": [
+  42.85252,
+  -72.56675
+ ],
+ "Vermont/Bridgewater": [
+  43.5804,
+  -72.6467
+ ],
+ "Vermont/Bridgewater Corners": [
+  43.5998,
+  -72.6752
+ ],
+ "Vermont/Bridport": [
+  43.9538,
+  -73.3476
+ ],
+ "Vermont/Bristol": [
+  44.146,
+  -73.0717
+ ],
+ "Vermont/Brookfield": [
+  44.0321,
+  -72.5953
+ ],
+ "Vermont/Brownsville": [
+  43.4646,
+  -72.4944
+ ],
+ "Vermont/Burlington": [
+  44.46446,
+  -73.14332
+ ],
+ "Vermont/Cabot": [
+  44.4042,
+  -72.3064
+ ],
+ "Vermont/Calais": [
+  44.3787,
+  -72.4973
+ ],
+ "Vermont/Cambridge": [
+  44.6222,
+  -72.8812
+ ],
+ "Vermont/Cambridgeport": [
+  43.1515,
+  -72.5604
+ ],
+ "Vermont/Canaan": [
+  44.98725,
+  -71.6353
+ ],
+ "Vermont/Castleton": [
+  43.6223,
+  -73.1708
+ ],
+ "Vermont/Cavendish": [
+  43.3766,
+  -72.6092
+ ],
+ "Vermont/Center Rutland": [
+  43.6023,
+  -73.017
+ ],
+ "Vermont/Charlotte": [
+  44.3113,
+  -73.228
+ ],
+ "Vermont/Chelsea": [
+  44.0039,
+  -72.4793
+ ],
+ "Vermont/Chester": [
+  43.28155,
+  -72.61655
+ ],
+ "Vermont/Chester Depot": [
+  43.28,
+  -72.63
+ ],
+ "Vermont/Chittenden": [
+  43.7132,
+  -72.9252
+ ],
+ "Vermont/Colchester": [
+  44.52503,
+  -73.17173
+ ],
+ "Vermont/Concord": [
+  44.4461,
+  -71.8676
+ ],
+ "Vermont/Corinth": [
+  44.0281,
+  -72.2932
+ ],
+ "Vermont/Coventry": [
+  44.8656,
+  -72.2648
+ ],
+ "Vermont/Craftsbury": [
+  44.6434,
+  -72.366
+ ],
+ "Vermont/Craftsbury Common": [
+  44.6788,
+  -72.3594
+ ],
+ "Vermont/Cuttingsville": [
+  43.5221,
+  -72.8691
+ ],
+ "Vermont/Danby": [
+  43.3583,
+  -73.0129
+ ],
+ "Vermont/Danville": [
+  44.4332,
+  -72.1133
+ ],
+ "Vermont/Derby": [
+  44.9547,
+  -72.0826
+ ],
+ "Vermont/Derby Line": [
+  44.9902,
+  -72.0824
+ ],
+ "Vermont/Dorset": [
+  43.2636,
+  -73.0766
+ ],
+ "Vermont/East Arlington": [
+  43.0668,
+  -73.0611
+ ],
+ "Vermont/East Barre": [
+  44.1576,
+  -72.4533
+ ],
+ "Vermont/East Berkshire": [
+  44.931,
+  -72.7028
+ ],
+ "Vermont/East Burke": [
+  44.6078,
+  -71.9357
+ ],
+ "Vermont/East Calais": [
+  44.38,
+  -72.4419
+ ],
+ "Vermont/East Charleston": [
+  44.8299,
+  -71.9763
+ ],
+ "Vermont/East Corinth": [
+  44.0966,
+  -72.22815
+ ],
+ "Vermont/East Dorset": [
+  43.237,
+  -73.0081
+ ],
+ "Vermont/East Dover": [
+  42.9505,
+  -72.783
+ ],
+ "Vermont/East Fairfield": [
+  44.7412,
+  -72.8827
+ ],
+ "Vermont/East Hardwick": [
+  44.5288,
+  -72.3034
+ ],
+ "Vermont/East Haven": [
+  44.6517,
+  -71.8675
+ ],
+ "Vermont/East Middlebury": [
+  43.9734,
+  -73.1062
+ ],
+ "Vermont/East Montpelier": [
+  44.2828,
+  -72.4926
+ ],
+ "Vermont/East Poultney": [
+  43.5265,
+  -73.2046
+ ],
+ "Vermont/East Randolph": [
+  43.9553,
+  -72.5487
+ ],
+ "Vermont/East Ryegate": [
+  44.2275,
+  -72.0996
+ ],
+ "Vermont/East Saint Johnsbury": [
+  44.4387,
+  -71.9456
+ ],
+ "Vermont/East Thetford": [
+  43.8073,
+  -72.2147
+ ],
+ "Vermont/East Wallingford": [
+  43.4461,
+  -72.8844
+ ],
+ "Vermont/Eden": [
+  44.7137,
+  -72.54985
+ ],
+ "Vermont/Eden Mills": [
+  44.6931,
+  -72.5134
+ ],
+ "Vermont/Enosburg Falls": [
+  44.8985,
+  -72.791
+ ],
+ "Vermont/Essex": [
+  44.5215,
+  -73.0608
+ ],
+ "Vermont/Essex Junction": [
+  44.5855,
+  -73.08543
+ ],
+ "Vermont/Fair Haven": [
+  43.6234,
+  -73.2701
+ ],
+ "Vermont/Fairfax": [
+  44.6924,
+  -73.0241
+ ],
+ "Vermont/Fairfield": [
+  44.7841,
+  -73.0222
+ ],
+ "Vermont/Fairlee": [
+  43.901,
+  -72.1902
+ ],
+ "Vermont/Ferrisburgh": [
+  44.2056,
+  -73.2462
+ ],
+ "Vermont/Florence": [
+  43.7093,
+  -73.079
+ ],
+ "Vermont/Forest Dale": [
+  43.8278,
+  -73.0537
+ ],
+ "Vermont/Franklin": [
+  44.9614,
+  -72.9037
+ ],
+ "Vermont/Gaysville": [
+  43.7784,
+  -72.699
+ ],
+ "Vermont/Gilman": [
+  44.414,
+  -71.7179
+ ],
+ "Vermont/Glover": [
+  44.6747,
+  -72.2131
+ ],
+ "Vermont/Grafton": [
+  43.1601,
+  -72.5972
+ ],
+ "Vermont/Granby": [
+  44.6808,
+  -71.7194
+ ],
+ "Vermont/Grand Isle": [
+  44.7197,
+  -73.3056
+ ],
+ "Vermont/Graniteville": [
+  44.1512,
+  -72.4929
+ ],
+ "Vermont/Granville": [
+  43.9849,
+  -72.8245
+ ],
+ "Vermont/Greensboro": [
+  44.5951,
+  -72.285
+ ],
+ "Vermont/Greensboro Bend": [
+  44.5489,
+  -72.2648
+ ],
+ "Vermont/Groton": [
+  44.2204,
+  -72.2175
+ ],
+ "Vermont/Guildhall": [
+  44.6902,
+  -71.5991
+ ],
+ "Vermont/Hancock": [
+  43.9125,
+  -72.9133
+ ],
+ "Vermont/Hardwick": [
+  44.507,
+  -72.3638
+ ],
+ "Vermont/Hartford": [
+  43.6721,
+  -72.3555
+ ],
+ "Vermont/Hartland": [
+  43.5708,
+  -72.4131
+ ],
+ "Vermont/Hartland Four Corners": [
+  43.5465,
+  -72.4245
+ ],
+ "Vermont/Highgate Center": [
+  44.9404,
+  -73.0155
+ ],
+ "Vermont/Highgate Springs": [
+  44.9748,
+  -73.1052
+ ],
+ "Vermont/Hinesburg": [
+  44.3346,
+  -73.098
+ ],
+ "Vermont/Huntington": [
+  44.3227,
+  -72.9964
+ ],
+ "Vermont/Hyde Park": [
+  44.6225,
+  -72.595
+ ],
+ "Vermont/Hydeville": [
+  43.5994,
+  -73.251
+ ],
+ "Vermont/Irasburg": [
+  44.8081,
+  -72.2763
+ ],
+ "Vermont/Island Pond": [
+  44.8095,
+  -71.884
+ ],
+ "Vermont/Isle La Motte": [
+  44.8781,
+  -73.3386
+ ],
+ "Vermont/Jacksonville": [
+  42.7778,
+  -72.8071
+ ],
+ "Vermont/Jamaica": [
+  43.1042,
+  -72.7944
+ ],
+ "Vermont/Jeffersonville": [
+  44.6388,
+  -72.822
+ ],
+ "Vermont/Jericho": [
+  44.459,
+  -72.9552
+ ],
+ "Vermont/Johnson": [
+  44.642,
+  -72.6712
+ ],
+ "Vermont/Jonesville": [
+  44.3839,
+  -72.9376
+ ],
+ "Vermont/Killington": [
+  43.6634,
+  -72.7963
+ ],
+ "Vermont/Lake Elmore": [
+  44.5426,
+  -72.5254
+ ],
+ "Vermont/Londonderry": [
+  43.2281,
+  -72.788
+ ],
+ "Vermont/Lowell": [
+  44.7961,
+  -72.4501
+ ],
+ "Vermont/Lower Waterford": [
+  44.3821,
+  -71.9195
+ ],
+ "Vermont/Ludlow": [
+  43.3929,
+  -72.7002
+ ],
+ "Vermont/Lunenburg": [
+  44.4663,
+  -71.693
+ ],
+ "Vermont/Lyndon": [
+  44.4976,
+  -71.9505
+ ],
+ "Vermont/Lyndon Center": [
+  44.5416,
+  -72.0175
+ ],
+ "Vermont/Lyndonville": [
+  44.5555,
+  -72.0715
+ ],
+ "Vermont/Manchester": [
+  43.1637,
+  -73.0723
+ ],
+ "Vermont/Manchester Center": [
+  43.1693,
+  -73.0474
+ ],
+ "Vermont/Marlboro": [
+  42.9947,
+  -72.7204
+ ],
+ "Vermont/Marshfield": [
+  44.3509,
+  -72.354
+ ],
+ "Vermont/Mc Indoe Falls": [
+  44.2588,
+  -72.0585
+ ],
+ "Vermont/Middlebury": [
+  43.9919,
+  -73.1716
+ ],
+ "Vermont/Middletown Springs": [
+  43.4856,
+  -73.1182
+ ],
+ "Vermont/Milton": [
+  44.6483,
+  -73.1317
+ ],
+ "Vermont/Monkton": [
+  44.2388,
+  -73.1483
+ ],
+ "Vermont/Montgomery": [
+  44.9025,
+  -72.6382
+ ],
+ "Vermont/Montgomery Center": [
+  44.8781,
+  -72.6023
+ ],
+ "Vermont/Montpelier": [
+  44.25161,
+  -72.57886
+ ],
+ "Vermont/Moretown": [
+  44.2596,
+  -72.7494
+ ],
+ "Vermont/Morgan": [
+  44.8787,
+  -71.9714
+ ],
+ "Vermont/Morrisville": [
+  44.5543,
+  -72.6026
+ ],
+ "Vermont/Moscow": [
+  44.442,
+  -72.7188
+ ],
+ "Vermont/Mount Holly": [
+  43.4487,
+  -72.7956
+ ],
+ "Vermont/New Haven": [
+  44.1126,
+  -73.1735
+ ],
+ "Vermont/Newbury": [
+  44.0683,
+  -72.1187
+ ],
+ "Vermont/Newfane": [
+  42.9704,
+  -72.6781
+ ],
+ "Vermont/Newport": [
+  44.9393,
+  -72.2065
+ ],
+ "Vermont/Newport Center": [
+  44.9442,
+  -72.2974
+ ],
+ "Vermont/North Bennington": [
+  42.9304,
+  -73.2426
+ ],
+ "Vermont/North Clarendon": [
+  43.5522,
+  -72.9561
+ ],
+ "Vermont/North Concord": [
+  44.5501,
+  -71.7867
+ ],
+ "Vermont/North Ferrisburgh": [
+  44.2595,
+  -73.2112
+ ],
+ "Vermont/North Hartland": [
+  43.5967,
+  -72.3526
+ ],
+ "Vermont/North Hero": [
+  44.8353,
+  -73.2778
+ ],
+ "Vermont/North Hyde Park": [
+  44.6731,
+  -72.5971
+ ],
+ "Vermont/North Montpelier": [
+  44.2595,
+  -72.585
+ ],
+ "Vermont/North Pomfret": [
+  43.7204,
+  -72.4943
+ ],
+ "Vermont/North Pownal": [
+  42.8098,
+  -73.2534
+ ],
+ "Vermont/North Springfield": [
+  43.338,
+  -72.5277
+ ],
+ "Vermont/North Thetford": [
+  43.8431,
+  -72.1856
+ ],
+ "Vermont/North Troy": [
+  44.9378,
+  -72.4334
+ ],
+ "Vermont/Northfield": [
+  44.1512,
+  -72.6565
+ ],
+ "Vermont/Northfield Falls": [
+  44.172,
+  -72.6509
+ ],
+ "Vermont/Norton": [
+  44.9888,
+  -71.7884
+ ],
+ "Vermont/Norwich": [
+  43.7404,
+  -72.3016
+ ],
+ "Vermont/Orleans": [
+  44.8238,
+  -72.102
+ ],
+ "Vermont/Orwell": [
+  43.7837,
+  -73.2949
+ ],
+ "Vermont/Passumpsic": [
+  44.3767,
+  -72.0276
+ ],
+ "Vermont/Pawlet": [
+  43.3587,
+  -73.1444
+ ],
+ "Vermont/Peacham": [
+  44.3289,
+  -72.169
+ ],
+ "Vermont/Perkinsville": [
+  43.3879,
+  -72.5038
+ ],
+ "Vermont/Peru": [
+  43.2565,
+  -72.8868
+ ],
+ "Vermont/Pittsfield": [
+  43.7723,
+  -72.8129
+ ],
+ "Vermont/Pittsford": [
+  43.7152,
+  -73.0135
+ ],
+ "Vermont/Plainfield": [
+  44.2622,
+  -72.4224
+ ],
+ "Vermont/Plymouth": [
+  43.4987,
+  -72.7107
+ ],
+ "Vermont/Post Mills": [
+  43.8858,
+  -72.27
+ ],
+ "Vermont/Poultney": [
+  43.52985,
+  -73.21495
+ ],
+ "Vermont/Pownal": [
+  42.788,
+  -73.2162
+ ],
+ "Vermont/Proctor": [
+  43.658,
+  -73.0348
+ ],
+ "Vermont/Proctorsville": [
+  43.3823,
+  -72.6384
+ ],
+ "Vermont/Putney": [
+  43.0356,
+  -72.5123
+ ],
+ "Vermont/Quechee": [
+  43.6462,
+  -72.4184
+ ],
+ "Vermont/Randolph": [
+  43.9444,
+  -72.6726
+ ],
+ "Vermont/Randolph Center": [
+  43.9379,
+  -72.597
+ ],
+ "Vermont/Reading": [
+  43.4793,
+  -72.5704
+ ],
+ "Vermont/Readsboro": [
+  42.76995,
+  -73.0144
+ ],
+ "Vermont/Richford": [
+  44.9715,
+  -72.6905
+ ],
+ "Vermont/Richmond": [
+  44.3873,
+  -72.9533
+ ],
+ "Vermont/Ripton": [
+  43.9929,
+  -73.0187
+ ],
+ "Vermont/Rochester": [
+  43.8804,
+  -72.8159
+ ],
+ "Vermont/Roxbury": [
+  44.0846,
+  -72.7202
+ ],
+ "Vermont/Rupert": [
+  43.2598,
+  -73.2229
+ ],
+ "Vermont/Rutland": [
+  43.61235,
+  -72.9717
+ ],
+ "Vermont/Saint Albans": [
+  44.8111,
+  -73.089
+ ],
+ "Vermont/Saint Albans Bay": [
+  44.8078,
+  -73.1393
+ ],
+ "Vermont/Saint Johnsbury": [
+  44.4272,
+  -72.0051
+ ],
+ "Vermont/Saint Johnsbury Center": [
+  44.4567,
+  -72.0157
+ ],
+ "Vermont/Salisbury": [
+  43.9017,
+  -73.1008
+ ],
+ "Vermont/Saxtons River": [
+  43.1379,
+  -72.5098
+ ],
+ "Vermont/Shaftsbury": [
+  42.9614,
+  -73.2166
+ ],
+ "Vermont/Sharon": [
+  43.7748,
+  -72.4243
+ ],
+ "Vermont/Sheffield": [
+  44.6178,
+  -72.1239
+ ],
+ "Vermont/Shelburne": [
+  44.39,
+  -73.2171
+ ],
+ "Vermont/Sheldon": [
+  44.83565,
+  -72.9876
+ ],
+ "Vermont/Sheldon Springs": [
+  44.9062,
+  -72.9776
+ ],
+ "Vermont/Shoreham": [
+  43.8862,
+  -73.3054
+ ],
+ "Vermont/South Barre": [
+  44.1757,
+  -72.5025
+ ],
+ "Vermont/South Burlington": [
+  44.4467,
+  -73.13105
+ ],
+ "Vermont/South Hero": [
+  44.64,
+  -73.3113
+ ],
+ "Vermont/South Londonderry": [
+  43.1699,
+  -72.8515
+ ],
+ "Vermont/South Newfane": [
+  42.9391,
+  -72.7292
+ ],
+ "Vermont/South Pomfret": [
+  43.6797,
+  -72.5349
+ ],
+ "Vermont/South Royalton": [
+  43.8089,
+  -72.5232
+ ],
+ "Vermont/South Ryegate": [
+  44.1978,
+  -72.1104
+ ],
+ "Vermont/South Strafford": [
+  43.8282,
+  -72.37
+ ],
+ "Vermont/South Woodstock": [
+  43.5601,
+  -72.5384
+ ],
+ "Vermont/Springfield": [
+  43.3034,
+  -72.4778
+ ],
+ "Vermont/Stamford": [
+  42.7562,
+  -73.0679
+ ],
+ "Vermont/Starksboro": [
+  44.2261,
+  -73.0157
+ ],
+ "Vermont/Stockbridge": [
+  43.7738,
+  -72.7814
+ ],
+ "Vermont/Stowe": [
+  44.4695,
+  -72.6923
+ ],
+ "Vermont/Strafford": [
+  43.8723,
+  -72.3636
+ ],
+ "Vermont/Sutton": [
+  44.6465,
+  -72.0211
+ ],
+ "Vermont/Swanton": [
+  44.9168,
+  -73.1211
+ ],
+ "Vermont/Taftsville": [
+  43.6309,
+  -72.4891
+ ],
+ "Vermont/Thetford": [
+  43.8332,
+  -72.2236
+ ],
+ "Vermont/Thetford Center": [
+  43.8149,
+  -72.2662
+ ],
+ "Vermont/Topsham": [
+  44.1313,
+  -72.2412
+ ],
+ "Vermont/Townshend": [
+  43.0622,
+  -72.6687
+ ],
+ "Vermont/Troy": [
+  44.9014,
+  -72.4015
+ ],
+ "Vermont/Tunbridge": [
+  43.9169,
+  -72.4786
+ ],
+ "Vermont/Underhill": [
+  44.5391,
+  -72.9258
+ ],
+ "Vermont/Underhill Center": [
+  44.5047,
+  -72.8853
+ ],
+ "Vermont/Vergennes": [
+  44.1326,
+  -73.2793
+ ],
+ "Vermont/Vernon": [
+  42.7565,
+  -72.5115
+ ],
+ "Vermont/Vershire": [
+  43.9618,
+  -72.319
+ ],
+ "Vermont/Waitsfield": [
+  44.1889,
+  -72.8283
+ ],
+ "Vermont/Wallingford": [
+  43.4573,
+  -72.9877
+ ],
+ "Vermont/Wardsboro": [
+  43.0326,
+  -72.8077
+ ],
+ "Vermont/Warren": [
+  44.111,
+  -72.8609
+ ],
+ "Vermont/Washington": [
+  44.0782,
+  -72.4263
+ ],
+ "Vermont/Waterbury": [
+  44.34145,
+  -72.768
+ ],
+ "Vermont/Waterbury Center": [
+  44.3828,
+  -72.708
+ ],
+ "Vermont/Waterville": [
+  44.7124,
+  -72.7596
+ ],
+ "Vermont/Websterville": [
+  44.1558,
+  -72.4658
+ ],
+ "Vermont/Wells": [
+  43.4305,
+  -73.2027
+ ],
+ "Vermont/Wells River": [
+  44.1524,
+  -72.053
+ ],
+ "Vermont/West Burke": [
+  44.6636,
+  -71.9572
+ ],
+ "Vermont/West Charleston": [
+  44.8729,
+  -72.0521
+ ],
+ "Vermont/West Danville": [
+  44.4465,
+  -72.2198
+ ],
+ "Vermont/West Dover": [
+  42.9535,
+  -72.8687
+ ],
+ "Vermont/West Dummerston": [
+  42.9265,
+  -72.6154
+ ],
+ "Vermont/West Fairlee": [
+  43.9189,
+  -72.2681
+ ],
+ "Vermont/West Glover": [
+  44.7481,
+  -72.1762
+ ],
+ "Vermont/West Halifax": [
+  42.7761,
+  -72.7501
+ ],
+ "Vermont/West Hartford": [
+  43.7123,
+  -72.4176
+ ],
+ "Vermont/West Newbury": [
+  44.0645,
+  -72.1248
+ ],
+ "Vermont/West Pawlet": [
+  43.3667,
+  -73.2313
+ ],
+ "Vermont/West Rupert": [
+  43.2636,
+  -73.1905
+ ],
+ "Vermont/West Rutland": [
+  43.5781,
+  -73.0424
+ ],
+ "Vermont/West Topsham": [
+  44.1199,
+  -72.2701
+ ],
+ "Vermont/West Townshend": [
+  43.13,
+  -72.721
+ ],
+ "Vermont/West Wardsboro": [
+  43.0472,
+  -72.8805
+ ],
+ "Vermont/Westfield": [
+  44.8825,
+  -72.4396
+ ],
+ "Vermont/Westford": [
+  44.6182,
+  -73.006
+ ],
+ "Vermont/Westminster": [
+  43.0826,
+  -72.4749
+ ],
+ "Vermont/Westminster Station": [
+  43.094,
+  -72.4565
+ ],
+ "Vermont/Weston": [
+  43.2941,
+  -72.7935
+ ],
+ "Vermont/White River Junction": [
+  43.6606,
+  -72.3503
+ ],
+ "Vermont/Whiting": [
+  43.894,
+  -73.203
+ ],
+ "Vermont/Whitingham": [
+  42.7892,
+  -72.8851
+ ],
+ "Vermont/Wilder": [
+  43.6735,
+  -72.312
+ ],
+ "Vermont/Williamstown": [
+  44.1182,
+  -72.5381
+ ],
+ "Vermont/Williamsville": [
+  42.9364,
+  -72.6611
+ ],
+ "Vermont/Williston": [
+  44.4367,
+  -73.0957
+ ],
+ "Vermont/Wilmington": [
+  42.8812,
+  -72.8613
+ ],
+ "Vermont/Windsor": [
+  43.476,
+  -72.411
+ ],
+ "Vermont/Winooski": [
+  44.4949,
+  -73.1874
+ ],
+ "Vermont/Wolcott": [
+  44.5558,
+  -72.4844
+ ],
+ "Vermont/Woodbury": [
+  44.4548,
+  -72.4036
+ ],
+ "Vermont/Woodstock": [
+  43.6248,
+  -72.5385
+ ],
+ "Vermont/Worcester": [
+  44.3944,
+  -72.5609
+ ]
+}
